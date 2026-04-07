@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# loving_bi site MVP
 
-## Getting Started
+Сайт принимает посты из n8n через webhook и показывает их:
 
-First, run the development server:
+- список постов на `/`
+- детальная страница на `/posts/[slug]`
+
+## 1) Локальный запуск
 
 ```bash
+cp .env.example .env.local
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Открой `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 2) Обязательная настройка секрета
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+В `.env.local` задай:
 
-## Learn More
+```bash
+INGEST_SECRET=leshaleratest
+```
 
-To learn more about Next.js, take a look at the following resources:
+Тот же секрет укажи в n8n в заголовке `X-Webhook-Secret`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 3) Endpoint для n8n
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+`POST /api/inbound/telegram`
 
-## Deploy on Vercel
+Заголовки:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `Content-Type: application/json`
+- `X-Webhook-Secret: leshaleratest`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Body JSON:
+
+```json
+{
+  "source_post_id": "129",
+  "channel_username": "loving_bi",
+  "raw_text": "Текст поста из Telegram",
+  "published_at_unix": 1774293942
+}
+```
+
+Успешный ответ:
+
+```json
+{
+  "ok": true,
+  "post": {
+    "id": "...",
+    "slug": "..."
+  }
+}
+```
+
+## 4) Минимальная настройка n8n
+
+После ноды `If (true)` добавь `HTTP Request`:
+
+- Method: `POST`
+- URL: `http://localhost:3000/api/inbound/telegram` (локально)
+- Headers:
+  - `X-Webhook-Secret: <INGEST_SECRET>`
+- Send body as JSON:
+  - `source_post_id`: `{{$json.source_post_id}}`
+  - `channel_username`: `{{$json.channel_username}}`
+  - `raw_text`: `{{$json.raw_text}}`
+  - `published_at_unix`: `{{$json.published_at_unix}}`
+
+## 5) Где хранятся посты
+
+Локальное хранилище: `data/posts.json`.
+
+Для следующего этапа можно заменить на БД (Supabase/Postgres) без изменения n8n payload.

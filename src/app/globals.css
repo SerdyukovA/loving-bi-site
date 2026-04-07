@@ -1,26 +1,70 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --teal: #1BBCB3;
+  --teal-dark: #0E8A87;
+  --teal-light: #E8FAF9;
+  --orange: #F4A135;
+  --orange-light: #FEF3DC;
+  --purple: #8B5CF6;
+  --purple-light: #EDE9FE;
+  --pink: #E040AA;
+  --background: #FAFAF8;
+  --foreground: #111111;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-teal: var(--teal);
+  --color-teal-dark: var(--teal-dark);
+  --color-teal-light: var(--teal-light);
+  --color-orange: var(--orange);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+html { scroll-behavior: smooth; }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--teal); }
+
+::selection { background: var(--teal-light); color: var(--teal-dark); }
+
+.post-images-grid {
+  display: grid;
+  gap: 4px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.post-images-grid.count-1 { grid-template-columns: 1fr; }
+.post-images-grid.count-2 { grid-template-columns: 1fr 1fr; }
+.post-images-grid.count-3 { grid-template-columns: 1fr 1fr 1fr; }
+.post-images-grid.count-4 { grid-template-columns: 1fr 1fr; }
+.post-images-grid.count-many { grid-template-columns: 1fr 1fr; }
+.post-images-grid.count-many .post-img-wrap:first-child {
+  grid-column: 1 / -1;
+}
+
+.post-img-wrap {
+  overflow: hidden;
+  aspect-ratio: 4/3;
+  background: #f3f4f6;
+}
+.post-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+.post-img:hover { transform: scale(1.04); }
