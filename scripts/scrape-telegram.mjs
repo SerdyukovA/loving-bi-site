@@ -10,8 +10,8 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const CHANNEL = 'loving_bi';
-const OUT_JSON = path.join(__dirname, '../site/src/data/telegram-posts.json');
-const OUT_IMGS = path.join(__dirname, '../site/public/tg-images');
+const OUT_JSON = path.join(__dirname, '../src/data/telegram-posts.json');
+const OUT_IMGS = path.join(__dirname, '../public/tg-images');
 
 fs.mkdirSync(path.dirname(OUT_JSON), { recursive: true });
 fs.mkdirSync(OUT_IMGS, { recursive: true });
