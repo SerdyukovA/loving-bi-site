@@ -107,14 +107,16 @@ function parseHtml(html) {
     }
 
     // Images — extract from background-image URLs and src attributes
+    // Strip user photo block first so channel avatar isn't captured as post image
+    const contentBlock = block.replace(/tgme_widget_message_user_photo[\s\S]*?<\/a>/, '');
     const imgUrls = new Set();
 
-    // background-image style URLs
-    const bgMatches = [...block.matchAll(/background-image:url\('(https:\/\/cdn[^']+\.(?:jpg|jpeg|png|webp)[^']*)'\)/gi)];
+    // background-image style URLs (from content only, not user photo)
+    const bgMatches = [...contentBlock.matchAll(/background-image:url\('(https:\/\/cdn[^']+\.(?:jpg|jpeg|png|webp)[^']*)'\)/gi)];
     bgMatches.forEach(m => imgUrls.add(m[1]));
 
     // src= image URLs
-    const srcMatches = [...block.matchAll(/src="(https:\/\/cdn[^"]+\.(?:jpg|jpeg|png|webp)[^"]*)"/gi)];
+    const srcMatches = [...contentBlock.matchAll(/src="(https:\/\/cdn[^"]+\.(?:jpg|jpeg|png|webp)[^"]*)"/gi)];
     srcMatches.forEach(m => {
       // Skip the channel avatar (small user photo)
       if (!m[1].includes('tgme_widget_message_user_photo')) {
