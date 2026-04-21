@@ -47,7 +47,7 @@ function PostCard({ post }: { post: TgPost }) {
       href={`/tg/${post.id}`}
       className="group flex flex-col bg-white rounded-2xl border border-gray-100 overflow-hidden hover:border-gray-200 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 h-full"
     >
-      {/* Cover image */}
+      {/* Cover image — only for posts that actually have images */}
       {hasImages && cover && (
         <div className="overflow-hidden aspect-[16/9] bg-gray-50 flex-shrink-0">
           <img
@@ -62,7 +62,7 @@ function PostCard({ post }: { post: TgPost }) {
 
       {/* Content */}
       <div className="p-5 flex flex-col flex-1">
-        {/* Tag + date */}
+        {/* Tag + date — for text-only posts also show small channel avatar */}
         <div className="flex items-center justify-between gap-2 mb-3">
           <span
             className="text-xs font-semibold px-2.5 py-1 rounded-full"
@@ -70,9 +70,22 @@ function PostCard({ post }: { post: TgPost }) {
           >
             {tag}
           </span>
-          {post.date && (
-            <span className="text-xs text-gray-400">{formatDate(post.date)}</span>
-          )}
+          <div className="flex items-center gap-2">
+            {!hasImages && (
+              <img
+                src="/tg-images/channel-avatar.jpg"
+                alt="Канал"
+                width={24}
+                height={24}
+                className="rounded-full object-cover flex-shrink-0 opacity-70"
+                style={{ width: 24, height: 24 }}
+                onError={e => { (e.currentTarget as HTMLImageElement).style.display = 'none' }}
+              />
+            )}
+            {post.date && (
+              <span className="text-xs text-gray-400">{formatDate(post.date)}</span>
+            )}
+          </div>
         </div>
 
         {/* Title */}
