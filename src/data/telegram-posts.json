@@ -19,16 +19,16 @@
     "date": "2025-12-25T21:36:55+00:00",
     "text": "Бамбл кофе\nМоя датавиз история началась с любви аналитиков Авито к Бамбл-Кофе, мы собрали данные и я представила их в виде фановой статистики\n\n💡Фишки, которые можно взять на заметку\n1. В барчарте (заметьте, как он хорошо вписался в стаканчик) в конце каждого столбика проставлены мини-стаканчики, которые хорошо показывают размер выборки той или иной страны\n2. На визуализации с оценками хорошо работают значок звездочки (есть прямая ассоциация с рейтингом)\n3. В точечном графике вместо стандартных точек использованы тематические апельсинки\n4. В последнем графике с диаграмой цен подсвечены цветом моменты, на которые хочется обратить внимание зрителя\n\n#датавиз #моипроекты",
     "images": [
-      "https://cdn4.telesco.pe/file/AEx1O2jyu65dT1UucjM7bsK9-8eco-m3jt6_4t81IWEpywRlXbum371u-VHXm5WZWPz7tegG2HWrOxMyBy37qTXds0r3cFPA-JOa6IHbci5OgG108Y2-TJVCa9Qp4Uj-K02aFKo_yI3hci4QCcroWU6KgEy8JqPNlLITYityn7dAoqKgrH3vzXqLEqFzd0VB-t07b5Kr5nXv696iO65rdX1xYlcYZWRMi5DMMXabI1REcKQgLL9zBsOat-9ItngURiXXlErtHAMWz21kgAE_l936vJaFPQukb62Zc7gcIkVxgQxOgSITb2IHO37CQ2c2Qf43nA5mKPFhEHFVDBM4_Q.jpg",
-      "https://cdn4.telesco.pe/file/eybeeNekjLH1rPiquZDBtAKol1qzrWkWy6lLach5zpNPWILVSulhtuXM_kCJDU4wcmqhaZlosIYW7vQWXdGRZMLI2PsBpDwAtn2uXBOhGDm73Fdae0v8I3bZJn94aJiF1yS_ve3MtD19alb81Ki4vE5KRnTLrcAqJQj1wnFDN6XvhzyY9hr8niqFSTXzKOFI-tg-N2vFT7s3RdE5loGcqfC-KCXwXZCyB6U6C6Y8EtiW2A3I_7jcuTA_6LkMpADarZ2XhicSFi3XjYs5_1tBDB1ZN9gIBaZG9_7AkQkJJTExOQjpFpAN_kCxLid5_0U64WKUhZ5GGUWfWdDI5kouoQ.jpg",
-      "https://cdn4.telesco.pe/file/fScUFrLI4LV_SUntFW_EWuDmEBJSWHax001Ec2WE28TjGjq41KQy7WtRxJaITUqE9-poGwuItZsqwdLVLUtZikllHBZ73kCS1wrRVipPoXpFKPmWrzGIR4nTVzqaN62X8fVh8wbjQAFsRr2pa7Bq4gIzRC605aTDpFslT6Kua662CdeUYXNJFkKiHZu1TgsHSRplgTkv9oswWrAdWNKusuXZWFtO6VGJuyR1PzhDWezKM_5wXCzm_kMnYp2iWiAuh821vnLO0MedeK0sTacihAO5mDaYvuXKlL9P3wIy3nMYxmFkFo4B6zSO4zAuI4uuvqGJSVaLQ_8uNAWc2B-ClA.jpg",
-      "https://cdn4.telesco.pe/file/P88VROrQn4qq3Eg0oEpmZZW9VL6-EDMuflgjbzVFfJssLHIZpURGJGwHCadCZUSZrWPG6xLUGMe7zL9bSahizMHLB7ncCK-cK_gP6oc6xkOqxIgTb7jyrhZ7jzYl9ELBvOtSmi1KNXYgxsGYr-lusLFGltZT1AnUVP9mTuklMquxpCsJr6LHkzvn8L393F6ZbQ6aK2VrSVwzuJrI0D8R3mgM8S72HQY3PdruaYIDE9OFNMt4Wp0sj8jwQjASRmefOfIB0riUNGhRbQpBrIyMFv1mUGRJR1GPG8N0w6UpOsCvsQXV1FlhL6T0NX52irc1006ummz2nYHIBKR_rR9QXw.jpg",
-      "https://cdn4.telesco.pe/file/WRNHaLqcytGoD1tQOkClSVDBlXaCm5lzwTbGadbjrq5ptaF9ooybhR9ewmAuixD5RErRHIvc8ueV3Tq1jBYiI3mGfEW8JXrYrTNtLzz6ijlEN67ZbKonL6yLg334ZB5HHtlI3d88FBL4Qd3veLobFjM8-gUMiPViqWnTsuQwq0HdqPBmQpOmyTH9bp4TfWqs8x33Q1U0xYji_4ZQY5AvPHGs_HOY-brXz4hj-ON0-sNaGZcWkzk6xNTiocpOCKCcnPQdTp8J-bwj8xZNFP8ooEY1zBPAQ66REumJQkbXMLVk6SVxMWhdBqjkU5ZKEFZaa5IljjQZQVsgYxhJU-jvmQ.jpg",
-      "https://cdn4.telesco.pe/file/dSmsq5REZWrteUnZY-ThMk21gDyoGyKZZUygK9WDUBLKn5qXIYal5wR65mhQd-3cVlPiCVtkT7DVwHfHQ2kresFPhxOZmvbBzdo8seUYqbGRB1GGgtGbPdelSl4GN8kbynqRAP3edm7hhvMszBQJBkgU8fE9QYij4842ib4rc3RJBUr8VjcvYTEwZpPYuxxNOIG8yW8yiyI5YJcnTfL_JqvuvdJXPctUKiX11pXzkrPun5VDWKzKQXZULnh_CPCMFge4bLET_Z8L6fwQWwHU_F6FFAuFawP8mXnDNwjJ2r6gtgGBNiu_ZpQcSMbRmDfeQ9roDhsbAS7xYjscJvrPfg.jpg",
-      "https://cdn4.telesco.pe/file/pNC4GdP03CktGiVwwOQzfNsZjeM9A6tHzl0Vh7HzmQPrG2Ln1_wzZCUOvhQXoRkuNAWUg027u8fdH900Fsq9FnpV1NOgnxQARBI4J_aemFPV16sl8hgjGuDcZL-Llnl14vjLHm4JhdK6EyOZBqPpJ1Yf7FVKqha4RdiMSwv34yWAdHJAcVSZD9zJu7we2PjbheffqknstKV6PzgTuHAs9J9_r595noYYGy0RcDjuFhAhj4umYQqbn7AhSHXLEa3hQ7oD8QA1vX2UckI8r2UhvRWJCBFyFAfqhhow3t00Pi339GULAHssr672unLcuZmazXLdnm5UaXrNe9JNtPIAng.jpg",
-      "https://cdn4.telesco.pe/file/aB4th-ILHxhSOhZ00IzEgcubA3eW48CZOuQeHboUe0tLGG1x7N-gMiDNQllrNprhMwlOv4EaY32N1E6NhDQl4FQghamfE1gTpzRPsi9ia7Cy_a9ZuECj0qVTLkvYjEckXOL9Kf3Jret_gFZiWaMzjDwB5Q3rTjd3KnNSlb5fz24KP-P0vDrk1prYT-_BQDM_tuHitFr3Vku5GiT0e7gB5fWMwbYuGC6kG5KFDi0VeO9XM6ETGuELoK7tgFrSnAe4AdXHUtybg9QdgqJb1Rrdunko4x7mjWEsIVrEdjibN1Tlp4ERMSkE7nVUrpYLwUL6xKMnaJ_5Jn1Q0Kmd8wDx9A.jpg",
-      "https://cdn4.telesco.pe/file/qwDvnj6df1eNYWHNedgrQJtyw3y13eIyBunlpgQao6JKrVUFbS7StIz2REPHSKIHQ_MhLzHY_tPYTCwM30UI4uAVNo33iZQiyavKTKZzOqivRPE-7Qu8HPZVdQ7kOyxqaG0jFl7Ho_oK4BUAsoUMpMUi607jXRPhBPvt8MpLmNrrECqSpMuB7xc-G7sVEmHZ_MVNpXngzxONOLAdEekTD2JIBgniTTXFrBCp6hgXAHPJtb7eGyfULPD07-_Fy6MgkbI-HLPEwXCIixwFD9NGXQOA4go0c2brLq1leVxQuE3M8vsu0CRNtKucilbqxn3wW6KVk4k819ELeggeOeuRHw.jpg",
-      "https://cdn4.telesco.pe/file/tlq3aAPsyH1QoJ0faPn8pylIuiyC4TLSMXiIPoxvgxKW7bN2dl9k38OUWTJ0ZAK63bpNlFTM2qdQntJPcAyWTvtQauOmAyVe-C35mG0FCShoAwwTwq9hbfuyv9yIhbwzjDrQs0gL7dYxcR9F5jUV77d3DlR0_Le0JFI5fffM-HOvMAEJw6g0rJItx-XGu0FNCROrRnuly7TL7cNViTIcfGvvAQafD4pFLe_3IM38QVwejUeThF3sXwjBHXCIGXeqU3OWU9x5xvLTIdfKmvTlHjep-N0gLMhpvzIJck2bpKibRAgqZfJIjm_7dgVhUCCu89OYxBSvX4F2ZCWT25wb9A.jpg",
+      "https://cdn4.telesco.pe/file/TlqApxfoCdjczMbvM0GN3a9dvDnO8ZpKlmb7g6vlnigzdIwSZIKFsNiwuzroyLIvdT4YCPsiEHEMULvcfS4un64NhQPFe3TCnvm7_TG1-HuM0pZTU52YbpuBg_EWjUpYo-MoN9lUYXMsXVp_ecmSE8qiirUa7f02UnZ0LEiHu00oEoG2_zB1zBJzaJazDOTla04qfOCscs3k0CcMxp7MRWnJ2UaGwSUfWfak2Y-Ib54K14XOQB1wjBJKAAYGJQBTho3a7kZ8_APa9SlfIghAF1XrMaxpZ7s05rRTl3Jn9QG5ElYjjzdBZeTYabvrCfif0Scplrx42uCMNQ4XGOPuDg.jpg",
+      "https://cdn4.telesco.pe/file/L9V7eTcQeuYV1kjlDUcPJuJBWYkbzElrxUG2UaFNYobTim77mZNCQxCEfNjWJaiH6J2suEvA4RGQiU65QRKYs-L3MVHIGR3JQpUarEnqkaEO8YvZ7mWAIPQnEI9EP7QONq4oCgsRzPAppf_BV8Jetr6cPXlbAy9O8NGLd6alep4K3sdIzRePpeSHEZ-Yb8XNXXLUTsyurdBHvTuFn_cy8vEd7SOSMKu1AjJnmggP-diWaXtyn_a-oFcBJpjM5UiQda5EKWql9Y1B1S0obLYLXtFojDAdEaQLqvlYL_sPPyXhyqTCBfma_NsgzI7xmCqBizU6jvHF2bLW-HD-dIVeJw.jpg",
+      "https://cdn4.telesco.pe/file/d5_VXZCcntkmuvbOpkpfHfLWXm0iAVmWzkw-xp7o4if8D3L_rOLJv0D-MQvv7S4zV0RGLl2SWfa0Ga1PvhuiiqPTaZ3Z0N6cI8UiCL9BOV9D3J0w_grKuIHQU2U7QrlsOGnYETn6j2PfZhHr8lCdYgFv2Dz_SpiX9urqYOs7pm7Ul3i1yrI1vEvwwee_eDMR4qsXtGgMLH487t1o-x5DAp9otNXmyi_UPfJoTn4hbobxtnYxQWl7MWe1jWmGZsOU8lV1Rc8WRurVQ2e6R2qDofA-8bCCZbkE8BLvg976uVRlAmIJxw0o7I_4ou2GTwua4-fFt8ozDOmHPHsnd_-mUA.jpg",
+      "https://cdn4.telesco.pe/file/d0JGqyGFsuZEYvjH4zrOkkKiNmSYLdqYr-bLeQnMapx7IPrP2SP2csRObEqPbXprk_wUqaTEUAIasUKiYKFhqGV13PeWdjWVsvldT6sYptAm1UfwWSFziBD-774s8f_Zf1Lvyq2e0SFhjKId-0XcsT6gE7jEeq8pKBVQsyOKfywdpV4mn1cAvtGjYH1aZNGVwXSlYP1danZrKYMdYO28BlrjcTataY1NlB51PVc4yU_fcSXRvLCOx17DtVMRAHiTi_L-EL5f7_XPRA8eIuL7lqpcNb4jSNmQr06TY-bajxks5slhWHgdGwBdRJfANZtOSrh8xDS1ReKglq6TSYMTzA.jpg",
+      "https://cdn4.telesco.pe/file/l0ORD8_nvDRcMyfsHXLATKxAt4s82E766mOf443gdPYrlK4PnP2jqyWl8GDGOAS2NNljScK26MVm5UDm-HgmUOe5ZaGkien5f7SXXC0VE1xMxRHX75UnYXNE-rIyi_9r2aaO_z2M3K0Rn81i4tPRGIWp2PMb0M73dtCQREM2dtFrJ9tIp8gOMBfr2ol_pAw9_7icR1eoESe8SqDTN3zAd9Xi4ghHVlnJTB3CZHAZzHas8Ea-tJrC6EhdfgFP3vrABRNPxoD8zShEQmTQBeBNuGaStJFR9TM6Q3tn3v9j94WbRl5MpH3revzHDiFIDAQO33uhcLwdTU2-hBY0Fezjyg.jpg",
+      "https://cdn4.telesco.pe/file/XFXBXEbMKMXdxubETiStxl08915lciG9Xs2seBi0PU1JGbmSUBGG2UWnZUiyPRh8f5fq-R8JOVEUyLem88WbtJ51l29DcCWcZSBeDp4u8rhC543t1L2mRkO5W-D_uEt7vJLSvLMEmla0-7Q08ms6rkxB2ewzX1uNRud-FizmR70zB-MmmA9oFzsNVckmPM5WD0zuXd59Ko9UJyJiWeHdpZqbY-eC8To4AXaejaj_kBNMykISMv3UA-RD5-Vwnmb899auLevtYtH7rxujhHshEZJytvlXWru2-_o-CcPmB5Sr3k-VWVSC-Iu9SymFMkghbYRwn_uWbKtsFvfPLOqhHQ.jpg",
+      "https://cdn4.telesco.pe/file/qRChi-LiPUvcVpmMBdO0AMci81T3gV5RfPYAMNZVUU-oK2TnOzLWGrzDjpR_L3Af_SzIZVnjL8EJBt22w5-clPdlIuN7i2qfbbCT7tq95aQhSQrH85EdFVs8Vz4PqWZA8NwNFRXimeH6qWozbUr8TTA2At71P5XAxDachP3EyGZ5QDeFSOcek3h0P13tzMlhoCXzqglnL-oLmn38TOOCtFZEciRLfZljkvt59Vg0fikmnW5F55eCeYfFn2RycEICKEllWLKQBaW3IBG7oDOLVbIGbySkp4A52wT4Uru4EhXRYTewrGAvhGq56wO40bBq04lbq4jxDfeFC28360dQhg.jpg",
+      "https://cdn4.telesco.pe/file/ITwdFofNUlnLL5on6a4mmzly1Z56eexEnG3NHBZUARd1m8KpmBk29uxzteSq_1p3zQ8auCQH541E8uJ4XrEdU4SqfOhJVN_CEBYe5Re8SyX7OBT9fYZz3-ieTuUMi05oBFklZgNSzVzY_dwELuv_BytBYCn21A6l6uVVOoO9S-GriZDLDdfbw-DhP2FMTtGYYIxbPIuFhD6EgYxAU1tP0sQd0xuvBNxEjEAZFjk5TCz38D5A1NpjZUfuR7oPseFNIofMSA2OBcBmdPp0yr4HMUe6otoKgbVpIoMJpjd3ghTOs86g4jB29vCRsCK3RgUlX01vJaVXDFFN09qx596L7w.jpg",
+      "https://cdn4.telesco.pe/file/UTthhMxaYBIwuwRiB-IVB6S2Liz3M7W9is6fRzWXUf2lsAlEGAtBL0chYQEL2DL8957okiuRgkGkMm2M3qewYASD0bI9P7TbJwA-VHLc16QKcJHYsDiLeQoKnB3RbvKwSSYFTGFiOp19jOaekOeg-wmtZVNqr8CAXt2aUnZCsqltTAuwHB1vMl13GHPA3gDe2cn-LVUEKcYuM_HoUWGOX5_gfqNj9VS72IB6mqH413FP3okGbRRZKQ_4JtCrKt_YInvn5HQiplGM8vrOTu-3WEAJsp29WzhF8xRTlhb0heFBHJj1rjmEGgtzIRu9cSFskPk1Diai0SCbODlj87aQcw.jpg",
+      "https://cdn4.telesco.pe/file/SFgZ7nYExrCL2dRrnHopmjIND3Mr-J-K-jRTgrHrjgRGji-IRpVzCoNz_QZ0h9_rkFS-HKkK5eJz0hPF_ykDOuVABt0K2TseBmFFGAWS-vtu1rAe9TnBgxeD0gdiLPckWRgQvU_zBKjQl_CBeHBpy7NNzYgV0Lnq757TtUg6n13AArfxVsVhi2EKcWs7LB7ALp5MKuwAkFcw8nDCZPnBF2m8Pr05qgAz0ExiWSVIgqZet5fM0AZoSXhfvXrxzNDUQhfBjsg3NAahRDGpO3AlsSAEzp4eYyUUbthTIHk0f1vQbesKZ4FsST3SplEbyMURfk80hIE14Zf79fr-6Yoh4w.jpg",
       "https://cdn4.telesco.pe/file/vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-FG5LTKEB6pQNbpnal6Op6EnJ57A4FahQ4uTWNpv_nCabS82ZNszHl3tF33a_6OQeQ64c7q9U6kjW1Wt9SXai0qoFJRHqcMKkF7SqJpVxlXSVpysOEmfM2TrgfV1oyrupF03C1Iigiz5VP157c2CEppCtWHGKDVUQeSerhjXr4p9s1sg8IXvjEQlOJhtzCVYS7ca4MgjHcm3NmSA3Xyhc1MR6y-YrW4sPHGrFvuvl_J31G-DAdEP6lR3E1dY1MvA0gxbSrqIounbPjyk2C3C75j7sNgGErj1FK2YxAh8D5Pqqagg.jpg"
     ],
     "views": "740",
@@ -45,16 +45,16 @@
     "forwardedFrom": null,
     "tgUrl": "https://t.me/loving_bi/22",
     "localImages": [
-      "/tg-images/22_AEx1O2jyu65dT1UucjM7bsK9-8eco-m3jt6_4t81.jpg",
-      "/tg-images/22_eybeeNekjLH1rPiquZDBtAKol1qzrWkWy6lLach5.jpg",
-      "/tg-images/22_fScUFrLI4LV_SUntFW_EWuDmEBJSWHax001Ec2WE.jpg",
-      "/tg-images/22_P88VROrQn4qq3Eg0oEpmZZW9VL6-EDMuflgjbzVF.jpg",
-      "/tg-images/22_WRNHaLqcytGoD1tQOkClSVDBlXaCm5lzwTbGadbj.jpg",
-      "/tg-images/22_dSmsq5REZWrteUnZY-ThMk21gDyoGyKZZUygK9WD.jpg",
-      "/tg-images/22_pNC4GdP03CktGiVwwOQzfNsZjeM9A6tHzl0Vh7Hz.jpg",
-      "/tg-images/22_aB4th-ILHxhSOhZ00IzEgcubA3eW48CZOuQeHboU.jpg",
-      "/tg-images/22_qwDvnj6df1eNYWHNedgrQJtyw3y13eIyBunlpgQa.jpg",
-      "/tg-images/22_tlq3aAPsyH1QoJ0faPn8pylIuiyC4TLSMXiIPoxv.jpg",
+      "/tg-images/22_TlqApxfoCdjczMbvM0GN3a9dvDnO8ZpKlmb7g6vl.jpg",
+      "/tg-images/22_L9V7eTcQeuYV1kjlDUcPJuJBWYkbzElrxUG2UaFN.jpg",
+      "/tg-images/22_d5_VXZCcntkmuvbOpkpfHfLWXm0iAVmWzkw-xp7o.jpg",
+      "/tg-images/22_d0JGqyGFsuZEYvjH4zrOkkKiNmSYLdqYr-bLeQnM.jpg",
+      "/tg-images/22_l0ORD8_nvDRcMyfsHXLATKxAt4s82E766mOf443g.jpg",
+      "/tg-images/22_XFXBXEbMKMXdxubETiStxl08915lciG9Xs2seBi0.jpg",
+      "/tg-images/22_qRChi-LiPUvcVpmMBdO0AMci81T3gV5RfPYAMNZV.jpg",
+      "/tg-images/22_ITwdFofNUlnLL5on6a4mmzly1Z56eexEnG3NHBZU.jpg",
+      "/tg-images/22_UTthhMxaYBIwuwRiB-IVB6S2Liz3M7W9is6fRzWX.jpg",
+      "/tg-images/22_SFgZ7nYExrCL2dRrnHopmjIND3Mr-J-K-jRTgrHr.jpg",
       "/tg-images/22_vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-F.jpg"
     ]
   },
@@ -63,12 +63,12 @@
     "date": "2025-12-25T21:51:18+00:00",
     "text": "Оскар \n(файл в хорошем качестве в комментариях)\n\nЭто была моя переверстка исходного графика по челленджу от прекрасной Настенька и Графики\nИнфографика показывает статистику по Топу актеров, которые получили самое большое число номинаций на Оскар\n\n💡Фишки, которые можно взять на заметку\n1. Чтобы текст хорошо читался, его цвет на несколько тонов насыщенне цвета квадратиков, так как текст всегда более разряженный и соответственно выглядит более светлым, чем закрашенные элементы\n2. Аннотации акцентируют внимания на интересных закономерностях и ведут по инфогркафике\n3. Легенда не вынесена отдельно, а идет сразу на примере первого барчарта с Мэрил Стрип\n4. Серая обводка на фото актеров указывает на тех, кто так и не получили Оскар\n5. Отдельно показан Леонардо Дикаприо как актер, тесно связанный с премией\n\n#датавиз #моипроекты",
     "images": [
-      "https://cdn4.telesco.pe/file/dNB3OPtyss6VtfJT2AMaaANb0rIVx6iYkQNxCoXO2DadOU2xsnKF-iEdzx0aOtMx9qKNBIn3y4AUA7xOU0JIb6UEOkFQ7Iwy5-ud8eJ4RS2x4e-rkdJ2v4Mkuxy1t1SPn2twbflFuRocpgI3g6Dn_mW7YdNXt6VsvRwRzRDelmv1WAVousHLFNcqiQ6kpXFK7KowFAaqw5N6PhvaSU_z5m17cQoEUdxpLuGKixEdfg3zFB_FS3mjXej7j8-OZQ84FF9MkgDfDUUBoW0J2JtCrmpLzy_r0jAdIhDEfHadpBwReDQG72mDUcGTfI-5bM4nlVyJHZPzOyWvrr5SE4HhXg.jpg",
-      "https://cdn4.telesco.pe/file/DDwTjuwgZiSCj_YpoFP38ldsKFP1RUlIl2glufY2SNMT3i95ynB28krouE9XM5iuE3GlRdvaPsq3nAMXgQSYuS9imZryKeMilQo-HIo4FaVlI0E78RCADDUMNnh3fV1bJGcw_6p6fyp6WfGZtbBBCVw2DNSXqAE64SBG1EL0Vv3G3riwY2shEGThjNHAO3n-xE_QhGa560v7DAcg3n2A6hx7Kiqyr6vLlzVQ-YwOuFlue8WNumb-YMB89Rf1smyq4ZR8Kr1wf41mHTEZ1uPV9b1tHAf0ka0KTqId39dkSHEpwn2Zen5ts9RYHEKjNpqIo6N88zAv7U_pZ2Xtk85u_g.jpg",
-      "https://cdn4.telesco.pe/file/pks4j2IpeiITxbqqiDTdY3X5jUHNzZpZxDtBqxzTv8QbJDeL58N6qp7R-ypO2K4N-ZSjIfTA8hsZhxh0nlUmNzh7p1dStxPouReWmAGB1XgM4xbJ5_yCqLi1lClxgH0Nrw7LJ64i5JUdvOIqcZ0hMjKhIOuHMFii-01yAsrb79Lcbb4zDad8rSX77-9y8KR6yAsShffbR7u6tCtO3cJ5QU2pluY2XYq-xB6YMjt2XLrXTzcksW41mqG-EfiguwkEE9DF2MEL1QlO8eyK8eVJoXnRRV1hG-X0-E8NTLEwPraAxUj3MrARF9uY6gh-YO2Uw3hbCtqKdgMJFCsBgUUVEA.jpg",
-      "https://cdn4.telesco.pe/file/aYtScDOwVDYtc3ZEGSZMoAEn3txEUku3dO3W1NVNbvJIPrYVtKTXB0ehLCl18Moa3bALjq7XeXqGCb2M8AlPYt0MugRdNrdupHgmLlD_jFypB_PQaUay1vzj_ckniR_Y7aCiM_sXxu41E6DoHw7VOy1IxSOWczPimrp-HE9YMXiSjg5v_8QGrQam8695zYGzurddM-e5Cka5a-dcGm-nJNpyfI-jaiDqCEt_ntlPQP3toJsU7bbAOSW55F7ngmPQsXCzwdzCn42HG6PQ62SuT2ZPiCke4OyWMSueuldzOzWlSi5qtAeQAD7D82_o9OGtc95apllRRN-NOvv_K6zL9A.jpg",
-      "https://cdn4.telesco.pe/file/XzgnoGDbZP0jJUFLUkkuqOAGJ5W3fe5rhurXStLogkgp00-whKNmO-uo88PmneeARyKYNSTlMMPp0_jWpIwZwNFryd3gOMNlfHdGuwY4U9quvCxFsJcbhToLDPfBcRNDS4QD2l2pzAvZQl5NJkTnJVlBelPdjt0384X2TURFhZxL-qIx03U9I_mXlkxXQkoygHikvKWBSqaVl8HNdS7lhCs3RPMItZGT9yt8hLClKuSAika_fkasC4-60JZC8uOA5KhLj-l_Odi7CTV9zlcDMEcb6UVAda1h9vI2pS5F5VqA17mzjJpSm_pTKuSX0FMdJmk3J-9wpoA8_KBWxWknBA.jpg",
-      "https://cdn4.telesco.pe/file/apf1rJtaJbnlM_5Kl8awWT6ECWArruObnrclhvFTFJ4pWSOnVh9sQJZEGqgvDTLFLIY01mFBYclviO9KaaSoZZcjtRWCT_7TBcOYc_vJ9n3qbAa02fNQOTCZDM30oaPnmMh_cBaFeKkdPZJSf0KKrk-JrbGnhaYCAUuvtMdc3VqDBv8U0I3ydb12tSFymEV2Xq1mHQxWviU8yt6p8XUt2r3Y-iscRAfV4IWdM7LXL6TyrlUdlQLwb7T7e-m1rx9okCEj5P3GLUftS6d6b4MDmcByB44NGGA9am53oHHLuMOXRDLCuOC0NKbL8Azj7F_wyKgPQZYT5NE-4gBY-tl2Dw.jpg",
+      "https://cdn4.telesco.pe/file/m9V0Exmcr17Mi0dTaLqnPpjkVAzRPpIKb6Ub5dNfMxM4SpStBPNSIMSDbDK4_40vz2BFwFS0AViiYzcTdhWB4a1_2ZKWDSs2C8bB7IUF_LNAq8A5CTVXHgieIPHnJCGn7yXetDgsj-uGEhJPYtG9Jz1HKy_2JVypJJDcNCfzY1ESFnpFS_FJ5Jsem7kGamed0ekYeDfjpT437l_S_hiiDMvFrHsrQ2yRHB3gfYjbbITv2AOt68OikRlodxxi8H4Qx42buJe0u0hi2fC9QuEOGvwMVyMPGosQTC1Pvrfn2nOdbTR9CDHUrGQGbFlogqMp-ZQUwKLO-SeXzXBpHpymFw.jpg",
+      "https://cdn4.telesco.pe/file/A5gT75VAefe-G3Dr1nGlMDsPgGSObQV4GcsaMFQB9PPbRFM-E21fiHsOX8Dey8_nJgFXZ4DZeP1PBL7mXSaNRdiKIRY2t8Q0m-Rov-kfaNKr4p8Qt0FO0m4u-a8G10s7mI28Unn4HsezpzASS7avisEATasMW4qLXA6eR-D7yQvZIxqY2xKXkpQJNS9M6y7o9jSp-rkMZEacCCPBPly93TSUTUdG2lT1x49fJlu84Tdqitjyvi1vNfiBbB5FlNGA3ypoaXWyK0FWKtkofqLw9WaHLXSQp4Es04mNxOj5r9_7kXAHPO-uLtsIOhxJdLDTHPqiEP3gwKFIskCqCxUNbg.jpg",
+      "https://cdn4.telesco.pe/file/FEbyieKIEIDNFSeISW8vHhz1w7TRmaGZnOg-6Y0LpdHcW-Q2hjFEQrNm18IKTj_zND7W9yCiI-80F1VB8YN0DZYrYEtT4fZ2E8wGxP3ainEzgy6qM-v8PaZ-GNB-B4xGI-FhFtcXKMeid7ehMylzi46_AjiURp1tq2MKkowSBaouQ57i33ZzrHarGkAmdSb9aDL_Rsz67XtLhj9tddGrsnJCP9tIzm2oy9IvwAkCL1_wwscuVBsklHirSnbsGokLtGrggu7BHaZ-OeUCwVm6sgdQiikqaB4Eu_q0mYG0A0fadqz5DMpFDarIavhOPPmEUEEkLfo8yIx4bLRgy_2SXg.jpg",
+      "https://cdn4.telesco.pe/file/fhk5OAx3p3eGmLWCUVBcqI8KSOnt_GPDdN9I7ce7uRilOBDKwIVdnpEy0aSrPdKfkoguQWloUY1mIdVIcAJo248zkZVvMkusDuTqqWu689IzE0rpvEIoxsOel0Dyro9LtihzNESKZpdNVreMLuLzBkbfNvZsgHd7XakJ3pPFcF6VcgUYUirlUwKHF5mHL4R489yS0Zic5U1V7Y1JKXXZJ9OJxN5GHpl3roiAcBX1wRZ3p63fLDYRdAvDipI-2mqLlQngioSYzNh92PRgUBK2fohKKenVE_nQ7oWGIXbBCFDAEXBRNU1ol2iN9dYGKhK0P2ss8SRVM4QGD_69snbTKA.jpg",
+      "https://cdn4.telesco.pe/file/BctMiz2FBKvRJ0b8RT9LvBBNUs4qhnMp7euWRmYjBgBnfsosxABgw-BifrJ2pSsYWBA1Hfarf9BRmb2O7Lki7NNXyutIU3Tu590BAoF3B-eJCqyS4YHr4h_kF9lWilOrizhPPBTa76jCXigptdSt4OQMS7v-Ui-qD3XmcjMQcXk0hXV9nykkYFSBS1hKBD4lsJ9minRnXpaRfTLJPVmz55XrVDdLI7ShIdoFY8FSpUlegSF2Zm1GuxLQKnsebo5fhJ-yucloCCDwOjy2_UNtsjjleGF2YLCj3odxGoeppc_QduD-TqIdYVqughPGX7p555eYsT_ZE_fINyPWT-5p1A.jpg",
+      "https://cdn4.telesco.pe/file/tUmPjBiM7FTRJtmAGAaULLssY4F8NHqHAHOJ9Z7LOtTqnsaCPvnld0y4VD7-cmp5eWq8gpRpe3HEjsr2N_Nk2gSOxIYhWBotohIeDF_4cnxGUj2gVBVBamTHajYwtEPQe6cEm-lHez2XCmYwP2tsDfX3MxFywdEsKa8i1tdUCx9Yx5qlW4RxSZKBEQAsQPu3PMZAfq__JZ_w3WB0HwErwVAWcQzHSrAeAd_Ieb4yEF6TQznbMxZNVSuhXP67wG_GkSMWSSKysEHwspYtP0ihQRDqphMGAYx3oPBMW9MxQqDUe6GFcS0z1Hx3WW6JtQp9-2xl5CdhxWJbGBsTm_2WCw.jpg",
       "https://cdn4.telesco.pe/file/vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-FG5LTKEB6pQNbpnal6Op6EnJ57A4FahQ4uTWNpv_nCabS82ZNszHl3tF33a_6OQeQ64c7q9U6kjW1Wt9SXai0qoFJRHqcMKkF7SqJpVxlXSVpysOEmfM2TrgfV1oyrupF03C1Iigiz5VP157c2CEppCtWHGKDVUQeSerhjXr4p9s1sg8IXvjEQlOJhtzCVYS7ca4MgjHcm3NmSA3Xyhc1MR6y-YrW4sPHGrFvuvl_J31G-DAdEP6lR3E1dY1MvA0gxbSrqIounbPjyk2C3C75j7sNgGErj1FK2YxAh8D5Pqqagg.jpg"
     ],
     "views": "771",
@@ -85,12 +85,12 @@
     "forwardedFrom": null,
     "tgUrl": "https://t.me/loving_bi/32",
     "localImages": [
-      "/tg-images/32_dNB3OPtyss6VtfJT2AMaaANb0rIVx6iYkQNxCoXO.jpg",
-      "/tg-images/32_DDwTjuwgZiSCj_YpoFP38ldsKFP1RUlIl2glufY2.jpg",
-      "/tg-images/32_pks4j2IpeiITxbqqiDTdY3X5jUHNzZpZxDtBqxzT.jpg",
-      "/tg-images/32_aYtScDOwVDYtc3ZEGSZMoAEn3txEUku3dO3W1NVN.jpg",
-      "/tg-images/32_XzgnoGDbZP0jJUFLUkkuqOAGJ5W3fe5rhurXStLo.jpg",
-      "/tg-images/32_apf1rJtaJbnlM_5Kl8awWT6ECWArruObnrclhvFT.jpg",
+      "/tg-images/32_m9V0Exmcr17Mi0dTaLqnPpjkVAzRPpIKb6Ub5dNf.jpg",
+      "/tg-images/32_A5gT75VAefe-G3Dr1nGlMDsPgGSObQV4GcsaMFQB.jpg",
+      "/tg-images/32_FEbyieKIEIDNFSeISW8vHhz1w7TRmaGZnOg-6Y0L.jpg",
+      "/tg-images/32_fhk5OAx3p3eGmLWCUVBcqI8KSOnt_GPDdN9I7ce7.jpg",
+      "/tg-images/32_BctMiz2FBKvRJ0b8RT9LvBBNUs4qhnMp7euWRmYj.jpg",
+      "/tg-images/32_tUmPjBiM7FTRJtmAGAaULLssY4F8NHqHAHOJ9Z7L.jpg",
       "/tg-images/32_vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-F.jpg"
     ]
   },
@@ -99,9 +99,9 @@
     "date": "2025-12-25T22:33:38+00:00",
     "text": "Как я писала статью в Тинькофф-Журнал\n\nВо время декрета я решила прокачаться в визуализации данных. Вдохновившись инфографикой из телеграм-каналов, я написала редактору Тинькофф-Журнала, чтобы понять, можно ли посотрудничать с журналом.\n\nМне предложили два варианта:\n— узнать о вакансии дизайнера инфографики;\n— или написать статью в раздел «Статистика» как внештатному автору.\n\nЯ выбрала второе и мы согласовали тему.\n\nНачалось все с идеи показать как со временем менялся «главный» актёр российского кино. Данные для этого я брала основываясь на самых кассовых российских фильмах.\n\nЯ прошла несколько кругов редакторских правок, всё было по делу и чётко. Спустя пару месяцев статья вышла: мне заплатили 10 000 рублей, а иллюстрация с актёрами разошлась по тематическим каналам об инфографике.\n\nПервый «макет» графика можно увидеть на прикреплённом фото. Идею же с кружками и лицами актёров предложил редактор, а дизайнеры ТЖ финально всё довели до ума.\n\n#датавиз #моипроекты",
     "images": [
-      "https://cdn4.telesco.pe/file/JwLaDqR97bLgDdUCQ41daTGQbDFEYBtk6Om6oMIuR0QFsBscdkD1sP-t3YDL4p-n4mPA3KwgPzKvfG2jejySEXOQr6urIj1gTN6YnY3AgvP0iEgd_WS_foaBoRdm_TEm_XqpPFR8IT1XUWSSBnFDUsbeZMFkXIqLqruLt7RsJasIvZdOWs-sEJKd0_R_KJhmD350jEitS6vJTvdamtApyvBbCEvZ2hrnX3ugCmj24mzchpVbCbhkgd0zEWFeBEcqa68eIBRuCAF2A8WJ7AKkSI9yb7cmC1gxU7vMup8Kx3TOmRoomWPPUl50x-ir7Q7B05cnFHTQbLJKDEY4Ct4rvQ.jpg",
-      "https://cdn4.telesco.pe/file/KyJ-Ixo4mpdZkK97gJZrNc618-tQ2ENRv9_0u_l7o0Mj3BDWe4VNV3Hc9LEpmzsVnGhHuj2Hh_jOOgAsauUkiWWGbmyyZ7-rnCaA2UiOo_LdE5kCpTLZwTwB5Jsh0BUUCG357EkFpJgmMJowICteWrgPCWwboRho1_Kjyig7XT_DzXHR8fdi4Imc7lNtuQ7nT4T1E6Si1PYoeGRuPhzEbw1m2G0SdWce_aUUhcXfOLx-UygNY3hZe4hzd_ufa7WSn7N466Anzza7dF7CMhFn8F5IO7H19F06GAvNKWpU5KAf-C_TlETvLgAQY92pyrjMTEjSRhaYp7El4Vprz_1EIQ.jpg",
-      "https://cdn4.telesco.pe/file/kzujCdo5CTm5EreHmQRQY5Hum-h-VBjvn82I4Xo1ipYjvhWk99YsLhYJ0U_ktMpIurgtX3Y2jVsxfsvArGn5tLUNEwOWXB4ATPkXnGl_RNdffex56GLUekU21ft9-iYwzVSUtCJZlJcrloU4R44hhJi0X0NCWRzkXWOFN28JMT1ZyuBX6us6UF8hMMGz0SrZOHQ1AD00EaEurnvKJ4hv7tvd2pEOqRQQ8rx25xKpyjFTq4jimLt2BTY4ZhHxysbRdO9OLNgjgzmJMV72I1e0Gde-7-cmTD6jplGSFR7yV8E5K-39db7h1GQPb3GQnXDFbcBF5EXE5viNhXEkwJ8REQ.jpg",
+      "https://cdn4.telesco.pe/file/H_b0M5nl3KSTpSB9kkwgiKKQCUhIFnkUh0JZqTzm3Pe1EexiGEbJyl-FIOjij8uUcnsQydIfxkwOBuqbtAcSrHczCniqj4eKgUgtcRC-ywQsVXyA6xG_DRiZOcm-yJB7zuFqZbz-Yo6Z2QpI0vchkSYtNs6FmdtJKZ169_xcui0RT6br9BvQrI3zpYqQhBH_IV4dhwyBjHuF-DOqfrYC-DDyA3fr80pfDZh1ZYb-4T7it3xIDoUvr-XLN6gczAqZ9266-5cum4pL6Hz6m9xN6Hw59VqoO6scYYpwZKqoONGhbsguVXRoK1Hd1Wo5WckFO4mgQaQSQBQds8qYbimCtQ.jpg",
+      "https://cdn4.telesco.pe/file/gVOjnQqAwXFF_dvyasIAnlZChHaw1M-GifTz6F8tqaVlzr9OJ_pbc1T6ApteQm7DLrXLWq2cr_pw2-CmZY-o4TP-6Bzxkb8oCTqY37-ny0N9wt196BYO0tpXqfrmge4HVyN8r2tLxQRV2rQibVWbRHlpRlojHM3Gzq91ZAzAxqO2VeZ9GXu-k_WhRGlSUjNhzyG0C8OhkSR3Nn9XVn9rFyQNdfKCtLxUL6YweowUb-EMzqOhp7kPBFRDDVClQqsdHWWKp7EdCUrU9Rz-cijmftfb8ZtQpEUlXKCLIqlBzxz0wUHLYGYOm0R4dYf1ul6YSiR4xSrsS3bHJMJICNjthQ.jpg",
+      "https://cdn4.telesco.pe/file/IHBW7B4Pk2rfQ5HUhjtFDgJmdojI2IPK1DyBtD4_etqy6qfe9BkgYIPSSqN2sggPP0PRhL-N0UHa2mkA3yK_BpqBwku3V5zIrI2GBmytQjGxWq_vdZPhrAS4wT3qMJzNpvuitwSyD5anCqzaLo5wvfhRkW1OyasmLilVloWk3s5V9fGJvqySD8JlXKPubM7OfSUsULAcEXY64QOZHfZ3QyyhBSCqqIEcJVYAgj5gGEkq9fpPUylk4tQMikJLHoWWChiEK1RGh0nrsFuPGsMDYAjbqO6Pg3IL8xgGjcYuxhFOtL30iuv0-2xvUb8IhctZYZeiot2qH3oNUNHFovyVUg.jpg",
       "https://cdn4.telesco.pe/file/vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-FG5LTKEB6pQNbpnal6Op6EnJ57A4FahQ4uTWNpv_nCabS82ZNszHl3tF33a_6OQeQ64c7q9U6kjW1Wt9SXai0qoFJRHqcMKkF7SqJpVxlXSVpysOEmfM2TrgfV1oyrupF03C1Iigiz5VP157c2CEppCtWHGKDVUQeSerhjXr4p9s1sg8IXvjEQlOJhtzCVYS7ca4MgjHcm3NmSA3Xyhc1MR6y-YrW4sPHGrFvuvl_J31G-DAdEP6lR3E1dY1MvA0gxbSrqIounbPjyk2C3C75j7sNgGErj1FK2YxAh8D5Pqqagg.jpg"
     ],
     "views": "919",
@@ -118,9 +118,9 @@
     "forwardedFrom": null,
     "tgUrl": "https://t.me/loving_bi/38",
     "localImages": [
-      "/tg-images/38_JwLaDqR97bLgDdUCQ41daTGQbDFEYBtk6Om6oMIu.jpg",
-      "/tg-images/38_KyJ-Ixo4mpdZkK97gJZrNc618-tQ2ENRv9_0u_l7.jpg",
-      "/tg-images/38_kzujCdo5CTm5EreHmQRQY5Hum-h-VBjvn82I4Xo1.jpg",
+      "/tg-images/38_H_b0M5nl3KSTpSB9kkwgiKKQCUhIFnkUh0JZqTzm.jpg",
+      "/tg-images/38_gVOjnQqAwXFF_dvyasIAnlZChHaw1M-GifTz6F8t.jpg",
+      "/tg-images/38_IHBW7B4Pk2rfQ5HUhjtFDgJmdojI2IPK1DyBtD4_.jpg",
       "/tg-images/38_vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-F.jpg"
     ]
   },
@@ -129,10 +129,10 @@
     "date": "2025-12-26T09:44:58+00:00",
     "text": "Новогодняя открытка\nЯ очень давно хотела сделать дата-портрет, в котором каждый участник получал бы собственное изображение, основанное лично на его данных, и вот наконец-то появился прекрасный повод - Новый Год&#33;\n\nЯ собрала данные у 26 аналитиков Авито и нарисовала елку, на которой у каждого участника появился свой персонализированный шар\n\n💡Фишки, которые можно взять на заметку\n1. Cтатистика по всей елке служит еще и легендой. В первом блоке есть подпись “человек”, далее эта информация уже избыточна и подписана только цифра\n2. Бантики ипсользуются и на елочных игрушках и в самой статистике. Так же как и крылышки с рожками.\n3. Копия елки схематично показывает логику расположения игрушек, а размер шариков, соответственно размер шаров на елке\n\n#датавиз #моипроекты",
     "images": [
-      "https://cdn4.telesco.pe/file/pNYvuwKK5_nWPOZO9FiwID-_ArrYp318L45waLtzMD8nTLC6Yj6IwKw46Dkeff03qSMkzzhufuEHaJqKtEyENF-TIsIUDnGlEsCvbajUKCDtEVKDbJLvqyv-2FW4VCn47DsJOzeDylek1y1sHsXAogOlIgFPV6X9zeuGxiopX6qWJBXwwg78GxUf5ob5ThZX-W8REU2i_XJpIQ-AJ_5TTVdNiwA2Z5kY5npCAh7C8fZnz_EhPxvePfF0DpDUBC0mg-HTNvWBBC3CLWIVnT8_pjkDWcXI24N9wV05LZNg3NfG_wOhOzENx03U2tsncemxliu1Z64pXcIgUk2iza5RKQ.jpg",
-      "https://cdn4.telesco.pe/file/f6KpM8YWYeYs6espjp5HoM1tn1hpzH2UTcpflGrlETN0kyS89N23XMQNV6ZbuN--DBSrpsQ9A1zbzGjned4i3InVj1_UUSfDBNf3b-w_j6bcXQ9xK6k0vNY4UVvXQMR_f-MwPrAKH97EYrptIH6f0zBV_QmuVvQyf-yWGinBG32rMntmli9I7Yt2DH9YW-Od6j_59yB5DK0b1b-2IFV9vQtahv5Id4ME1aNtKQuLr9XSWGr1POz_mCV5EdD6JCV-t0VyRIoM65hM7UKazqhuuFk92YSn9rmj927uVc1zzhTQkFzxHvaM2bSw3QpiGiKAdAmhtQT4fumRiKsNw_ERZQ.jpg",
-      "https://cdn4.telesco.pe/file/eRVGjuCimCy9Z1twJU3jZ7n2O7UK1TTlygyAAzQjgiVIfhLhIQNj5mdRSY_wttcKWaZQfYNHHOOANIvVG5Mvhmwb_fYwA3fwEG9_f9ernaPHXoak8FX-3E4af-jWuUSWqIS1RY7XJoHxsMHsou4CYkqT-YFO0cEKEslNC3terpuL9iH3dau5lQo_9pXt6ZAQck-0ADfufW9uPbEWTJ3sqPxxDRWW4w9hLM-O_aR0E2gTdUKXOdqC_sVscpJjsn39MSTkBsoZr9uzuXwEpRC8BoBXQGteCjsZBsuUx6ZVrx1AiEP0DCIojWbWn_G9Y6mNF5WaJYAttMAQvhUL1A64iQ.jpg",
-      "https://cdn4.telesco.pe/file/AIZVz1Pnu8_vLUhLllEZp3ZXK8DQhgJaT9KpCKbyy9WWZP7QvyzKbvar__ug9O4STNEMPEGI52pQZujokDQuJ2nCADMk9D1sI7OlFR9jzwejaKZt14Bxb2cxYRDtMnIc9s9vWeZAHu_xHEpBkd79t-Pvkq-m5v83qGSvFwkivCVODpogZMdurkcbRjQnFd4b6wWN9L_QSjmWq4DPc2wTZSUESof9zPKnu-bavAERvIqF8hAQGsFwujA3bjyVYdPDspvpov-KmuLaGglH4phnTqdFcYpY4rs9Qc0CGWbtOxSKHmWAzS0QVnd5eup9_lNCSgXNq8YEmEEVKZ9_io60UQ.jpg",
+      "https://cdn4.telesco.pe/file/Yk5TA7mXENxjDYH6wPFVT4lx7IyDohKCmoVRyUMD0eko4LKX9YE8UjPlagduSMUdvR8LsYEIQI44paPaKQfpFcB0u3revsqlpGihELQHvAgzYPfiBlKYl5Ks2j9Uiejh0RCbenL_pSyLp1yeD3gM4Yjjtzs5oNCVgcjs5OTiNHmfvzJVtu_IrVRt8jolgeoHB2fG_AkHLaL1ZRGBUzccDlUjJcGFvYTJiX-yqbanWzAWQGltS3V5dxQ24c0FPf_ZBns8qLboeGEaGx-EH-6lZm-xhuT8rRPon6ecuCFWqGhoentX6-30S4gdhmDKDN710B0AJbwvWiVFtEw9DWEDTg.jpg",
+      "https://cdn4.telesco.pe/file/dLp-KVg2EDx-aygBvCewKyD4A1l-0HLQLfBB-YxJS9Uv0rf9sdK0oEIh4liyAvt2kf8an_g1hz0Be95eU4uzXzWiIe5WMHs1kWJFsksr9RveoMU2roP-XVIJ78H-grbP9DpRUM72-ui5Lv3VsfiE4F3hGv3D8v1hK-LJy3Tw38k6_3elyU4aGfLXpMbY04ryShJT4GIrMmZ-J0823lyrv58v4KWUi8VgW6B3b4yI7VRC-u1AT6T4Qk-0fwuVQEPW-r_LoMU3x2r6apvQ4HzBy74d8S42H8Z80C461jfcxn5d__H5YSjQcCUKCzuEHYmTL4Sh9oMnqPYN7JyCSQ0l_w.jpg",
+      "https://cdn4.telesco.pe/file/DKb3giaWrjOBlaSPomChsBL7prbMbdAzxTfKsTOJIFM2f1dp6-okeUfBI57uDw5F86SNsgMN9K0ubEBr9oIdufJExhaaHJ87zrmIBqtm9hCLi4RPh9x4ciaTpNStbA4LZvVgbNZahcpZVlHO5t81BUPClOH-M6TTUTyhfb8oHyg81569AUOdJ03BPecDgtH43hUnzM070BamgqyQgoOEJDWay8r4H_SCO5VTkBURqoolUDPRoEXHpdKiYk6RP-_vAu5ZiscUAVwbOuAr6sS-QpJl8sIH0MbsbBMNUt8XgP5tUVjz4CG4UpxcClL7p1cspfSra1ne4mSIfBk-EF03HA.jpg",
+      "https://cdn4.telesco.pe/file/vhzZVkXOlSxIgfsq4wByOuBRB9YgBUnYoCKtihZxB3AIBmdphbBcHX4ypJxG_GVaSJPnDbjaUC_OSINlc6EzrIZiRFA1p9LFLS_-5GTL9SBfidw9K-ORhm5wgueN-fOd5s8G-hDkTHm7s_weiwXVsj7lJulHhO6_fEtKsB_5wBjmGfmzN-DcTuKHW8VcfTFsqg9FycDxlzsrDit42LpwN4r7INXVgcIDWdmWC1so7rXUTkH1uSw1haOFIdXnQeBrzdPDQ91EOXJpKM-x-W6_Y93aJ1qOvUrR-ISf2cAdOFjqeggliBhM6gfiKz0AXeIRZ-vaYmdWDO3j6-ayVXTEVA.jpg",
       "https://cdn4.telesco.pe/file/vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-FG5LTKEB6pQNbpnal6Op6EnJ57A4FahQ4uTWNpv_nCabS82ZNszHl3tF33a_6OQeQ64c7q9U6kjW1Wt9SXai0qoFJRHqcMKkF7SqJpVxlXSVpysOEmfM2TrgfV1oyrupF03C1Iigiz5VP157c2CEppCtWHGKDVUQeSerhjXr4p9s1sg8IXvjEQlOJhtzCVYS7ca4MgjHcm3NmSA3Xyhc1MR6y-YrW4sPHGrFvuvl_J31G-DAdEP6lR3E1dY1MvA0gxbSrqIounbPjyk2C3C75j7sNgGErj1FK2YxAh8D5Pqqagg.jpg"
     ],
     "views": "1.25K",
@@ -157,10 +157,10 @@
     "forwardedFrom": null,
     "tgUrl": "https://t.me/loving_bi/41",
     "localImages": [
-      "/tg-images/41_pNYvuwKK5_nWPOZO9FiwID-_ArrYp318L45waLtz.jpg",
-      "/tg-images/41_f6KpM8YWYeYs6espjp5HoM1tn1hpzH2UTcpflGrl.jpg",
-      "/tg-images/41_eRVGjuCimCy9Z1twJU3jZ7n2O7UK1TTlygyAAzQj.jpg",
-      "/tg-images/41_AIZVz1Pnu8_vLUhLllEZp3ZXK8DQhgJaT9KpCKby.jpg",
+      "/tg-images/41_Yk5TA7mXENxjDYH6wPFVT4lx7IyDohKCmoVRyUMD.jpg",
+      "/tg-images/41_dLp-KVg2EDx-aygBvCewKyD4A1l-0HLQLfBB-YxJ.jpg",
+      "/tg-images/41_DKb3giaWrjOBlaSPomChsBL7prbMbdAzxTfKsTOJ.jpg",
+      "/tg-images/41_vhzZVkXOlSxIgfsq4wByOuBRB9YgBUnYoCKtihZx.jpg",
       "/tg-images/41_vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-F.jpg"
     ]
   },
@@ -169,7 +169,7 @@
     "date": "2025-12-30T11:47:26+00:00",
     "text": "Ошибки в UX дэшбордов, которые легко исправить\n\nПосле двухлетнего перерыва я вышла на работу со «свежим» взглядом. Я посмотрела на свои и чужие дэшборды и сразу заметила несколько проблем. \nГде-то приходится долго скроллить, где-то — складывать цифры в уме, а где-то тянуться мышкой к нужному элементу. Кажется, что это всего пара секунд. Но эти секунды повторяются много раз в день у разных людей, и в итоге складываются в ощутимые потери времени.\n\nТакие UX-ошибки обычно исправляются быстро и без больших затрат. А время, потраченное на их фиксы, с лихвой окупается за счёт экономии времени пользователей.\n\n1️⃣ Обычно на дэшборде есть много фильтров, но только частью из них пользузуются постоянно. \nРасположите самые важные фильтры в самом начале и рядом друг с другом, чтобы не приходилось далеко бегать мышкой по странице и искать галазми нужный фильтр. Обычно это дата и главные разрезы метрики. Например в Авито Доставке это службы доставки и категории товаров. Но здесь также важно располагать близкие по смыслу фильтры в своих \"блоках\".\n\n2️⃣Часто дэшборды используют для подробных выгрузок, но обычно таблицу для выгрузки располагают в самом низу страницы и до нее приходится долго скролить. \nВ таком случае лучше сделать отдельную вкладку, на которой будет находиться только нужная таблица.\n\n3️⃣Понаблюдайте как именно пользуется вашим дашбордом заказчик, я например увидела как цифры на барчарте, разделенном на 2 категории складывают в уме. \nЯ убрала этот разрез в параметр, теперь на графике стали показываться сразу тотал цифры, а разрез можно добавить по желаению.\n\n4️⃣ Заметки о графике должны располагаться рядом с графиком, а не на отдельной вкладке или внизу страницы. \nИ важно писать эти заметки так, чтобы еще больше не запутать пользователя. \nВсегда рабочий совет - представьте, что вы пишите заметку или название графика для своей мамы.\n\n5️⃣Не используйте анимацию или сложные и редкие графики. \nОба этих пункта тратят драгоценное время: анимацию мы просто ждем, а сложные графики обязывают в них разбираться. Главная ценность дэшборда в скорости и качестве считываемой информации\n\nP.S. мем из поста это на мой взгляд лучше всего показывает, что заказчик - это самый незаменимый инструмент для разработки дэшборда 😁, взяла из мемного голосования у Маши\n\n#дашборды #uxui\n  \n    Please open Telegram to view this post\n    VIEW IN TELEGRAM",
     "images": [
-      "https://cdn4.telesco.pe/file/IHiI1Q0rApWvOHE6zizI1vEtAYEzs-9e59WiMrWSoH7OisGnl2CD6WT3Fovnko7qNOGMDh3wysZzfi5Ow2440GzvkCQUqPnA1u3XqrCBSmygssfEH2VfxXO2zIzZjN33F_O2XMJBx3M0xkKsC5NUl4-bfJ6k4oNQy9gCXTR5S1mHjO1SKEgVejl1IR1PsS0qXXbGAb18F-6_7a0_dhyrkrGj3K6vRuUwicdA66kYsdthLs6yjDi24um5HuRrBFxwzzL0ENzsVJoZkEgWL2BwT_PPCz7c8VW0NUbOaNuSbKNECUE45O_GHzFc0n1VFLIat6867Sc-5xI6wTZY0KsJQg.jpg",
+      "https://cdn4.telesco.pe/file/XX5hXk5L4l6P0Yooa84IlPPmWtEKpjVWZfDTzUOV2NSwgaG1Ja7v3tCrcar9vIHaacNxugchnG4iAVwTw8YzNEF2iBaCJkCwMQoWoC6yK6Dft4dyIpzclkUZ-QdCdWAp2lglSEBJVyIuuxI6b1lMLwnm8jtjewY70OcOeqqmV5zA2mFDWrlETN7HKYPaplMmIAk7yAsJqN-tmTgJ-2ZJyaGO4zqkz0zzpcd1w2fpBhhAqAyzb0x9zAPzu6xl596HN2Rwt98tCCXL2JWvL8lMeS74c-1G011Qf8LLr6vXlWiLFBmpfwvGkSe1qBK1bYqUADTAfeYJGBX54aCRHBtn6g.jpg",
       "https://cdn4.telesco.pe/file/vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-FG5LTKEB6pQNbpnal6Op6EnJ57A4FahQ4uTWNpv_nCabS82ZNszHl3tF33a_6OQeQ64c7q9U6kjW1Wt9SXai0qoFJRHqcMKkF7SqJpVxlXSVpysOEmfM2TrgfV1oyrupF03C1Iigiz5VP157c2CEppCtWHGKDVUQeSerhjXr4p9s1sg8IXvjEQlOJhtzCVYS7ca4MgjHcm3NmSA3Xyhc1MR6y-YrW4sPHGrFvuvl_J31G-DAdEP6lR3E1dY1MvA0gxbSrqIounbPjyk2C3C75j7sNgGErj1FK2YxAh8D5Pqqagg.jpg"
     ],
     "views": "1.2K",
@@ -190,7 +190,7 @@
     "forwardedFrom": null,
     "tgUrl": "https://t.me/loving_bi/45",
     "localImages": [
-      "/tg-images/45_IHiI1Q0rApWvOHE6zizI1vEtAYEzs-9e59WiMrWS.jpg",
+      "/tg-images/45_XX5hXk5L4l6P0Yooa84IlPPmWtEKpjVWZfDTzUOV.jpg",
       "/tg-images/45_vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-F.jpg"
     ]
   },
@@ -199,7 +199,7 @@
     "date": "2026-01-04T12:19:19+00:00",
     "text": "Исправление графика\nЭто реальный пример графика, который я увидела на достаточно популярном дашборде в Авито. Цифры и разрезы приведены для примера, но дизайн полностью скопирован с оригинальной визуализации.\n\n❌До\nНа графике показана доля жалоб на заказ от общего числа заказов в разрезе категорий товаров.\nОднако в таком виде у визуализации есть несколько проблем:\n- доли разных категорий товаров соединены линейным графиком. В результате вместо сравнения категорий мы видим псевдодинамику метрики.\n- график посвящён жалобам, но фактически внимание пользователя уходит на количество заказов, к тому же именно по ним выполнена сортировка.\n- используются двойные оси. Это усложняет считывание информации, а я напомню: ключевая функция дашборда — быстрое и прозрачное восприятие данных.\n\n✔️После\nЧтобы пользователи могли быстро и однозначно получить нужную информацию, я сфокусировала их внимание на доле обращений. В итоге получилось три горизонтальных барчарта:\n- первый: с долей обращений и подсветкой категорий, по которым не выполняется таргет\n- второй: с абсолютным числом обращений, по ним сразу виден \"масштаб\" проблемы, а не просто доля\n- третий: вспомогательный, с количеством заказов\n\nдисклеймер: визуализации выполнены в Redash. Этот BI-инструмент менее гибкий, чем, например, Tableau, но даже в рамках его функциональности можно значительно улучшить подачу данных.\n\n#датавиз #реальныепримеры\n  \n    Please open Telegram to view this post\n    VIEW IN TELEGRAM",
     "images": [
-      "https://cdn4.telesco.pe/file/QGqLiBKvW6z2NzkDSZ_kuf8mRAVMBcbNshouPykL2Mx1C0SU1rc9a_PL-Nhj_69SROBOjLWrT_PKBGpInFmsZUhuDJ-6o_MMLBjtSehRLyV2lmCNrS5WX2sduXYpZtGOuCkdLRudS5gKAe0ZmGjiuGkPkWSAedNDxjX1-Wuc1HqN7UD4rMAvHhuHmX0H8m5G14NBFj03eHUluxh05SBT74gdraZ0ItwOKdO9rarRx6c01PcQ8hwU_-Xsat7d5dj3RxtwnuBePqdhbqchxcu40mJXS79cizo9UHYUOcX7MppDFYWOpsoauQNM_rSV-eqQodub19M8hbylAOPhXL3xIw.jpg",
+      "https://cdn4.telesco.pe/file/PZXMFp8WhPrlfgeivmtH1v-S7yped_IP4hsPFY6ObRdAAOJAehdMPNpr8-iunMK06QHdgPbH5cWAT8QT-HYX_J--U3nBsjuV9sF21he2UHx1C_23PpqQ6FLYWuGX_pqi4DbVE89z9Cgt0nVrqqTYn3nWFeLIotoFxheMUHWzCHEUINBhRozqJJmLUQkF_ftLsn3ryB--GHZEGkWmZt12i3Qb_Ki0IMHwQhiAc72FPX8BB3zB_zOb3NUxbVhz2GgPvqYRCFEMdyP18yKOp8BmfDf_IO1-k3ShgINdc_OBdsK6Wr3EHDu0ztKQbJV9OAcpxUzBnjwHcjelKZJu2cbFeg.jpg",
       "https://cdn4.telesco.pe/file/vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-FG5LTKEB6pQNbpnal6Op6EnJ57A4FahQ4uTWNpv_nCabS82ZNszHl3tF33a_6OQeQ64c7q9U6kjW1Wt9SXai0qoFJRHqcMKkF7SqJpVxlXSVpysOEmfM2TrgfV1oyrupF03C1Iigiz5VP157c2CEppCtWHGKDVUQeSerhjXr4p9s1sg8IXvjEQlOJhtzCVYS7ca4MgjHcm3NmSA3Xyhc1MR6y-YrW4sPHGrFvuvl_J31G-DAdEP6lR3E1dY1MvA0gxbSrqIounbPjyk2C3C75j7sNgGErj1FK2YxAh8D5Pqqagg.jpg"
     ],
     "views": "1.48K",
@@ -220,7 +220,7 @@
     "forwardedFrom": null,
     "tgUrl": "https://t.me/loving_bi/46",
     "localImages": [
-      "/tg-images/46_QGqLiBKvW6z2NzkDSZ_kuf8mRAVMBcbNshouPykL.jpg",
+      "/tg-images/46_PZXMFp8WhPrlfgeivmtH1v-S7yped_IP4hsPFY6O.jpg",
       "/tg-images/46_vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-F.jpg"
     ]
   },
@@ -229,15 +229,15 @@
     "date": "2026-01-06T15:55:31+00:00",
     "text": "Рейтинги сериалов\nЧем заняться аналитику-сериаломану на каникулах? \nКонечно же проанализировать шикарную базу IMDb и найти закономерности рейтингах тех или иных сериалов. \n\nО выборе сериалов для визуализации\nЯ выбрала сериалы, которые сама очень люблю, либо те, которые сейчас очень популярны, а еще те, в которых есть интересные закономерности в оценках.\n\nОб инструменте для визуализации\nВизуализировала я все в моем любимом Flourish. Люблю его, потому что он сразу все делает очень красиво и аккуратно и его практически не нужно дорабатывать. Жаль что теперь он стал платным и бесплатно скачать визуализацию в хорошем качестве уже не получится 😭\n\nО самой визуализации\nЭто один из тех редких случаев, когда барчарты не будут идеальным решением в плане выбора типа графика, здесь как нельзя лучше подходят обычная условно форматированная таблица, как в старом добром икселе. Еще внизу я добавила короткие выводы, вообще я очень люблю делать настоящие анаотации со стрелочками как тут на Оскаре, но здесь они бы слишком все загромоздили.\n\nВопросы\nКакие сериалы из тех что есть в списке вы смотрели и чьи рейтинги вам было бы интересно еще увидеть?\n\n@loving_bi\n#датавиз #моипроекты",
     "images": [
-      "https://cdn4.telesco.pe/file/pEDBYCYrksj4BhUx5KPzVajLFb2sPtC2VBYMPBhk7ZqgvDqjRJV3q1Cj3okg5hLfagvOhBnv8YuiUHXkY7bubELlMURgJXD6XGrg2-pU4-BbGxWPOeCxcd3DYnziztkHvu0gotY7oLwLh4o652HBvDGbvpPppzOeOqVPZ70pcKFnfEHUrbNuVk4zWLv3R0vHZVAKA3aWPHiK96KyrJdL2XCiSm8EJUreHxXiabNWQdWFLDhuon1sUk9aiCDNWrMQTM8cL6njS7OsW1Ko5oeFC5chCyiZCzUVUkKf8Nhe5dLK0B-kHuzd1h0Fi9FxzP2gUrBBVjvyqazjp9Eo98gNbA.jpg",
-      "https://cdn4.telesco.pe/file/dLzVKj_HjtTNdLHTEur0Mt6VfQ5vm0eq50OVMGTdBy30dAwIaQVdWBHH31zgaKVgwDO7QRnYybgQCHvtTJp95rHX6QX7pmMLrw4Lfo4mT9rohAVsnbD6KVYE2dIgmWZN1-_Fa_WJtU2IsPpXzGM8OZcVlZeede-KuvoS8w04D_iF_A1zUuqB018IMUqpVMm70wageG_6qHfGFfMCen4w6pEhxqu0AaKisivha9lcfkq2uiPATsxmtGiqIkEpcbmq7jGiuXExqx9M8cmEtZJRNjS-p5As_w3TABGArGV7vkd_yUdwTXgZqqozRCIgmQCeeWKF3PD2rYNtL584VB-gJg.jpg",
-      "https://cdn4.telesco.pe/file/VMKtAl4OZfpgScVSqbNMRvjoXtwhNeGEtCYbgv5WvlOon-B4HPaEFE5Wmdx1Xrxn-2pEfMxBlPErNX8oopbEgsvv6jL0MASvK1nBnYmWBgJPj3Lttdl_RNHwA_U4yWm_BnG2jzn9Xl1IiOg-ozwsJxiR_2vw0K3lg08cINq3c3Wu6bZhkwxod2LUGAZ5nUNg-e2UFcgR6mRWAIukw2gDvyuRPx1IOx2pjptmKML1hfEX7rD6IYq4ojppQjA8_1wYjpbGsNf0xkBDA7lT-y5KKlHQ47tWgZBP9tsYY2iZS74fbWPhSjbBjIk_65u3wWq3w3ZUaFOXDOzq98zFpjxXnw.jpg",
-      "https://cdn4.telesco.pe/file/OKdw_PxvbiJJje7V7CAry-m8FFsBaxxtJ8qbOn5SB3P6QsXZZ_W0MLMZFMU6M1ClV61jbw-rfiygVKh5FQV1JsDcyShjzHp0bCt3qyqPibOjn-OfBP3CPYNUN5idvaP_1p_M4FL_O554pvhgdCAiqIZaiRWnyZYqS0skmKeaGIVEeq17IoXfWw-brZ0e2AkN1h0e4Y_Qz5cJdnJQTmKo9qEhmgjModzGnIrqj0-cDJQxA0r0bG0g4kSDMoXNAjCpRydFdeGT0iJraLJhxMYgY2Uiba3xG7sPs-bMX2L-R8u2aE_SgZiskc9Bml2QYdr60RJQqcKl0SLawRo2L0DHMQ.jpg",
-      "https://cdn4.telesco.pe/file/qupQQrKWUw6LYp6OC1Ms2WVxXzREEiDiFxgie9qhOqpvh-wvux-MgXcT-HoXLb9zuRD5R1RyrssnAg6vAtdz2TK6C98aOIWAyq5ZnpONdjNnPHFfz31WxQfSHq_vu_X_el4gQ9VtTWN0SYWZ--_xHFeN3lU_wKZZjpyXU8Do5luaUNfMKgSfWVlYvRnepWrfeFf66kRqfLynTnrTUiwUMl5cGCF7XKP-hPuskEqWeYArhYCsoohC6YJCGtFNFAngiBQGDZQ3vr1qhf0Ly0ufm8laLQzn1h1CWz52tHPQTgZW02qVS_RsCNCnrxAgH1Kiw6bYA_u2LXhYj-WsfRKsJg.jpg",
-      "https://cdn4.telesco.pe/file/EyGSDscOrOt4K0fAA7Iy3kKv4srHj7UGiqomSnCiXca3Ih3zuA2Kf3v8WC8B4K52ghJA0iitdEgqrEf4p_tdPsBbxklStPO8s-_18PUqBlsRLHMStJ91eqdyzD4nlRR1FBytHjRscSW0sl_0_tLixgsZSHfzwQfWq-FwmC9j-I2ofLL9kT_9PPBF7ZY9i4PyBcMDMNrL8yLTLpS09UwAIXk7A0kWs-Af8J5-qMmrDyrcwrSjm1kvpko7LnEU3rRZnajPsR3B94RAud1W55qYIyaF6uySUfxsFNWfEO-KQUR288EXekE_oZvTi_qjMM-OaN0MSFgg3iJqvVMkfLWmlw.jpg",
-      "https://cdn4.telesco.pe/file/KqmIUKjs9ppWHGURfvTAXhX8TTLwJvbRHdrd0KJcnOfQnarZqcK5nG6u9wll19nfXUp93jA0X0DpyLWEsisaXgMK-8Kv2AaEE7qDGGloiYIuS1VSciSCqSilxDyCAJbqIRrdGlfrx9mfJJmvtawZJdAcyH7v7aHPtX_D203RDr8WxgbVpyBQ573rsN6wTX7SQ0QF3sCIF6VhJQr1EdUqezPaWV-QPKB8hkMeFCVbsKGB8lmWaK8iKCm4XeZOVlCQuwkBiyS9tdg-aR_p248_FhwoWHqzPfahR-aXFsg6t8Vg415fuKydUhgDvkltLiWYyeVCXBG-wDsYPWauu_F_wQ.jpg",
-      "https://cdn4.telesco.pe/file/rVHHOQ98hlxW7YVmKMQiXWVvvqKpCuBJvjXSYNs6oXZiAzytJqgN_1JOph1_njGyFVEO_oSYuYTg2UJ_F3TwgWhE4-_y3tr5AZznXoUsbpFIy6mSw4ecAfOPpBMklIJ8uRYgME9DLTnWgqsivnK2Ek0zdipkwa_loUHZ4wfOKCnIFYfr6QqcfJvB2ZCq1VEe3imG7A9yzLBu7DjN3a2C1RDQeTLUK1ss-ymcpLyx-dszzDuJklrZR3gwA93Xekg_o2KWuN7znvW3F8ohckaumLX-OHwUwZeEzWkKeZER6lEfoPtg4y7QMWUUpLJJn-RwCtZyPt_vTyfrT959fO-7UA.jpg",
-      "https://cdn4.telesco.pe/file/b1wYoSbLz8tzlb9_VU6qw9idlLLMmKWqIkaFAQ5ltJIATX9664pE-je1FQ0BAMlsJx2FTZDoJ8J_c4zM4mAOAfCV_Rq1pVDhH74sUseUd7qDILBs3AgCCoMEen0Dx5-q-lNyM-MFwAt1Ph5_7AqKkgftjzWDF-_YG_MKN4uD_KqidQNTPn5KnMfptqC3zBYEymsbGXRvhLZHHnR-QLGSFZeZgQtK9YpdWXoSsTBSaN4HPO6UCUdS0vIDKsLS8mXyat5G-U6_JpbmSPP98MX-jV_bLkHqmxQHyO3j2yyZXCjQGhFUMRHdttA_2Ldft6wm30QdBijAxci9uU3Bv6sOIw.jpg",
+      "https://cdn4.telesco.pe/file/XIYNgA4uBBXE48YQpI5pIgBtS24hWPbdZPKGHOqs0ES1bjXL6l1hG0gn6uY-qbmqqggmMvq8A5ZTH5nl0UkrCPYQ7KZmM9EONk4MMnYpYlFs8qC_nFtthaDmUzCoOOXU25f8Bkz1SJTX-ySCg2ov_CS5YnQyw_e76NO96bahElaKHi0mk7h7jecZyRSjxU_TiwsQgPgRe97bTXgbdNEF3ayJoEmMPDYf02JeWUZGnyszWCdUnTsaY7sk8IKmDznW8uouOHWwfbgm56220gs_9iS_-2YUyjSu8E9BQ30MVkZv-CjW4UcpI6rR2ndEvcTiaPTLPsVA2gO6aKUYnZP3Uw.jpg",
+      "https://cdn4.telesco.pe/file/Aa2UEB9DgmlEik3wR3RlKPfv2seDzjl4gpsvN6RIa-UXaDRGRnre_smriRoDmZOYxmMgM1dmsAYKKqWSlyl-uFeCfBLlNyciUu_Pm70vs7EIfpIAaHsc9MprZ7Fu7TqpOUH4PFfRARdzVMc8UuQP8lJlpP1fCNj_tpWaaeynUvrwVmFhrEaRWYz_Gs0UAuMhD2nMspNBrM7i4liW416G6qRorKq0iyQBPhdyZHybOU55lQXcJm6hH_twZIacoHAN5XOhCE0nnzmykXdyzLMjMhkhWhOio7AEp5Cdj1v34BZKWvemGiHLTAQlh7h8PVGI0BYCpCNs3kCZjAixVBHw8A.jpg",
+      "https://cdn4.telesco.pe/file/vFQxtVGKDCU_xY5PzoufH2gkhcOBCHamK1fj0kOn5sFtzZqAoFkfFnuDDx6DmyaLlmlRbZF29mhV_xCBj4GTsGeFOaMv0PJGfJMiNuclL-Zhegvfo-pq2V1KaGBneu3AJvUVdBnNmU8jA11C1uJDSBWK4xHuW2txvi4I3q2n6mFoMzVtqYh4zfdbrwAACXOZXmQK4nhKCyWQaYbmA1CxrAYth0xd6TUTts3rW-EYC0XG4Vh55nczAlXaDDYO8iaCAvlBgzFxbT-S-rSyQ_eN2lWHzkevLqZrGn6j7DFn-uJwpLrSj106rG281EYnjm_1qxyOfr7ZM5jgocgEWhrk4A.jpg",
+      "https://cdn4.telesco.pe/file/a88nrr-Kkp3I8Swi9X4dQ_IRHONc42YGJ4bME3nFiSNOdB204pEF34rf98VNix_fyhnLb3iw_Ru6450vmL966B0geky2XItN-XfQaI4n63oesKmwqfR7l3UJkgX4hUGW0B0fQKfVrHyVRj2oOy4p801_7WWYudWNgSPwon3p1kesb9pREk9qPb7HFoz2swrOWspXEeNhwI8UFCVPbi1IR9NDracT7DVaDySKMTfz1FBDfHpPOdpCTWJ3VSg45VunSbAKCznmegGJX9dBdU1GMNoLfZUvtZDAJM0-KiHbmuZnuLB7D0TVdONyTDrcHQ1eiRyQc2cHM_jGbUJ4a29rSA.jpg",
+      "https://cdn4.telesco.pe/file/vmCOaFomAzAhKb_O2g6ZL39maoO8GtrvUV-wwdKgeJgyjBEyz5BjVyUKi7WnzvZBTR5hV9ZSQfToxT15JUEKS8CNsF_YryumF_fPbTIkIJlxtx_WEz_pJ1NrLZ8muCt_OayXu86HSGRrv_FLiamwojfCinSo7aeJxctMQr83znq8wYvB-OYXuWaZ4sohNh6eC4ka8dgunVe-cu8loYgKCDIcgpunM5C_HoGa2Z222Wzmx8tyJOu4OEq8yOPXcmqu7bnTJ45pzJfcqieJWzwEhSW54TtkLsE_mVFrkRl19nRhBsDB6skvk0H_-J9b9YrpqgoZyqhPOFY-ATWAaajyDw.jpg",
+      "https://cdn4.telesco.pe/file/h1Nl4dRm30UR90vpZy6fozKXkND0n80MrjAxat_5U3UcecF4rl4BVjqRxbYC0yZcDkzsmISzh_yvxm_RJ-_lyqc98S7zTYW1L0pzgcpmensuJuklz3vpFJ2De7hY1Ucp3ASXK0pGX9cN0gR9G8kKMNvsSILyrVoz0Btj4tPvoP0KaGZ0H_hzUkARLRjYYsr_G9smAZEdRAZWsfsXu-pYc3QzkJp0m-vcN_18hnW0V6LH1j1xvSG9qYMUqBvIS5w3lDzwWNpTxo9cWHKY8f7lnP2tR3AyIMp5WCCZ7E1SsRowOQ1H5x0TQ4ibpdA6zY2ZMVkdx9Zmwjr-mWtyyLlPEw.jpg",
+      "https://cdn4.telesco.pe/file/T4ua2P8FQkyiteL44LKwsMG08icc2eajz_gqijlnwicuFyaZ4lIs0ZG8nJAjTOSlhiBvz-cYsfOBftlyX5kG1eGpLNCyR3mvtbQwc1l7F1QtSn6vyvpZWAroyx38NMIU73FQCGD0znkH8OoL15HN5xMdS1NWxCLsCP-OZdlZ1cHoK6C1G1uj2-jtONp9sFhGDaWgRp4pveLii7cYBly7SyedVuHd8pFzzMvMFhJbTZQIs32rJ-ag32b0Gr1P118VrDBFrKkIZu74JGBkTrKd0mJFPfNmiya1KesEybf1RjD01dd1WYcAgLLX0d4m7VzmqyjsGpueO9GbWyRFrr8elQ.jpg",
+      "https://cdn4.telesco.pe/file/SK8Z7cZfVeX3BHEu8xZ_zrhbXSQN2XeMWqtmQd_CHAEgRlkyd8MiHDMUORYfrqUq0-elScHfoboPe2J6wOMoAmwTgEfhgFNbcNSNXZekPAxgEP1oqP4pP8cfBqNLZy_t6FvXOI3PJsCCye56MsTQqGJsl_ERxE0sNyhpfirF1LH0o4exiPvq_UsQdK2xSWlHiypRKZt7fNd2x62y9DGNd-tm5XC-2LRR-g1jf7f-nm6JbxPzZ4UkL7Re5wmT5hYgs3mEBd3ElFL7z3qBZCiCvGKSh49m0CfbmxexTtGNvi4_dn75LwaYcyJJEKQkeys6DGTqIYv8cdRNRBgECcdHCA.jpg",
+      "https://cdn4.telesco.pe/file/Bbs8chdXgDQouUplNtnIT6GOFb2rMsib7zwUl5G9PlzOdhW1VXj9222YqXodv8kjZ1nlNG9fsPec2AktY4nEEbHtwtESqfedrNvAWpfsfmPZvSgXqJw4UFKLPyMWdcjKdbuN_iC5gHevWWwTIxvYEmQafA-IHUlTzDCSV0Wg0j1FUUOxMETO-gutCJMiKCG1Q6zKwDPdJl2UT6nV0YbwL4Y5-2emXFfyy2JtO5s3DKIikD-fRdN3PSMnxuxlFs1EkUMNkFUTFAXWkMNoButIbgY8r14tn5KVb7vBKgxbX5eZ7Hcdl-8W4ZMRssyXn9_-mSbkaqS_MtKp6nBa9SZxlA.jpg",
       "https://cdn4.telesco.pe/file/vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-FG5LTKEB6pQNbpnal6Op6EnJ57A4FahQ4uTWNpv_nCabS82ZNszHl3tF33a_6OQeQ64c7q9U6kjW1Wt9SXai0qoFJRHqcMKkF7SqJpVxlXSVpysOEmfM2TrgfV1oyrupF03C1Iigiz5VP157c2CEppCtWHGKDVUQeSerhjXr4p9s1sg8IXvjEQlOJhtzCVYS7ca4MgjHcm3NmSA3Xyhc1MR6y-YrW4sPHGrFvuvl_J31G-DAdEP6lR3E1dY1MvA0gxbSrqIounbPjyk2C3C75j7sNgGErj1FK2YxAh8D5Pqqagg.jpg"
     ],
     "views": "2.11K",
@@ -258,15 +258,15 @@
     "forwardedFrom": null,
     "tgUrl": "https://t.me/loving_bi/47",
     "localImages": [
-      "/tg-images/47_pEDBYCYrksj4BhUx5KPzVajLFb2sPtC2VBYMPBhk.jpg",
-      "/tg-images/47_dLzVKj_HjtTNdLHTEur0Mt6VfQ5vm0eq50OVMGTd.jpg",
-      "/tg-images/47_VMKtAl4OZfpgScVSqbNMRvjoXtwhNeGEtCYbgv5W.jpg",
-      "/tg-images/47_OKdw_PxvbiJJje7V7CAry-m8FFsBaxxtJ8qbOn5S.jpg",
-      "/tg-images/47_qupQQrKWUw6LYp6OC1Ms2WVxXzREEiDiFxgie9qh.jpg",
-      "/tg-images/47_EyGSDscOrOt4K0fAA7Iy3kKv4srHj7UGiqomSnCi.jpg",
-      "/tg-images/47_KqmIUKjs9ppWHGURfvTAXhX8TTLwJvbRHdrd0KJc.jpg",
-      "/tg-images/47_rVHHOQ98hlxW7YVmKMQiXWVvvqKpCuBJvjXSYNs6.jpg",
-      "/tg-images/47_b1wYoSbLz8tzlb9_VU6qw9idlLLMmKWqIkaFAQ5l.jpg",
+      "/tg-images/47_XIYNgA4uBBXE48YQpI5pIgBtS24hWPbdZPKGHOqs.jpg",
+      "/tg-images/47_Aa2UEB9DgmlEik3wR3RlKPfv2seDzjl4gpsvN6RI.jpg",
+      "/tg-images/47_vFQxtVGKDCU_xY5PzoufH2gkhcOBCHamK1fj0kOn.jpg",
+      "/tg-images/47_a88nrr-Kkp3I8Swi9X4dQ_IRHONc42YGJ4bME3nF.jpg",
+      "/tg-images/47_vmCOaFomAzAhKb_O2g6ZL39maoO8GtrvUV-wwdKg.jpg",
+      "/tg-images/47_h1Nl4dRm30UR90vpZy6fozKXkND0n80MrjAxat_5.jpg",
+      "/tg-images/47_T4ua2P8FQkyiteL44LKwsMG08icc2eajz_gqijln.jpg",
+      "/tg-images/47_SK8Z7cZfVeX3BHEu8xZ_zrhbXSQN2XeMWqtmQd_C.jpg",
+      "/tg-images/47_Bbs8chdXgDQouUplNtnIT6GOFb2rMsib7zwUl5G9.jpg",
       "/tg-images/47_vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-F.jpg"
     ]
   },
@@ -275,11 +275,11 @@
     "date": "2026-01-10T15:14:31+00:00",
     "text": "Оформление результатов A/B-тестов\n\nДелюсь советами, которые помогут оформлять результаты A/B-тестов так, чтобы они были прозрачными, понятными и не вводили в заблуждение. На примерах типичных ошибок показываю, какие принципы датавизуализации лучше использовать применительно к визуализациям A/B-тестов.\n\n1️⃣Выделяйте тестовую группу цветом, а контрольную оставляйте нейтральной\n\n2️⃣Показывайте дату старта теста на графике, чтобы было понятно, где начинается влияние изменений\n\n3️⃣ Не манипулируйте данными — например, не обрезайте ось координат в барчартах\n(пример с обрезанной осью взят из гомеопатического исследования)\n\n4️⃣Форматируйте данные: подсвечивайте цветом изменнеия в метриках\n\n5️⃣В первую очередь показывайте ключевые метрики, а дополнительные выносите отдельно, чтобы не перегружать график\n\n@loving_bi\n#датавиз #советы\n  \n    Please open Telegram to view this post\n    VIEW IN TELEGRAM\n  \n\n  \n    Please open Telegram to view this post\n    VIEW IN TELEGRAM",
     "images": [
-      "https://cdn4.telesco.pe/file/MHrjdRRjJ1bkKTMHnsdttB0NUnIqtQVFqHFZV8dLfjh4dpoq-PiZt9nZ23e_gxWThyWDeTDC682ldAT39KfKgf0FDjJfMn2CXUZn-d8mQiRmagbaJ2ofI7SKq2WE4PDxAL1OJ2uXLkfDwEwrDBAYx_wID8xOjwPRqyjN398pYuYRKGKetvP6NIexoizJORDObJQM97XB5jXBvQzmp5OU952WaEAgEgvT9G11NjZ0dzd0eV9TvsZCXxof2W7jVrhNgacwrQ0YcLUNGZaQooIpSJ3yDkN33dHcCWdtUi4rp16hwXlGFZDBqx9tBK3KhOAC6VOyFU2P406XN863F4ckSw.jpg",
-      "https://cdn4.telesco.pe/file/oGeY4OGyyWL-rhncPN4yBsNTTgfmMA8mAmJh5XYudUjMn-wl30j7R2qWW4IgHmD1Xlo8lx5EMjgnzS22fkiZsIYAB3tTj9FiHP_WZjgifKi3SnYshndIdA8v0aj7c3aufauAKZ7e26kNTma9gs7cJm1o35suKzDAVGUAIFsxvAlb24-J9bAoIzK7VuXja6oiLq5dRp3qO0Biv1OositAL_tg8wubu_Jh1Sh_ktczUmhjUdUHNvwOnr7cEiSNEKcN3T7drBV5zrxLsuMErL0nH8xtOPpGpS9UIfgZuuNAoQwPRyfYQMTzNdCuEW8ZUmhurDtExKGopreEhHRe_7H1Pw.jpg",
-      "https://cdn4.telesco.pe/file/tSMk4eDUDKZwb9TrGrapeapPmRrqOLNsdcq_Eyw9eX9ibSKI4cmKWqtVCWLKZucnkfDvJu96AyLG2uNNaqaiPPsiy0a1pw75ZwPai4kr02ihFcJYorINARB099Jf8twcdZDI8KjMqr5e5GUzOqqjPO9A9fZrZUVshYaRGFLcOeW59Gulob9xK45gaf8oI-7WfEWURIHfbLykH-fmUrFm-S5JVD2XepNtZErcyq2Wk2ceOSRNMUTyDx_1VMHwtfs20t3Y6Gr3ZpFPXHMNYhuKmLcdO7w6rLWncIAdiyrwGaDRBfAZvBGWS8aFAf-HSpR0d4vemFOMwd7B66qlkQlzGw.jpg",
-      "https://cdn4.telesco.pe/file/BEs_kkd9HqfM7VmTC2-6UkYBEjROvMSm1_T2tpI4gbBtSFR_V7o3jChcRVSTT1qR71cbvshcNfYWjdgdkIPbSO6MOL7LqoYf2GeSBi-Bdcdq8Aj70xL7ok3Dt-r9sboQ7Pijym21nqILYejWZWNHgBvrpaXY8-ttfhR1pYwb5b8BEX8wWxdivLWxrGwwr024DNL--41uTSlxnlKppvOYiOx92TT5hVUN36XClLeyPD83u7PWukp_Nk24znxQcY9lf-tW3V2pnM7N-cIB9jqwxPGwdsXHNIUp1t70oB7FSkEY3Zp6_bvBkuz-IXdLJWs-zpGUbPtfZDXIclF-g6aUZQ.jpg",
-      "https://cdn4.telesco.pe/file/Dn2IwKo_HMzDdDFb5bkiEMWfCfiBenee65Ql6ViXauGPC9u51B7Qoyx-ReurRk8U7dGf4G2VKnlQTSvoyPip_I636pQ4PW0zGf1mW2zQar8DnAiW10P2zevXUaOi1H7M-j0ZVdXgqtvw-HKUhD0OWRrtLrNTSH4lG5PVvuqt73CugwRwkvCLPjjSJsaQHSiZjGSk9fXJmOeanmKwjIXof3-QfzAkLqdVHVRhjLcaEJy1uMTxel2cZy8vOJI30OCEWqUt5WPJBmQkgZFfYQr-FOHgtvA6oyzc6HBGltOW9_S-YOgJCvxDKGMv9uKt4PsbNdvRrQAh4axC-x8wPgKZGw.jpg",
+      "https://cdn4.telesco.pe/file/GJyqdgsNgDTXY8KNl841MlCccN46hwGPYiA6VcJkTKm2C1RP6sS03kZNGLgsDgD9YEqSPjj8naglYVE5rXaJc7jD-bOHFkzPozNuRJg4jABd5scbN-umsMYwNcuUNptULbHO1MxHY-_3gOGMBaLxkHY_YUDQ0D8Ayqn24mQYrDhjhdIPKgqazDVoPzEJlMoeXpuaTpwqU8LlMaWPr0Y0UbDX3kzpWzvJq6GRiAAym8COXkPnZFJYNcd0brIFewPFGUWxcE0L0MP1kMIjZq05MhYl45VPD6ArF5A3BFwLUEuZlaDslDoAgljgRzqlDqqqhqq0ADZq6DXcOJ__O3jnaA.jpg",
+      "https://cdn4.telesco.pe/file/FSkzcb9hf4ciHRtgEeNX4yy2ODgA_QbJ8sqE9PBeipPOevRkGz4aXknvngQtTF5W0aYV9g570VOzA1CPptkmwQw-RyiryTEn1iFctCnrlt7X5cvnqmb-XsTS2wsfgxA5CGD5rWq0MOAl68p_y3MnIU80cNAH1NZYbv1P84dWpNipJ3nRrOxJs4LC41ryVt5qCYFM6yeXX9erMedD4JFmJcMDB_2Z2e0PLYc7-_4eQXvqpammlugi9kTbjQ48RXKipWkVMX5Xf7HgbIBPVBFU8Juhir5jebdnzdXG8aCpkNIjLsNZMHQUIJvCXSlY1h_9wtO6hPAzLZsFqexls5CYkw.jpg",
+      "https://cdn4.telesco.pe/file/kdHVaXHEc8s_3Aus95DJ3-6G3Rlgy7vmtYLvXuYr6xMce12CA2JJRnVH82WlbsOQJrBZmcJAY9S86UzCY9gO1lckx7qLzgEGv7YB3hbREyPGOEFadbUm4HlqCVO4hFUuSNCeakvmHFtbvA1k6IXJgcRCb1VegzWtJwQA_GSk7VDfNgM9cGTfvGGtxHZOXmmgzOlgbiKcFSAtWLAPMWgHnKB1Thwh7E712FrPbvIrKdcH_mNbUo25-lPdz801QACUcpcSfc4acpd2mb4ZiD6TTM7lclo5x8D56oGC6eIg6uaHi5fLiukz7R3hH5cIVmBI7Djp4VRaO15G1QEx-N-GyQ.jpg",
+      "https://cdn4.telesco.pe/file/N-Ko_wudVgjpED_fLlDM93LQ-xgtRN5rHnE2uvKXcN10Pfd16BLnCUsKRCLiWtbXBTLG4IxpH_FOoqtNQU1D-5P58WEyjMStxZemSr1TocVoaHNyu9pUTnp6zi5qW-K3vv-QmxnHI6UPPGBaKceQmV9aLwd4-xJ2AVVjLjpjhQMVPf_BXboei5siiXJUyf5ZZZPJXQ_LUTZf9z-OOUJtLsqDER4-kAWt3TdX2FyHbxXpaNSflVE2sQeX3Gst6OvQbKazZDP7FPxoqx0wrNUXpJwgysPIjKOo5p4u7aMuyarwapPwKumspIt41jG5uJRW9fMO-2S5FglqvAx-a1vxOw.jpg",
+      "https://cdn4.telesco.pe/file/GIFEQJ--BwbuMZsgCAKLMQLqcsPv8J-P2FSr-LWQtp_9NiEmQ43mLimiHIhQfh8wLr1V2NiBymR_mdRumX3isHVLJfikCYnUtLx5STC8ZAIamztbAbiGOUzNAbX3d1bi1t20i-OUloPl6ojWI5BRbyyuKJBC-PLXSvCVbCWmTZZu4NTjEFtDtddmWHbPwLQM9zFnOPO8mtapIa2zCdWJyLwnrhEHefQskhzN8NbUd1wLufAyLQGxMc-CCOSlERYyXidDDokWd3FWBjXFhjSOoE1-TEfPFax3PSKH9IF9sqZwowX0LVlFb76TSQag5MkXPzp9GcwMAvA20U6DtvZclQ.jpg",
       "https://cdn4.telesco.pe/file/vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-FG5LTKEB6pQNbpnal6Op6EnJ57A4FahQ4uTWNpv_nCabS82ZNszHl3tF33a_6OQeQ64c7q9U6kjW1Wt9SXai0qoFJRHqcMKkF7SqJpVxlXSVpysOEmfM2TrgfV1oyrupF03C1Iigiz5VP157c2CEppCtWHGKDVUQeSerhjXr4p9s1sg8IXvjEQlOJhtzCVYS7ca4MgjHcm3NmSA3Xyhc1MR6y-YrW4sPHGrFvuvl_J31G-DAdEP6lR3E1dY1MvA0gxbSrqIounbPjyk2C3C75j7sNgGErj1FK2YxAh8D5Pqqagg.jpg"
     ],
     "views": "12.4K",
@@ -300,11 +300,11 @@
     "forwardedFrom": null,
     "tgUrl": "https://t.me/loving_bi/56",
     "localImages": [
-      "/tg-images/56_MHrjdRRjJ1bkKTMHnsdttB0NUnIqtQVFqHFZV8dL.jpg",
-      "/tg-images/56_oGeY4OGyyWL-rhncPN4yBsNTTgfmMA8mAmJh5XYu.jpg",
-      "/tg-images/56_tSMk4eDUDKZwb9TrGrapeapPmRrqOLNsdcq_Eyw9.jpg",
-      "/tg-images/56_BEs_kkd9HqfM7VmTC2-6UkYBEjROvMSm1_T2tpI4.jpg",
-      "/tg-images/56_Dn2IwKo_HMzDdDFb5bkiEMWfCfiBenee65Ql6ViX.jpg",
+      "/tg-images/56_GJyqdgsNgDTXY8KNl841MlCccN46hwGPYiA6VcJk.jpg",
+      "/tg-images/56_FSkzcb9hf4ciHRtgEeNX4yy2ODgA_QbJ8sqE9PBe.jpg",
+      "/tg-images/56_kdHVaXHEc8s_3Aus95DJ3-6G3Rlgy7vmtYLvXuYr.jpg",
+      "/tg-images/56_N-Ko_wudVgjpED_fLlDM93LQ-xgtRN5rHnE2uvKX.jpg",
+      "/tg-images/56_GIFEQJ--BwbuMZsgCAKLMQLqcsPv8J-P2FSr-LWQ.jpg",
       "/tg-images/56_vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-F.jpg"
     ]
   },
@@ -313,7 +313,7 @@
     "date": "2026-01-13T07:10:35+00:00",
     "text": "Как делать дашборды так, чтобы их поняла даже твоя любимая бабушка?\n\nКаникулы были долгими, и я решила попробовать написать свою первую статью на Хабре. Ждала модерацию 5 дней, а потом еще и публикацию. И вот ее наконец-то опубликовали&#33; \n\nВелком почитать https://habr.com/ru/articles/984620/\n#дашборды #советы\n  \n\n❤39👀9👍6🔥4👏1",
     "images": [
-      "https://cdn4.telesco.pe/file/dTBkp1AyVgi6krmEFEw52rhwvhlclc1X3xlvtW65FUi5LOT-w-fuo0hjHGvEb0ERrIp_3-Nm6eOsHsjmRBoFKUvG0CFehRA8FJEGUINJVe6NRTWrSGKrB1TdHEXJhJof8fTrahULI_GY4EmiEmQkcBkyCtlWVKyxK-mI01SQ8Z-1mX2DkBudzr-SPWiSDVMKiOqZtZIhBgJhwkeMXAveEmLnAXWsGl61EWxhPSVmiPYwoVp11x0WKB3hrpN3OP_vjFeCvOw5zxRT7WbMWN2h6dIA-L_KIVKPKsjGuM2wvbDVg0k_evNdSLBr4jLC5JZb45sD3WdI28OVtX6WviOPGw.jpg",
+      "https://cdn4.telesco.pe/file/Ayrbp6q7evNnkWRbTi9sA87IldK3H3WYvAd9gcji7zShjdb0V_B_yWRgCQD0KPwVTXrQHjAjc4V4ORb8yinRzQurVdKpDojXlmkDH3b8V480GMNlh3vo5gcwD_zWNOxpmV_VPJQtYeSmXi8OM1KTxYSuc6XCFocJCRWiRHlYnlkIitJBLk1xgF1iQlhX4kYQcZ_sCr_1OTPVpNdAMbdcI3uAdwQ-kUBoptJXI4qIiJofcVDaM8MfRsKOfGA3Ts4StiL_I8tPv8BA94egBE4MPdHVqdU9sdiLGwSRNVgDCbqg3iRlgk7vFTOI5JRH8ayDk4h4PP2zsWkK2O0mkYfhnQ.jpg",
       "https://cdn4.telesco.pe/file/vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-FG5LTKEB6pQNbpnal6Op6EnJ57A4FahQ4uTWNpv_nCabS82ZNszHl3tF33a_6OQeQ64c7q9U6kjW1Wt9SXai0qoFJRHqcMKkF7SqJpVxlXSVpysOEmfM2TrgfV1oyrupF03C1Iigiz5VP157c2CEppCtWHGKDVUQeSerhjXr4p9s1sg8IXvjEQlOJhtzCVYS7ca4MgjHcm3NmSA3Xyhc1MR6y-YrW4sPHGrFvuvl_J31G-DAdEP6lR3E1dY1MvA0gxbSrqIounbPjyk2C3C75j7sNgGErj1FK2YxAh8D5Pqqagg.jpg"
     ],
     "views": "1.91K",
@@ -342,7 +342,7 @@
     "forwardedFrom": null,
     "tgUrl": "https://t.me/loving_bi/61",
     "localImages": [
-      "/tg-images/61_dTBkp1AyVgi6krmEFEw52rhwvhlclc1X3xlvtW65.jpg",
+      "/tg-images/61_Ayrbp6q7evNnkWRbTi9sA87IldK3H3WYvAd9gcji.jpg",
       "/tg-images/61_vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-F.jpg"
     ]
   },
@@ -443,12 +443,12 @@
     "date": "2026-01-20T06:54:03+00:00",
     "text": "Советы по визуализации данных на картах\n\nКогда визуализируешь данные на карте, получается цельная картина — сразу видно закономерности и контекст. Жаль только, что картография подходит далеко не для всех задач.\nНо стоит карте попасть в правильный контекст — и данные буквально оживают. Давайте разберём ситуации, где визуализация на карте работает особенно классно.\n\nЧтобы было интереснее, я взяла реальные данные Авито, а в конце подготовила небольшую загадку 😉\n\nСоветы по датавизуализации карт:\n\n 1️⃣Для числовых значений используйте градиент, который соответствует смыслу данных и не искажает восприятие.\n2️⃣Для категориальных данных выбирайте равнозначные и ассоциативные цвета, чтобы категории читались быстро и без путаницы.\n3️⃣Количество лучше показывать кругами, а не заливкой, потому что заливка визуально «награждает» большие регионы вниманием, даже если значения там маленькие.  \n 4️⃣Подписывайте только то, что необходимо: для контекста или для акцента на ключевых регионах.\n5️⃣Дополняйте карты другими типами визуализаций, чтобы подсветить то, что карта сама по себе показать не может.\n\n#датавиз #советы\n  \n    Please open Telegram to view this post\n    VIEW IN TELEGRAM\n  \n\n  \n    Please open Telegram to view this post\n    VIEW IN TELEGRAM",
     "images": [
-      "https://cdn4.telesco.pe/file/cNu9LS3SfILfqfTZA2rQItH_Gsz6l316BhV3_s9rIazIeBK8IWcJYpkqUP4vZ1GYScSSmUsqvT8UnbPjhrYi9EJNvz2wA8OqiPNe1w36-W6hXWUtFgQK3lmnisBX-SZgXfBQvc_jIw8p9vBvQgERwk8Wl82W_nlHdfPkzqYrLK2X8C96ipvvujyeWMI-_l36VJ1uEFPXp4czqAPeqXiQZf9c-u5WLbKz16M9M7qxXInjMsHCccweNRP6fSTkgpcrDN9oTqB_hw8PffuRM2fATdthBvX0N2alZ8u5FB3TQqjze1FVC3HvI0N98ARbvezjQ5yUEnnbh5fZAXvsUkjmZw.jpg",
-      "https://cdn4.telesco.pe/file/QiipLSgtsNWLvQ6Qd7WTR2yCrs9b7YDpWXgAwtN2sd7Cot-gYxM-cLRjI5ISpYyDP_aKnUB63_JVPmOMvpI0ntVMkjkPCZcGTw1lrb_dQdDzH4b2SGN-nhQf5NvSn5mBCvBCazPUi8O0AR57SOfYRryTQbgKZv98pgqSnLaiTXcCNXULWDf0S-YT2ahXERRC_YUNk-F46NiG_j4xmbRALzB9Jr5SP73xYvxdiNdFMtxU_XbOGIs3xlFiECmjbzuIr3-yTR6-vv3BbnkjjXb5AUaYIlGH8-T9ZnqRWCmUKIcblSzMcM6wc5LPaNoqdBhysJB2ncu87k9qnHiiWFk8wQ.jpg",
-      "https://cdn4.telesco.pe/file/amaFxhBbHILXrYwnOp_IU5yo6rriVnKT4rq3LW91Jsxw_YrE9KwEcOGExtuVHeNAEWLCWKEr2BYnteL_Q7VJjMUBXKwqA-qW7GLoJgGpPBI1-ucszuAVDPJX44hiZgVfrP76DMON6MpPRt3CWzAgb6S4rxhLsbcghF-1wXNzxB1sgSqQZGdvSGERpC3bgQ8x9iGhi9i-U1uMz-yJYlCbL96SmadJYrmym4fqnrcEI9GjunlSfGOOxsbORpp6AwVYijv0FfNSI2yI5WHxsFm1f5kqpRsE1QJ3Z098PP1DLWHrt-pwloeNIjljh7-FqcRDlMkt-KU7msZUHcOTuYgfeA.jpg",
-      "https://cdn4.telesco.pe/file/Gmj-pZHz5-7ET4aEkkO1lQRugHUZPIULjjmGQHlubLMSD7qTPgxqrbK8G9c4QHt8o_E1d1OABvkfoXotZvYlp7C2OsXx4tao5VEQs3BOUjgkm9slPR1UkNjtCtdxtWpLtCWoIHKpKw1EaXdEoFSeyXm3C4A2jSs5pRn8IIlk1IUb4rVuCTeFni_nSeKCFGNPVqEa4GphJGNafu5npJOH8dA2uvn8jSpPjZzAI70JPrE61TI_lSannPxWqDfVVKN0gPkzU1bZqbdaB9OBSzfrn8H9PUNPfi3wxYwiJv9TZgCHIbgKKcBF-an39nnuFSPxmdPnYNgw6DRvMizESjeRFg.jpg",
-      "https://cdn4.telesco.pe/file/DfNCFGQSiCR6PxAxQJYIt3PrNOVq9DROlmUye99ybDsADpcknwa8K01quW9s7Ah3bak-Gr0kD_OZkTotHIMDiaAHf6QIqGrOJtbpuxu4-mU0slnI3rehYsx1Ma9wdVh3xR0K6uR3bCkscA6ymkD_ZIHtUYibp3IQHAXKpS2s3lAIHpgPKv-HpBUY1Ay3UwZjfPhPKIFpf4g7oyHhv1YZHlAd8izFBmsT5O75ikj5zdavFdCG0eO541aZfK645if7pGlfhISYcaECs0IKpCa43jSFLgO9m6p74S0L05ra908JktHCM5hC-f2HXM1m2QDLo3ThOhoKU3eUnYgree33Yg.jpg",
-      "https://cdn4.telesco.pe/file/nWQVYLqiji648mlpjRmpr9aL6YYD1zwMJpcgUHjTyQ4g6p-x7MahrNaqBVMxGPphUKmmcbT7hnCEyQOA1I_2_wNIPQeQ03xFgiQEtWCvuKUU_8UXM1XmmpGmipmSyXymX0BvpIMFG4oMvwMaNyJqilfkU8qCgmTLdSwiL4tjoOueHBT9MygOEFf3ywIeSVJ5lKZUBbZ_E5eDFtA_FQIQqdAeXNR60HlupwXi2S-zEpULZLYfq5gbJEeOG1AY186n5UM6q_5oAtMDh9HtlfzwmSqA2GI9P-zEJxTvOEplEN3Ti8oKkqzhahgKDQAcQoepzOwn3HUMKXSkKz9iemDWIw.jpg",
+      "https://cdn4.telesco.pe/file/UG0eiDMsNhsVokgma4OAZ7s0Hp-oA8xIHmGHyRV_OsIi3h_oly3QkiFJFGS2JTvtuH6xrwNqsV1v4FaWw1ETEgZEkCdq_Hvgaa-lIH-YojY4p23ZlT0tShlQ7gFTzlw-3ns0wzXKurkB0s7JJMGRhXTNUL9ySK5J7EpkGpAGZ6hjjTmtAlCXsB0uNesYGobQ6VtnMcFqAqPIj5QeK7ali9RtlpAwZdyAGtRmiBUoP2ezyJHbGD43XYJCzBJlQk81F1MuTep175hKzG5AUg6yZVHpUfwFxj9n0jTI6KQDzdD-BKodZoaf9H5cRsx-W0lAZyNHiMcZot-DGtUGifPMNw.jpg",
+      "https://cdn4.telesco.pe/file/OwYmR4t2gWF-CAo70akp5nCoDMcSVPA08CFsE_MYVizoGQDboK8xCq9DQY1NqJLmAR7BThh4M9L3UbteNfEroelTuzuVzjXW1IpuM4CZMeXQQstDu5Q0QDf8wFXH-FXQjObdEe69_24kkE1imye9UHPLCZP-st6XN0cv92MhYypjShAfQY3wNP-f1bBkQw4v6-dGv4k653NpbsAI9AZdir40AYd1bhsPj8X58dSp14Pa92SVvgyMxLEbqbT4iS0ECyrVirlMsXqMUP3eCRM6shA471O6E6zCP6KXiRdYpVudiiSJyRhfgQn2Ftw1vZ1h_Xrg20eE3fMvbEhDqin8Bw.jpg",
+      "https://cdn4.telesco.pe/file/CAiUXchu1nZpN7ivJy3YX1G0Vc6msD1sXfUdnpc94gX37dsHDFShpzXkIuXpBF_sFY7fsYhVsijEPP3uuVR3JTbIqihZQ8bo8nGgjBNek01ENuh-iE8PcsBCTERDaS-a1dwGjSDwH83AeMrW2sZRqdPCamvnZ21M0BfL01aL-2Hk0OBwgWmX-4LhEIWbgkNFgAuDu85qHeyed-AFkPmCNOqDXZrgdc8beYLi3zRpSQwDLifscmk5fgyJ6Z-D_1PRD7nOUudJiedXtaW8sTej-yQkaSotApxH5TawTh9UQlkHdXicjW9VAnYN7lscJdRN6UqhRJEDoUBu6TSWsqOCTA.jpg",
+      "https://cdn4.telesco.pe/file/vtvTP-LRrdOmnZeBZZI2GFQN42Prn-ntg7tOSNWG3R9WksxnNAZJB8cL7PCw6mtEDpnCZ_xWC8wsbs0_W8DwB-qbbh5S70jXsMPp_tKn_3g4aH_I2VYRP4B-x2nMy5PambxXABLkaqS2Y0zfvUzpMHIPKxJeGJ2WBA7O-0iQ4lFi1TC-AviQTyWzmubpAE0bNsQ5ScnXDIHRY4zZUiohJGipKNURSbFKTRLxA0mdPFC2blQBfvoyrJwDoZ561fKHBfcnIAK4af6YX8Eje-gtbD58hASibvcGoPdSHTZJOnZfTFgqbNr64uAN-0nixQSN13IZVQ9V4YLL4g9MLxQnmg.jpg",
+      "https://cdn4.telesco.pe/file/VRR8aoWEWNPIls-4-1VTze0FuSFPSQXbV3G6totcSmadu_X2n6B7_7zYJeXbb1gDxfwzHaaLrWgxerWk3w0uLBd0tNhTYn4AkNVBzYtuMQtyiz9yvRzr_Qss1vPj2qLWRwxKsfYqksvMJDxbVqsM7HK3wLxz9cnlfoRhJs9e6qgPTfG8_jK_eDKwKOLKPIAbwBvN7eKVprYkzpnMH928tsV1ufUk20VDoHuIJAKXbbFhQqxCZZi1GY2lVtNxAjCPxvSOMzZQaVPSlOdrJvxxSYNoSaQ6_lkC6_tnjw6CxaDe-wMyPjcr0oBmdq0ytV-9S4vGzPMlHWoU378okpgE8g.jpg",
+      "https://cdn4.telesco.pe/file/dnckmS90QcFvES-gRXSq0XPbXsuVxxJdVv3Y0SIswzrF8GVLgard1Cc0w2ehy0Z0EqUch03HBMp1aI8VOkcmIL5sGhohrRigLRB9EKq4Q1sT365rY0om9fPOQU3Chx7yN_FomtqWo-SxtaW6qjqf3nnsAwOfx7FJpX5xHfG7zsjPPfbE1GmmaHysILLwRAyLE53aGF7WMIUvnJrnanGIrX1_DR0eUoGN5kZjQ717LcJ50UvOpMSYiRkgvEGABCzc1NJe3C_5soDtomfIFNVdXMQqUOY9CHJ5Z9p0EryZR-xEUbeSde1riq_KUttZ2rRfU9snbuajIDNeKnRLQVMukw.jpg",
       "https://cdn4.telesco.pe/file/vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-FG5LTKEB6pQNbpnal6Op6EnJ57A4FahQ4uTWNpv_nCabS82ZNszHl3tF33a_6OQeQ64c7q9U6kjW1Wt9SXai0qoFJRHqcMKkF7SqJpVxlXSVpysOEmfM2TrgfV1oyrupF03C1Iigiz5VP157c2CEppCtWHGKDVUQeSerhjXr4p9s1sg8IXvjEQlOJhtzCVYS7ca4MgjHcm3NmSA3Xyhc1MR6y-YrW4sPHGrFvuvl_J31G-DAdEP6lR3E1dY1MvA0gxbSrqIounbPjyk2C3C75j7sNgGErj1FK2YxAh8D5Pqqagg.jpg"
     ],
     "views": "7.74K",
@@ -469,12 +469,12 @@
     "forwardedFrom": null,
     "tgUrl": "https://t.me/loving_bi/74",
     "localImages": [
-      "/tg-images/74_cNu9LS3SfILfqfTZA2rQItH_Gsz6l316BhV3_s9r.jpg",
-      "/tg-images/74_QiipLSgtsNWLvQ6Qd7WTR2yCrs9b7YDpWXgAwtN2.jpg",
-      "/tg-images/74_amaFxhBbHILXrYwnOp_IU5yo6rriVnKT4rq3LW91.jpg",
-      "/tg-images/74_Gmj-pZHz5-7ET4aEkkO1lQRugHUZPIULjjmGQHlu.jpg",
-      "/tg-images/74_DfNCFGQSiCR6PxAxQJYIt3PrNOVq9DROlmUye99y.jpg",
-      "/tg-images/74_nWQVYLqiji648mlpjRmpr9aL6YYD1zwMJpcgUHjT.jpg",
+      "/tg-images/74_UG0eiDMsNhsVokgma4OAZ7s0Hp-oA8xIHmGHyRV_.jpg",
+      "/tg-images/74_OwYmR4t2gWF-CAo70akp5nCoDMcSVPA08CFsE_MY.jpg",
+      "/tg-images/74_CAiUXchu1nZpN7ivJy3YX1G0Vc6msD1sXfUdnpc9.jpg",
+      "/tg-images/74_vtvTP-LRrdOmnZeBZZI2GFQN42Prn-ntg7tOSNWG.jpg",
+      "/tg-images/74_VRR8aoWEWNPIls-4-1VTze0FuSFPSQXbV3G6totc.jpg",
+      "/tg-images/74_dnckmS90QcFvES-gRXSq0XPbXsuVxxJdVv3Y0SIs.jpg",
       "/tg-images/74_vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-F.jpg"
     ]
   },
@@ -511,8 +511,8 @@
     "date": "2026-02-02T07:28:39+00:00",
     "text": "Отвратительные графики\n\nКанал «Отвратительные графики», как можно догадаться по названию, — это канал, где публикуют примеры плохих визуализаций данных. С точки зрения датавиза он крайне полезен: антипримеры отлично развивают насмотренность, а учиться на чужих ошибках обычно проще, чем на своих.\n\nЯ решила переделать один из таких «отвратительных графиков» и выбрала инфографику 18-летней давности от РИА Новости с результатами опроса женщин о качествах мужа и мужчины.\n\n❌ Проблемы оригинала:\n    - цифры разных качеств невозможно сравнивать между собой: во-первых, они разбросаны по всей картинке, во-вторых, данные показаны в разных масштабах;\n    - по тем же причинам нельзя чётко понять, по каким именно качествам требования к мужу и мужчине различаются сильнее всего;\n    - попытка сгруппировать качества через указатели к частям тела не работает, и данные всё равно хаотично раскиданы, особенно вокруг «сердца»;\n    - есть приписка о важности здоровья и отсутствия вредных привычек, которая никак не подтверждена данными;\n    - иллюстрация с мужчиной перетягивает внимание с самих данных.\n\n✔️ Что я сделала в новой версии:\n    - отсортировала столбцы и показала их в одном масштабе;\n    - добавила явное сравнение разницы между качествами «мужа» и «мужчины»;\n    - сформулировала вывод на основе данных;\n    - использовала нейтральный фон, который не отвлекает от графиков.\n\n@loving_bi\n\n#датавиз #реальныепримеры\n  \n    Please open Telegram to view this post\n    VIEW IN TELEGRAM\n  \n\n  \n    Please open Telegram to view this post\n    VIEW IN TELEGRAM",
     "images": [
-      "https://cdn4.telesco.pe/file/S-LYozYj3g61dpCSFRvZVca9s9-SbIBvsbFKFww1mTelEeslIYtdkli6ql-rBC9pIkMI8MFslz-4jvs4WqzdrRow1xygH-3137qOvjzfhT6-BxwZ13_v7enH-yYRn9y0ORl9cD4qVfBjYNe2aRVOngsq5qziwHK139C1rkALUdEkuaBl4_e6YKA2Gl4gmpg3p58L-RkFmAbSXOUtBMiDkCYG-iCRgO3rNr0zHn03-QRKg9Q-m9O11lBJqoMS6THJ7oyEqS91OozKDkldcnRmRkeAU-5eQ89icZjPBoFKc2nVGsjvoiSBTUcJkH6-rEe0o0Zo9RlWkv0qiMoHDq-1nw.jpg",
-      "https://cdn4.telesco.pe/file/II2snj62fP4F6ufCG2zNkBOMfEsTml_G8uIK1zhb5okNNAxPluAm08iIVMtvZQW6WwymNik9hlSK2jGoTu-ZSR10UhpwQZ04uCSGN5Isc-VTyHPFdWRs4CoJQUPF-zs-OQlH7htyrgQQwm5j0eEJo-slIcGLF8ZqLlK1slfisChUtWNZoXLnSWNXmw0qHK_B4QDAmaNyrsulKfrdMKNxYd4Ss8fEQZ7uul12sk4J1TjkPJql0yCxLkkXt5a1axFfBU9EtjWmur58YaTwqv73a8w95ZobzK-pjYw1ZcUbg4AX3vtCfm3emThilB36oK5lZw-yZ4oSPT_H3HWlyRc9CA.jpg",
+      "https://cdn4.telesco.pe/file/jC7JqcGdMB0o7BRQA2GECeCOkS9lwUTEBdYQ-qRiRWuJ0IP8xSi9cVp2pH6SIhBvYgnDpXId7TN3TtzTt-pEdxX_TRsP-530OItwcmbvNji8jdMw9N1BZHUlPwy2v-qhY1ZZV1rW02sDfpiDyOZRDDNYrc0B7M8c1rwHbzDvgMQBBtu2-TDTuRiDsXW7shgc8tmEgxZkwLZcxJzGtmUAjjPLeJ6-TQa9VIyjaKIwt1IaZ1dkqXapa8fa4JuQmhkLtBLFWV9zSLdZZhfuJ3Ifu-CH4Sr2TFRtGYWCMpyvK_8GOC9GoBEVKJLk-sdyALX_EpuWm2PC0QXve_RORqb6ZQ.jpg",
+      "https://cdn4.telesco.pe/file/E65Kui3LOkwUVhRjWSoEXNfPbpLlA57HPo3PeuEUqb7mAtaBB5KtK4_ptGbZMg86e9RX-AwyyYEFkjDXFwo6y4c0Exdvf2U-1f44d4FnlmBPsFUwmorSq_s8nNsbGVbnv2uJNaK8wXNv8jzHJ4Ns-Wwj1QjNuN1hQu8dVpfySrB6EIDveLcF3m_7uzb_sWlog8GHHZivFxGC9WzULEijcZ_ynXNpwjh5-KniUsaOoGMhYSnU2CIn5Q1j87fd1swt-_RtE0YtYN9n-zG3RMQqJpRQ6FFFo9lshaLHG7B_K6Zo9dkMi4gnWqaGpMvpUDXyf_Mq-_y2i419YzyRCZcBug.jpg",
       "https://cdn4.telesco.pe/file/vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-FG5LTKEB6pQNbpnal6Op6EnJ57A4FahQ4uTWNpv_nCabS82ZNszHl3tF33a_6OQeQ64c7q9U6kjW1Wt9SXai0qoFJRHqcMKkF7SqJpVxlXSVpysOEmfM2TrgfV1oyrupF03C1Iigiz5VP157c2CEppCtWHGKDVUQeSerhjXr4p9s1sg8IXvjEQlOJhtzCVYS7ca4MgjHcm3NmSA3Xyhc1MR6y-YrW4sPHGrFvuvl_J31G-DAdEP6lR3E1dY1MvA0gxbSrqIounbPjyk2C3C75j7sNgGErj1FK2YxAh8D5Pqqagg.jpg"
     ],
     "views": "4.61K",
@@ -533,8 +533,8 @@
     "forwardedFrom": null,
     "tgUrl": "https://t.me/loving_bi/81",
     "localImages": [
-      "/tg-images/81_S-LYozYj3g61dpCSFRvZVca9s9-SbIBvsbFKFww1.jpg",
-      "/tg-images/81_II2snj62fP4F6ufCG2zNkBOMfEsTml_G8uIK1zhb.jpg",
+      "/tg-images/81_jC7JqcGdMB0o7BRQA2GECeCOkS9lwUTEBdYQ-qRi.jpg",
+      "/tg-images/81_E65Kui3LOkwUVhRjWSoEXNfPbpLlA57HPo3PeuEU.jpg",
       "/tg-images/81_vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-F.jpg"
     ]
   },
@@ -543,7 +543,7 @@
     "date": "2026-02-07T13:04:49+00:00",
     "text": "Как я чуть не согрешила. Или рассказ про pie chart 🥧\n\nНедавно я делала новый дэшборд и мне попались просто идеальные данные для круговой диаграммы.\nСмотрите сами: всего 4 категории, а количество заказов в них сильно отличается друг от друга. Ну мед.\n\nНо всё сломалось на этапе легенды 🥲\n\nНазвания категорий были длинными, а сама диаграмма должна была быть вспомогательной — рядом с карточкой Total, поэтому и размер у неё предполагался совсем небольшой.\n\nВ итоге пришлось выбирать между двумя вариантами с барчартами Я остановилась на первом.\nХотя, если бы не проблемы с легендой в Redash… эх.\n\nА у вас какие взаимоотношения с pie charts? \n\nP.S. данные показаны для примера\n\n#датавиз #реальныепримеры",
     "images": [
-      "https://cdn4.telesco.pe/file/NUTKC3N5yzjWWYYovt3DnjTWJPvgqNm8A0f1HpR4YxrrmrznuEwBJWG5Lb40UW_ek7zauJ1-erjm3I4pHkUPWPBYvvKLrMh2wbB6IvdHoYxXykOM6Fa2mY40NnFzT43JWyuzyvL-7plrIac0qqkez31nKZEuImyStHxzR6m2SiA4GCUoaxN64nrYdUI62O6tisHs0DuSV_BI6gEeiJtivavScp_J0z8rDSJ6HbpMy2zI5Vsxs64ChoHeHfuFDm_LYcNQDNIqacv52rYtBssLA9IKHTNofOXvi0w8IkWV0K0wSbRiDXyoRVecuNkS7G5YRYlWDe3utOipmwavJhcSWQ.jpg",
+      "https://cdn4.telesco.pe/file/elbQJ5D76Ul4ox3wpqYzk_4m7f6C_zwAGFpsltPaT_fDUGoRGJEysBV6GhuQJVpyxjxPGVgP1UiFDAOuJFQ3SyTJFMoh91ZEZn05-ayH0f--3lpFpitfMpne8IQd79EfhTOEoIn5C1aTojebv0OjcDw7aR3n-j3vWP3lsHQeiCjVUuu_EyccI5aYGgbLsk-6uIVSX1kLJzkD7wKUxB47zmWvqjjY4PIe9_0VxJ4tNwx9RWSIxjBAJ7Nw5pKzwHcKKQwrWD4YwuJ7b3gezrrop-dO524T_4AIu4dYU5JFLA3cQfey7Cs1YnIBexgF8nlYdrZpxURhKyNI7Bq4ovwzAg.jpg",
       "https://cdn4.telesco.pe/file/vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-FG5LTKEB6pQNbpnal6Op6EnJ57A4FahQ4uTWNpv_nCabS82ZNszHl3tF33a_6OQeQ64c7q9U6kjW1Wt9SXai0qoFJRHqcMKkF7SqJpVxlXSVpysOEmfM2TrgfV1oyrupF03C1Iigiz5VP157c2CEppCtWHGKDVUQeSerhjXr4p9s1sg8IXvjEQlOJhtzCVYS7ca4MgjHcm3NmSA3Xyhc1MR6y-YrW4sPHGrFvuvl_J31G-DAdEP6lR3E1dY1MvA0gxbSrqIounbPjyk2C3C75j7sNgGErj1FK2YxAh8D5Pqqagg.jpg"
     ],
     "views": "1.59K",
@@ -564,7 +564,7 @@
     "forwardedFrom": null,
     "tgUrl": "https://t.me/loving_bi/83",
     "localImages": [
-      "/tg-images/83_NUTKC3N5yzjWWYYovt3DnjTWJPvgqNm8A0f1HpR4.jpg",
+      "/tg-images/83_elbQJ5D76Ul4ox3wpqYzk_4m7f6C_zwAGFpsltPa.jpg",
       "/tg-images/83_vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-F.jpg"
     ]
   },
@@ -573,12 +573,12 @@
     "date": "2026-02-11T17:53:34+00:00",
     "text": "Выбор цвета для датавизуализации\n\n🎨 В карточках увидите, почему нельзя просто взять и выбрать случайные цвета, чтобы показывать данные. Я показываю, какие правила помогут визуализировать информацию так, чтобы она читалась быстрее и понятнее.\n\n‼️Дополню ещё одним советом — выбирайте цвета с однозначно понятными названиями, это поможет вам во время выступлений. Например, когда вы будете показывать свой график и захотите сфокусировать внимание зрителей, сможете сказать: «смотрим на зелёную линию, это выручка». Важно, чтобы эта зелёная линия была единственной, и на графике не было ещё 🥬салатовой, 🌱мятный или 🫒оливкой линий, то есть все цвета должны быть из разных частей цветового спектра.\n\nА ещё делюсь подборкой полезных ссылок:\n🔗 Статья от Datawrapper о том, какие цвета лучше выбирать для визуализации данных\n🔗 Генератор палитр от Фигмы\n🔗 Генератор палитр по различным схемам (2,3,4-точечные) \n🔗 Множество красивых палитр\n🔗 Примеры использования цвета на различных типах графиках во Florish\n\n#датавиз #советы\n  \n    Please open Telegram to view this post\n    VIEW IN TELEGRAM\n  \n\n  \n    Please open Telegram to view this post\n    VIEW IN TELEGRAM",
     "images": [
-      "https://cdn4.telesco.pe/file/aIptU4N-3jtHdvS20nglSaXfhkLftxmY4zJaGVycWuquYWitCCUcDw5t0xft9iMj3bB_1azyvVHe5lU2LC9U8WD0xHtAxxSkgAARdb4VgeHAkWsmzBdIdQNYwyQ3_HOEZl1oNjNXLCjW_7Nre3CJ6h7VX4Vw1-376Zt4lLfZZPZzjNE4XFU7TICYo1VM8scv5brChwjg3VECjBnLjf7F5dT1KDkx7S-xfGUugTkKBo-WgDPdokoQHCIDxh5in8t1TfEfCzVsiE57uLkoCwlS95ole6-AtPmyIDVGW7VbsYzRl1B1jWONQqJriVeEMHaKR3LwAB2BEL4-ZinFgeGOTQ.jpg",
-      "https://cdn4.telesco.pe/file/QbyQOLpswqVUn5QrRGuQRYIvyHOum1-FdcrEzRObonCf-bBVZ_RpVSIcf5BX4PbMpX8sS26Lhltbhbiqoiw83VjksvSnuT5sI1FoChDIri_JuFQhiHoLowHK6L_vZijFTPs06FxKMbpkOPlmF5sRcPXbfDmojoCRBd0qXx3SIR-BavgGsZ-HuboNuRFnL2LEJb7m9D5H5-HJyqHiFPfWm7oqFizmm7AAUOHSjNpi5bneCUPtNp5R7au4I8WR8f-vfJPWbW1d2U7TcSK69Isj9nxG3OLQw8_-GCQNYW68NpcXJwQlslsraeT6o4nSkGPSRLt-8-8BxKcOSV-tzb0nDA.jpg",
-      "https://cdn4.telesco.pe/file/QYLjCZ7dwqfeNW_8MFJ7w7YHrSTvx7rOwiTpnwpRkORPLh6rTjZHo1JgZMhbThC9Q8gk31pboqc2hyIY_OvGHA06SUEYnDf9D7JD2foyeo0jgtCShSiVvD_PbksB2WGxW3p2znzmHsarxPAtDC_xLm7DwmknTpIOw9WOCc_NVvoHJQo2dTy6KJb1U_5ZBwsnqSbeeizP_1ePGYMzYwh83Z02MWcpmAVK0kIZ_JhjLEFosgvVU8wbtLF-7QxtuicA8fETWf4-MGLKgqMxseIgCadiEl837i4n9312PwA9vpVYkAC1S7CN9UI6Dbky8oHcRmoTAzXjcLFusXYXDBEvGQ.jpg",
-      "https://cdn4.telesco.pe/file/FbsHEntKr8o10DKZ3GvzmqrqJYxKXXKjK-ih_iLO6yyBIsQ-xLcksWYpPg6uoJ5n0mYoxdX_atozTdvl1jFlKTsPezmtK_ot1q26uVJFVlFYln-YzA1e6BoCtGiI1ieeUgcxthbivOCdTuyQt2SMQk1pFfmYKncpHgoRvi1fOQe_YJW4hvShj6Ls6CVF-ndTIB6R8lN3O19cQ22natcwdpedchrL9tEqKL7l1XJoFfesShEeSfAhwxr3CEMozZTJM90z8F03NgKbFHs50Le9--18TT-jW_TCxyv-BSnolTUYJO9VpEzm0AqFERJxq_xx-rEJkAAYeticjoWLC23mpg.jpg",
-      "https://cdn4.telesco.pe/file/sjb4CVNVMCyVGx--fA56inHfYFiTSGyl0Qt9hYUyewMvntEZ-xV9tP6L-gaGx4lJGEcN9XvXnC1SgBneCqmC6jLEiEkn-K_oSS9HqsI2599ltg4-SCgcDHH9wgyaPwa3JWtbcBghc0ocg1wQXl_LRCakUGbnom2oPB4me0yUwO6M1XuHZD8odVzsIAU6hsQKnKXOkg8lsyYc8hmhDPCwH4M3CevRebt0Ys5-a236A5-KXEtjJRXieQhT72R9aVfDQCKKDUnwl-wZm-QA2C-DZ5b_Q7Qkbbh0TN5e49bO8t7iHpjiQ6syqMe2VJdKZurPqgPOeIEQXpFwP4X95aJxZA.jpg",
-      "https://cdn4.telesco.pe/file/u-1NlpxfQ5QjUMeoTEyvpj1Dr27woxTlPTixm2mpw-3W2IzgI-GzK3FAPU-_m6PwfZP3vbcRH1fX9kkcfKz1WknYGUP1QmU7DALsdcsXB90x9mxPzXM5n08wJlGqCUQhV1iz2TxPyXfRCW-UqYzypws_xYv4uHTIMFw0qdMqdlN7tg9bOmqN-MQB5TN_u49ykrKT0dbD8pze3ESeXqEbFr6fPUTnJPq6rG_hrpqk88QQ8LgYqvT1BccQ1bM37mQBY0ELEFltjCPiYBhoRolFtPxzaJwfNasxTVwuHqY_k8fygbYdHtrwX8hKZl1m099Qg1cngN4lg5xixX40yxu8RA.jpg",
+      "https://cdn4.telesco.pe/file/eShyknHLoQ-Lyf1yzx2f5ULIHW3Ild5LwglQPlArn7Z0eKpSrMO-xVHq0R-eBm6cgUou92D77IXMnLn3nvelZE_oaJVBSY3zsrxlLhAbus6yoqviftPks_BfTcAhYejYxcpDBfPKTBSWGw3O5riMbk5SXuJRtcOtL0ri_hE4WPcAfDH_hKP9TOL7zrL3hcdOc9ytY5U_mwr_QCEPHzEhlNT9uy5DuYXLRTbfJwj3X7QLgxyeYH45Y7siatyCDD80uerhLzMQzu-G-LRHR0Yo1iFsiHxcSA5a_R0R9xaMeJvuXBJ0flHCaJbLbkoVNbyOpFbX7PWiOSJtoOb5x7NjDQ.jpg",
+      "https://cdn4.telesco.pe/file/rR5rHW6vZSF69iTGHS4nZgdxXHuXBDVY8dipZEt4NxesDxEM4ig-2zwZWgBuOOhF2izaTdCiVI1IJP6qLDIvKYMe6y7p125eIPy30QkUJqShuET8FQ6nUZBUtpvZ66VmnZXKNsnz7QzjkqnjM3fPsqUdQgC3pSZg14uCsc8N298HISWA9O1-ZAESoiz6edm_OI25VL0EmIiAArsTzekuEmJfSETcBG-ILLEnXwonmHAXNm9IAlASaJ3xD4KKue0CTqpQj7rN9uAikIYbdCdqyGYvfpqSvmLbvLcjflTN168PtSQR3ETbKWOVGXsowYAaIkpLeyxckoyz6gRj5VhF-g.jpg",
+      "https://cdn4.telesco.pe/file/j9EO-tvB8qR0xcYdRDKVrcEgCRpwV-sGsfU-htF_zuMWMNX0_cYQZvtqu4nUS5JokIPbLCWbdyK4ZecUDY5yIwllzXnhljEUfpRZbjjSE9WzeV1dVMxYq4A5lSvWiDVYTAdLzylRilb4H1N5rCsUAkNaCDbEzztZ9xMcik6R5rPXU2nn03Hl36SH4USA2q_vuRHRTs3BT_6sTq-dKaG-nGmD3IrMGjyuvQTFCcqnb3Pa93e-k1nar46hE2jPUS-EeXpN1GXUl9-FOkinW9m4EPE4PuX-20-ZD32J2jfP6CLktzlpDqSObrH8V80N1UsxFd5rH7XXBVLzYBmp61bhbA.jpg",
+      "https://cdn4.telesco.pe/file/WvM8beg2gfYeRTGdZzdk9LAjylTov-kZyFtCUVG_sSX3wb0AwPVyszwnVeZcByTsaQtnkADvmdeDpdRKt_gbCRy6i8IAjjKyhSThQaMo2o-VUhtEyTuWZ0zBB7tq5TpMj4MWBn59Fr_Hl9jHTG-MD5kA7szAY_I9qeeoGzupZ6xv6uhaMusOsbLwChd2U8_IzOuFEAQPHDAaIOQ0RReCSSmVaq1d3IjMbReqPyue8dJiAPWw-MNPqRBXoHVw7iUy_KQyTPDMFzpbLZwUKpyGnq8mw8rW9D11Ha-rfA8_vQcj-sYbM-LNF9f0tlf6SAWDNZ4apA1s6FaAzSiP96Hgmg.jpg",
+      "https://cdn4.telesco.pe/file/G7_Hd2IXmYk2BMGjzlEWzW3tirT2Rnm2Tc6A_hVqQzW0cVxE_TT5CFkJwlLNLJFfN7KISyuZHAZtFV-7Xci1rLIRwu9yGi6AJfclNCkvllA54FGt6H09_mcxnBrkjyDDsj-GIgxVgGQ8_rAhn_QE1z7UGQ2nN2uRLMPzrwpSMXP6fRlRLiWINx4RaV0QHoQc0THhzfCRHcoIHxO2CHOy8Oa9aOO9W4wgLZCuH9Q-TcZq4-NUwpPLg4XP6bq_l4iy_PIBsr6m2jrV-Dt3QvfLGaBj7gK6q8kwg_jhdsGdEmRP7NhgK-EZKYt3akLV1zmm0fYr1ittEb1OcNhd2nn3Cw.jpg",
+      "https://cdn4.telesco.pe/file/siVgrfbQNhQfICCw_WaK1zNvxy8TF-pxH5GOLbvd1-2hdJljEqstP-xpuQepW9cJRPCEslCW8nYLAYjxju9AyR1t5oeLSVGX5v3gbfz1Cj7CMpIzCyjNTP2EIYfOcE_b6nFuHCij9EfQk0ScJSZS3B2jtYOy33YC7BBhYyJcZJv0CAoiwc8GY_SDtlxi2ZOZVtj3Ka6_c7uyRFU67lhmO4xUeDQRIktP6clRQE0PBk8FA0OiNXtkI3pka6EurGnzzYstPuaS_1NqN7ExChp0-ws0ZVzal5yFGT8vZJJCWOH-343BQpG9LeScKZ1f2pNoF8z-4emZvYMyoZoLG3oUkw.jpg",
       "https://cdn4.telesco.pe/file/vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-FG5LTKEB6pQNbpnal6Op6EnJ57A4FahQ4uTWNpv_nCabS82ZNszHl3tF33a_6OQeQ64c7q9U6kjW1Wt9SXai0qoFJRHqcMKkF7SqJpVxlXSVpysOEmfM2TrgfV1oyrupF03C1Iigiz5VP157c2CEppCtWHGKDVUQeSerhjXr4p9s1sg8IXvjEQlOJhtzCVYS7ca4MgjHcm3NmSA3Xyhc1MR6y-YrW4sPHGrFvuvl_J31G-DAdEP6lR3E1dY1MvA0gxbSrqIounbPjyk2C3C75j7sNgGErj1FK2YxAh8D5Pqqagg.jpg"
     ],
     "views": "1.75K",
@@ -599,12 +599,12 @@
     "forwardedFrom": null,
     "tgUrl": "https://t.me/loving_bi/84",
     "localImages": [
-      "/tg-images/84_aIptU4N-3jtHdvS20nglSaXfhkLftxmY4zJaGVyc.jpg",
-      "/tg-images/84_QbyQOLpswqVUn5QrRGuQRYIvyHOum1-FdcrEzROb.jpg",
-      "/tg-images/84_QYLjCZ7dwqfeNW_8MFJ7w7YHrSTvx7rOwiTpnwpR.jpg",
-      "/tg-images/84_FbsHEntKr8o10DKZ3GvzmqrqJYxKXXKjK-ih_iLO.jpg",
-      "/tg-images/84_sjb4CVNVMCyVGx--fA56inHfYFiTSGyl0Qt9hYUy.jpg",
-      "/tg-images/84_u-1NlpxfQ5QjUMeoTEyvpj1Dr27woxTlPTixm2mp.jpg",
+      "/tg-images/84_eShyknHLoQ-Lyf1yzx2f5ULIHW3Ild5LwglQPlAr.jpg",
+      "/tg-images/84_rR5rHW6vZSF69iTGHS4nZgdxXHuXBDVY8dipZEt4.jpg",
+      "/tg-images/84_j9EO-tvB8qR0xcYdRDKVrcEgCRpwV-sGsfU-htF_.jpg",
+      "/tg-images/84_WvM8beg2gfYeRTGdZzdk9LAjylTov-kZyFtCUVG_.jpg",
+      "/tg-images/84_G7_Hd2IXmYk2BMGjzlEWzW3tirT2Rnm2Tc6A_hVq.jpg",
+      "/tg-images/84_siVgrfbQNhQfICCw_WaK1zNvxy8TF-pxH5GOLbvd.jpg",
       "/tg-images/84_vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-F.jpg"
     ]
   },
@@ -637,7 +637,7 @@
     "date": "2026-02-17T06:58:42+00:00",
     "text": "Join на нулевые значениями в SQL: Очередное напоминание следить за NULL 👀✌🏻\n\nНедавно мне попался очень интересный пример кода. Это был старый SQL-запрос, который нужно было использовать для нового дашборда. Я сделала дэш и показала коллегам, и тут один из них заметил странности в данных, и я пошла искать причину. Обожаю разбираться в таких случаях, чувствую себя Шерлок Холмсом 🔎 \n\nОказалось, что две таблицы джойнились по ID заявки.\nВ левой таблице было 5 млн строк, где ID равнялся нулю (и это ок).\nВ правой таблице была всего одна запись с нулем, (и по-хорошему ее нужно было сразу отфильтровывать).\n\nВ итоге, пяти миллионам строк ошибочно присваивались данные из этой единственной записи. Ошибка была неочевидной и очень коварной. Строки с нулем равномерно распределялись по всем датам, поэтому визуально не было пика.\n\nНо мой глазастый коллега из начала истории увидел в одном из разрезов, что у данных провалы по выходным (оранжевая линия на скрине). Это связано с графиком работы сотрудников. Именно это и помогло увидеть несостыковку.\n\n‼️ Главное — всегда проверяйте нулевые значения, особенно в джойнах. Нули и NULLы любят пакостить: тут еще один пример.\n\n#sql",
     "images": [
-      "https://cdn4.telesco.pe/file/qN-16YQbKj30NbljGvpmsrHzBgUdPS4hJdUFWC919NgNRFAnwyHGxGlwp1xjm0lFHFToXeKDiwndTgff4RK1_AVGLjo2eggt87wKib1m9eiPabl2H-imSylzJV75yHyqxNp25-8E0ZS71e0gCqRh4kZlhon8vPkkf2yZoH5Il37H4DlvI1VSuG_RywZDl62wFgCf8sBB7IkMj8mrnS6zF_23ue_iG8j0yrmeBlYMgYEefJ24S4A3r56nGMuNeZS4WGd886Vt_PWhMceNhokS_GpQOFjrdkOu3rOIgOlWPOvYdlMNbter5ylKOO8U8OfGIamoxAYv_qtvS0GOxKrlyQ.jpg",
+      "https://cdn4.telesco.pe/file/UtiWYjN6g28YQ0_2cWhMJyQxAkym8ZsHAx-0EEBX7_WZfZUUzKDtNR-5o8iTTojAMMrWyUhRNnM4kOZJqTk6O6cmpcpsSAl3Z_S4rZNQDjiTAkJ1pSHd5FGYQWaz-zjrmo7YY9zYFPf0QvAzfQuU1ZrYNH97BGRYqG3V8v3FfMXsIgPixWZfNxPGZR2vybKHdNL_i1LJVin5ZD3o0FfFKQKrjPTEOaN0vGurDxwB1yb6Fn7Fu1lnMJyeqiZcz8cHlDpugjvLal3Q_NT7lAun2hdjgkVHY84itUf-iHGHQjZ50nPVkgaitAzM9yhjjKoaEIkxKdoJmJUXbnVMJfctBg.jpg",
       "https://cdn4.telesco.pe/file/vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-FG5LTKEB6pQNbpnal6Op6EnJ57A4FahQ4uTWNpv_nCabS82ZNszHl3tF33a_6OQeQ64c7q9U6kjW1Wt9SXai0qoFJRHqcMKkF7SqJpVxlXSVpysOEmfM2TrgfV1oyrupF03C1Iigiz5VP157c2CEppCtWHGKDVUQeSerhjXr4p9s1sg8IXvjEQlOJhtzCVYS7ca4MgjHcm3NmSA3Xyhc1MR6y-YrW4sPHGrFvuvl_J31G-DAdEP6lR3E1dY1MvA0gxbSrqIounbPjyk2C3C75j7sNgGErj1FK2YxAh8D5Pqqagg.jpg"
     ],
     "views": "2.02K",
@@ -662,7 +662,7 @@
     "forwardedFrom": null,
     "tgUrl": "https://t.me/loving_bi/91",
     "localImages": [
-      "/tg-images/91_qN-16YQbKj30NbljGvpmsrHzBgUdPS4hJdUFWC91.jpg",
+      "/tg-images/91_UtiWYjN6g28YQ0_2cWhMJyQxAkym8ZsHAx-0EEBX.jpg",
       "/tg-images/91_vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-F.jpg"
     ]
   },
@@ -699,16 +699,16 @@
     "date": "2026-02-24T15:40:20+00:00",
     "text": "Прожарка дашбордов. Я Валерия Смирнова, Старший BI-разработчик в Товарах собрала карточки о том, как мы повышаем культуру визуализации данных в Авито. Вместе с коллегами и по совместительству членами жюри Прожарки расскажем о необычном, но очень полезном и интересном мероприятии.",
     "images": [
-      "https://cdn4.telesco.pe/file/UheQWhlVcuSgNbqZ9ljrQMm9ARAbpT8Pw2QYr8FUBAd5z50tK2q3mo9OxK3FxCXkXSGk9EHq8sId9SdnRRf0V_UPcC07ZFz_EY2U47rL8HDLCZWTeVJtgJLbBo5UCbEinFQBA1tOl1xVscohD5TDsyBKgjEL1n-8BxxENvxZ3AVQrtNHgG5OHr52246dlJ0LE8CY3iCSjXyBKMObqls-yf03G63lweiZTIvTSh7p3O4uF87Gw6dHNLsQX9FI_xsSsI2uZHXsHOodSZmEtVr7nOfy9AQ_0kGFllVLN3Sx8_AtnNm0OU5Q8xoBu_O2sr4UofxT35VYv1U0mTMgaDUzFA.jpg",
-      "https://cdn4.telesco.pe/file/mhBItHBX_AZy2Pie7S-nMKNTnNE6VQXTace4iS6StXIFRPTvHfHMVFhk5VDB3cdc_b2pMgBwUlHaIpWjBZ2bdZDIPxbuFTuWGJqrLa_lU_PImiUvGX0Z-52W3u_pLSe0Iv3qN9xrihuuac1o5FLmhdmyoUlsF8kct4I3xk0lWTB4Kyd4LxaAjenmsVvoiTXkShu4y36hENzJwaTbtfnnN0tK9fPGucOzfpiL4cza7MaBD1r63U9R_aIgu9FH4SDbRWkE32lQXELQz1RbOOFGAfa0M8c--7WbhHpel68IsiJ1yLdwdumIQx04ass6MugFSLreOyL1lFt5wovqZroh8Q.jpg",
+      "https://cdn4.telesco.pe/file/YsfVequYW9hrGa9HWCWzpIHVuUoBBbrE9e6WG4bGGp5D37_p0eMF7pzShcJZf0MlNAzW_V6ncOIjywXDXtSoZq5rgS6wBs_Hui0XZT7HB38H--G0-0M_7PyKaytj5FdIFpPlmH-blrlxNALP7E7UPTH0ccMHbLbtyx-WJ-t5b98K8XOExSdeZGWEEg5bUm_9FqQ3Haq9KJcL1FXzsqY7WlNkFLt6HPjJLK5jWCOHP_FB-7nD_aGFQRnAFjslAYqtYWKnvzJVVNeYYgVhNV717h711O_wdn3jgkDxwFH9P4sRTQHtcd5zYJ1qd3LS47XT0JEG4TURP1y28HKcNWAatA.jpg",
+      "https://cdn4.telesco.pe/file/jqWD6ZRH884W-h23V5POcIDjDnOTmGnbDwjCCi7GOBit0ouESC0Oo6zD4HLoliG5kbzfQuE5dctW-RtX3ySm4sb0UGx5FPxxu_t-r0Yb04ku2eQvx0K4UHAQrK2vlUB5imGAXmsc1-395tphBVxhea3zL0AylM6TBTv9SFfbDivnY2t4x8na0vEncE9dAX9CNe3-Q9oA7pxV1dboQukhOOqkkZNemNMcEv2DLrM_6ZT1lYjMnmZXzPE0jIgnHv2uCS6xgf-g6J28Q2btkLRF4NcIlNIyjSqGrzmhbBZtD_aWVxW8D9LMg6Xy_rbYkGnUMB-TKbo1NX8eEiWrehYQCg.jpg",
       "https://cdn4.telesco.pe/file/TlNFdvARkg-4klF0Jh1n0yG-TcrZRBkF3Jb2SBqhg1SUsTxH2PiDIj38NrKYr0A736WUNb461Q1s3uDRQtZikYXgsl5QeieUjSegGYsHIxaj-Arq83au0AYkwEnG7r4pQSnLKbhae3eZzhtsXm_B_hKU3tFLcS3t1RaP1FcGf0pfw5by4JJ8VWXyyOWhAtXQB8qYota_FydgF06OWTZ3itaXt70IvD4_vSmpf42gH-t4H7UUvh-fYlIa4UTqTaVR0f9tTMrxZiBpiBK2LSkiJ_U2WLznZue5DNtbyp0-O8DW2REUFX6qYxjbzyyL2T7GAO56GI4dBy2Rjh9u-Z4E4A.jpg",
-      "https://cdn4.telesco.pe/file/sG8PU1dBgn9ea82MvV0yGuaujglOxwuGllAAI0_tovpRcFLw2T0kXIBgsYrY6gzGDpbQ87hfIcGdhiftiQC5T5dUsBcVOeRw2ShiMkQZWYZ90PlwCeubOTZLZsTtvrWndGtepwcAfBY-RtFiKw9jgwcL-ErhUGRBF27pb3Qz-FjqVNaikB0HY0oFw_iOTZBWytaiei8lXyf-CZ0_m433HA6LzqeJSfDLAWn9eIM5sPpZaAk3x5odms-D5o9m9FCPP4MRCycNPgg4fiXMi75ZgUzugcXnh31r_wQxwOtPn8v-bnbFYOkfxNKfgFW-SnhNnjAFPZOmcxtVlPJn2ye8fg.jpg",
-      "https://cdn4.telesco.pe/file/uLkVIITRjZMfwRbe6DfQ1DyhorGaTNTcmxAm-nAOC817yZny0wUT0WSlmUbfmkKgMaqNaQvVlDXXovkt0t8PORyWyKfY6VKrIvPekr8D6EHyT_XZcTLpx5pRCDHUkuYoGqTqcU259rUxzSqz3g_nhcZN54GL_Jo7uAJxUe3_WyvYpYBPkSlG3MWEidZ7B3OOlmhsVc-i-sHp52CYb9lhvykE0cokalvVpG4OigutW76TflWeUEzUb15xGzl45taaxNh4FS-UFMk1bFkwzrxaaftBXJiMoVE9KeWbcpzBv6DgV0bG3SjATovXo7y9ApEANAU3Jpl2H9KbtHN_fVnrAg.jpg",
-      "https://cdn4.telesco.pe/file/Xl54dZZ8CQQmaTX8YWb58FNB8zx-rBMxFj0veO95Z1Vj_LOw5euqXp8i39zvP4oeZ-cdD2X6wrarVr2bqEi1KmC3nh5grR5Flu8V5tzhAja4BoRi_l45Nn3EfOKryZPJ2Em-jaMR9a4nJgxmdu7gNVapxlP2Z5MfRdUhDz_hm1xPtB5QYXAGh7plDJfYvi4mJswBUxlpKhJmeR6m4r9E4uWabVMjvvSyYFfwwKhASBNBr27_rnBXX25S_z8m5SmLxyVUVvYidmjumNMXDk72TavuFjPfKW712i2pJxqt9QTZspyAnbOJ6nYzsf117W6kbLT2o8zQTQEKKPhFfsHdDA.jpg",
-      "https://cdn4.telesco.pe/file/d9Eg9E-hC0xnG8GGc9ZCoP1jLSzUSdNxogLTP9P6OtmxmPE0UEo__cFMKxuIwD6pDm2B3GHarw0Q8dclAkcU8UhJjD2XipyRzF4VcGnvzvLafE6k_DUAttSPpvHYZilbDUF-0tMcy1REcaRrg4EIYu-QR7EPG61EUSHcUHkhub1msXqtbu1tpJ9JwmZ09fVJhGm3wdKcBMxMVpuBzmHfuPLk32d_rh6Kf5broCnGZcg8XpWhG16Q6gGSnt6HBhL_jarEysRxhZEHCIGMdlCGt9wI2wRHJZTRLpxf1DFrg5E_29RnWEpbVxwM1nlKNaBO1-QPctNyxZ5hBiuZKbiw9w.jpg",
-      "https://cdn4.telesco.pe/file/jEoIe-BRx0ZK8YAAmrCCgIdPJ8xjbxm73oWtMcIujeSktuXcOC_djR23C1izazrcHlZi5YLYyNBrEU1GeafzEafL2EFyxk-KvRzwA8u6Fwr7DOvE3pFIIZZ2ob3BCWnvYnrJd6jqdKDEQTx8r4foIBa4l7Lpdoz7k0RQtumNHxOEhAKc5CJyGMTpVaECDoYm_QtHqnVc2SYJXmJsb4ZtswEu5qGOhNJNdmMOZT7QMYVQLRQWyfee2wsXek8ygZ9-ELSZ6_p0XmNDNLJ4T0CSrypHe2NYa4lA22nZY3i78HWv9SZOXf0cKF4_9J-MxkK56gPvMrcub-EViEmSuvXvDQ.jpg",
-      "https://cdn4.telesco.pe/file/J6_1kfF082NY-7M_ehmNGDbP7xnYgCp1TI1ffx-hz3M4TxzAMhRWf5jXKpm-F8cu-dP5R16sGdn4QwYXmgFc2baMTT86_-SfBL-jwK4LCGHNFg1lHBzY9Jb7Kbuq4N3NNjLqoELxDpCUabjHbgDoNXiS_L3yIWv4WD9J7I6Iv9acB-E5yu6FVitxtb1kf0cqPk1OKnjAR7aHS1zPAC3gwsre1CgIXfKD1S_QJSJfJrqyj17blZt8OMx-_tNvFgk0mvC5CKWR342EYj1HOlIG5InmsW1MbQbGSj9nZLGcdrt_nXsbBE263aOYFcBOj8oB8UGwwHcSJxudmA6QsTilSQ.jpg",
-      "https://cdn4.telesco.pe/file/vPea2Q4-l_BtYfcze_F1iEpfLoT3c5KBSb03z3W4ouRGYQqlwY5u4dVOnQjHDxkkexfzIdfPF41vDj5pYusbEQ3YujedMUbV1xqVQOTj5x7FdenJ4lK52U4cMxJpLb0hKNZ-ylqMtCcqntjhCKZSVvLFbbOsFzFpJgLNA8AklqOMt0OpEKszMl-B8pnwN4wDXBNHja-34MQQhb0GyTUWVv7wGfN0f20HlQy9BlOR2wID50IHoA44IZhA_aoueJNjQ7TdH2UuY0rU3x98gN5xhEkoOKWjwyrqfDctDC20JLhj3HVArQYNDmwR3zHhEQVM7m1v9NP78uW5vwuRFzp2JQ.jpg",
+      "https://cdn4.telesco.pe/file/seEMtw22OGJYRVeCnJL7GgSl1Z2gN9s65qgt03iryjGP0HNyZRdcCCY0nyLtiC3hDDNByrsxreriR0pbTnGzHVxs8QBg3CPiNH-1lpfF9ZkOhz155hnjGm9Blho4wSgRcoqIsNz3QfJNTlkN7pVSF3QvGb8QZydquamnJNR6Kxga-qhZMftC9aB2UQMvZXNpx2Hyrt37IYhPDuebqTX48NYyKavumqw1eDrtg4JQtzPqv1WmbdF6iik8a5k90qHyqrKrxNL2PNV_PiZpB5gnoNVeYeBFxG-PYml5TxGpx2Hyg1lxboYW2v7WqLRxcS1UCJdZhKJ8XXo42ou6c7aaew.jpg",
+      "https://cdn4.telesco.pe/file/cMeTte8EBAB2G0EiUkgXtkvCnMle3yk8NolpSkZz9CEWY6YlAcKCtE3k_DIxB33iCae26nHr8q8OA1NJzya1-xBj8pqycjid3R5SZ4_jB5gKs2zmmEgysDSudei7S39mxpthp5mthHeSvyErJxTwScJVsUGuF88Bab00ssqY1UvzJP7bCK7D-yqWlNujwhK9SRYIEfFOwRcUsEybXS4IQ7cZZi5_C_6kr0k8hH_dQiKw_goZTS4jM7wydNMpPihUQHVY9iqf-JD7s5jhnClxO32CjDfcGvcoDBcrRli9MNfqUD_Y2U36b3VFxFXl9Xc3BERsfIsmlRGvthHwuLyDng.jpg",
+      "https://cdn4.telesco.pe/file/gMZ_paLdeOpiEgP7BAZ_dhp-ylTBN5UupH9eAIWrmIt-1kw891jKuGUh8uZvyRHTxnN-5iIU4tlMx1sE-LL_zLiYrMZJhAYGzQ69GLcgedZugXqKy6ZY47HG93Tk7z7sqrboGyGmr9J37tAIS_05cQhq5NFoqlyr3ckUJC0A1zWt97xP-T_B5ASQ9hkSKiio8iwnWo0vuMR5KfOmkATeVYUpjU4VN04THqQjMGp2p9lv3DuQfrZ3E54N8K-JfDXD5KXYmkkR40QYYjuHo7drXHH_bGJUpPbB1-uOTSBwdqGQwgunwJ1P9xzPwYjpyMBPoISK9GNvxA-_zf5v9XdHnQ.jpg",
+      "https://cdn4.telesco.pe/file/OK3MNXfydxbaXyn0XfTKHlvVKra-fF6I77AyrN1oQoXBu0jjjZt7dCcC0qwnR_XeiSObM4ov4cUTecWpUAGDKWmvTtSzYI58uZINKBkF5VvyoC_uEq_ym456ATMeubDP_Vp2EwD9Ru5LiLORM8a-P1ya75KGuqHDwXKLwgBaV8VQ3P7X20_lFpwGoisVMJRYd3a5FPT3VaJt8C0zaKMab6YiCjM-WTuaM0BufNnjX7_WVrunHOndJjFcNqLGxAEWwdsJC5SUiErukTl1I7YBIUsKUS8R4VeimKJJvcpvtNmJsM-OOBUHqyBrCOZGsb8boRwyjH3kabL2hudG4AlCPg.jpg",
+      "https://cdn4.telesco.pe/file/t5UifX_tuxL6b1sBBn__t81MK9Fq_TvI1LSspouZ32AigFHBdmhxE4Sn6eGlDoq6U6OB9A0D3D-euJ1HCPBkdniSi9e4UgV3EzIF8ArXlXMZOG_c201BFxOD289LPBTx-SHQLLSwYqYs9tPGMbdgALLJuqgpIvNkzBCvB3froXCuF9U1lXymHfSdkS5nmW_SdZ7DVDQ58temwnmmcEM0RbEIbhGUwKjOXIcCump0apGWQrYgaznJ3I-fbIS6_p0Tz2Py5oXnkVLmoBSoA1bmEw2NGw04d0IW_dV1UihmEdatMODMDoQKRm9Kj4nbbjMXmjrVO5erYFFOVUMyV601vQ.jpg",
+      "https://cdn4.telesco.pe/file/aUKtbmapqG17QpWccfuth9yKZbbf8znWKi3wJAoFy4S8mY5eEY_dDOT6EzG86fcS13yVlTrTfSodrGaDbEdPExMZn20YDnWsRTqps9V-5eGr-HAX159Z2Y6Fz-mcbZ_uMD2HMgbVUvntMlNHtrJyP-it6ygkHOqsTtn-cLhqa19LO22q5TBcGkjMTcdhXQV3zoPIffAzQl7180dPdl8nK_Ohd9uxVxIDPkrHq8kwlFliIA-f42gQlBfhGif5M53rr3TM9BozfQk0cIn3KxWZIQasctvISK0Ny0jcxuQ7xoDK--7IuZi0rS7u38M1U-clPrhwK9q820e8bajtMN2FSw.jpg",
+      "https://cdn4.telesco.pe/file/hbujIQXdhXkIBzX8TiNRTCa7_C0R4slwg5380rB6-6qm7xUdk4RX8-k7-mJV87Q3zUPTntgYgAOyh8LGSFhO4sSGMwJKFN9Ggw9Ychf0G-rJkClCEDIQptK4KTrJguuOPYnh8wEHSLQzruCPYEEvV12XoGuGIpb2Iyb_aPGxe8vj9yob0wMJMGN6JViNOkcDN5i2m1U1VjlnQ4ast0PeTa-XNwHKxjBMC0Dkw4IPLB8OZepIM6q0KiBGduUWFi67qHXD9jWarzxjlNgOubkxAD3iLyuuctRw-jBdifya3ahzsf6k9qk3oHw4Uju4u313xc4sVnxGJmJ7aTOFwubWbw.jpg",
       "https://cdn4.telesco.pe/file/vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-FG5LTKEB6pQNbpnal6Op6EnJ57A4FahQ4uTWNpv_nCabS82ZNszHl3tF33a_6OQeQ64c7q9U6kjW1Wt9SXai0qoFJRHqcMKkF7SqJpVxlXSVpysOEmfM2TrgfV1oyrupF03C1Iigiz5VP157c2CEppCtWHGKDVUQeSerhjXr4p9s1sg8IXvjEQlOJhtzCVYS7ca4MgjHcm3NmSA3Xyhc1MR6y-YrW4sPHGrFvuvl_J31G-DAdEP6lR3E1dY1MvA0gxbSrqIounbPjyk2C3C75j7sNgGErj1FK2YxAh8D5Pqqagg.jpg"
     ],
     "views": "1.89K",
@@ -725,16 +725,16 @@
     "forwardedFrom": "Коммуналка аналитиков",
     "tgUrl": "https://t.me/loving_bi/95",
     "localImages": [
-      "/tg-images/95_UheQWhlVcuSgNbqZ9ljrQMm9ARAbpT8Pw2QYr8FU.jpg",
-      "/tg-images/95_mhBItHBX_AZy2Pie7S-nMKNTnNE6VQXTace4iS6S.jpg",
+      "/tg-images/95_YsfVequYW9hrGa9HWCWzpIHVuUoBBbrE9e6WG4bG.jpg",
+      "/tg-images/95_jqWD6ZRH884W-h23V5POcIDjDnOTmGnbDwjCCi7G.jpg",
       "/tg-images/95_TlNFdvARkg-4klF0Jh1n0yG-TcrZRBkF3Jb2SBqh.jpg",
-      "/tg-images/95_sG8PU1dBgn9ea82MvV0yGuaujglOxwuGllAAI0_t.jpg",
-      "/tg-images/95_uLkVIITRjZMfwRbe6DfQ1DyhorGaTNTcmxAm-nAO.jpg",
-      "/tg-images/95_Xl54dZZ8CQQmaTX8YWb58FNB8zx-rBMxFj0veO95.jpg",
-      "/tg-images/95_d9Eg9E-hC0xnG8GGc9ZCoP1jLSzUSdNxogLTP9P6.jpg",
-      "/tg-images/95_jEoIe-BRx0ZK8YAAmrCCgIdPJ8xjbxm73oWtMcIu.jpg",
-      "/tg-images/95_J6_1kfF082NY-7M_ehmNGDbP7xnYgCp1TI1ffx-h.jpg",
-      "/tg-images/95_vPea2Q4-l_BtYfcze_F1iEpfLoT3c5KBSb03z3W4.jpg",
+      "/tg-images/95_seEMtw22OGJYRVeCnJL7GgSl1Z2gN9s65qgt03ir.jpg",
+      "/tg-images/95_cMeTte8EBAB2G0EiUkgXtkvCnMle3yk8NolpSkZz.jpg",
+      "/tg-images/95_gMZ_paLdeOpiEgP7BAZ_dhp-ylTBN5UupH9eAIWr.jpg",
+      "/tg-images/95_OK3MNXfydxbaXyn0XfTKHlvVKra-fF6I77AyrN1o.jpg",
+      "/tg-images/95_t5UifX_tuxL6b1sBBn__t81MK9Fq_TvI1LSspouZ.jpg",
+      "/tg-images/95_aUKtbmapqG17QpWccfuth9yKZbbf8znWKi3wJAoF.jpg",
+      "/tg-images/95_hbujIQXdhXkIBzX8TiNRTCa7_C0R4slwg5380rB6.jpg",
       "/tg-images/95_vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-F.jpg"
     ]
   },
@@ -743,7 +743,7 @@
     "date": "2026-02-28T11:55:20+00:00",
     "text": "Стартер пак BI-аналитика\n\nСобрала на хабре большую подборку книг, курсов, статей, тгк-каналов и тестов, которые больше всего помогли и помогают мне развиваться в BI-аналитике\n\nИсходила из тех навыков, которые лично мне больше всего нужны на текущей работе:\n\n⭐️Датавиз\n⭐️SQL\n⭐️Понимание бизнеса\n⭐️Общение с заказчиком\n⭐️BI-системы\n\nЗнаю, что во многих командах (в том числе в Авито) BI-аналитики ближе к DWH-инженерам, но у меня нет такого опыта, поэтому именно на эту тему в статье практически ничего нет, но в комментариях дали советы по нужным книгам:)\n\n@loving_bi\n  \n    Please open Telegram to view this post\n    VIEW IN TELEGRAM",
     "images": [
-      "https://cdn4.telesco.pe/file/snuZeLmowZq5a7k6AXlgzvLXMQ2r1cX79r6FCfSmLSk6gEwktV0qc2_o-FGGgtpVaKNLZU9LUqsF0sKQtWmYDrLsT3bJTk_OuKkd2tpY5BCTFMq5YFG4DmGhFou2oU1jxQwuJvOyQ63EKsc3zEAc-huFxuHMxTLw0RBfHiMVXWp8ahSZfastEBpj4g70PT1EjRnzKCdCehulyNDfzvjbEUbRBFMGjXb-auOmCRUVoXNA8lfbtYDqTIDA3cPUhDA_ne4am_MojDCNxoETuX6Cr4elTKO5bBs1vWV49W28o-G36gxKptbGSofPactplADeA6Yd0810weQO2Dlek7HKPA.jpg",
+      "https://cdn4.telesco.pe/file/qU_oWevGCsTtvxsJEBkdoqY1BnPXmeaY-UttEpjk8AifpWHkbbpWWtMLa3L0Rtg5vfywE11wsDi7d4eymqYfrPyHMje33gGLwrVKBS7eLnZdJKTMUy7RCqwTWmfP3Z_UmW3xUUhwLENvleGS9STeS5O4g58Ycd_kDZYCQG27neniToDIJElGukk_tRSQpMi-3IkPbEAOtrn_Dw2LexQ2xLgZkoikHAVmzLBR3sHzvubt7RwO05Hky02ffBdu3OuR36bBgEd9-6XXhqgYj4F_2r6GSGQdF5He9MHKbYTyOcuSLsGJ-sbuwBbNLeDJhGm5zrSzbwv_Qrf2GxOxROfv-g.jpg",
       "https://cdn4.telesco.pe/file/vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-FG5LTKEB6pQNbpnal6Op6EnJ57A4FahQ4uTWNpv_nCabS82ZNszHl3tF33a_6OQeQ64c7q9U6kjW1Wt9SXai0qoFJRHqcMKkF7SqJpVxlXSVpysOEmfM2TrgfV1oyrupF03C1Iigiz5VP157c2CEppCtWHGKDVUQeSerhjXr4p9s1sg8IXvjEQlOJhtzCVYS7ca4MgjHcm3NmSA3Xyhc1MR6y-YrW4sPHGrFvuvl_J31G-DAdEP6lR3E1dY1MvA0gxbSrqIounbPjyk2C3C75j7sNgGErj1FK2YxAh8D5Pqqagg.jpg"
     ],
     "views": "1.96K",
@@ -764,7 +764,7 @@
     "forwardedFrom": null,
     "tgUrl": "https://t.me/loving_bi/108",
     "localImages": [
-      "/tg-images/108_snuZeLmowZq5a7k6AXlgzvLXMQ2r1cX79r6FCfSm.jpg",
+      "/tg-images/108_qU_oWevGCsTtvxsJEBkdoqY1BnPXmeaY-UttEpjk.jpg",
       "/tg-images/108_vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-F.jpg"
     ]
   },
@@ -773,7 +773,7 @@
     "date": "2026-03-07T12:43:45+00:00",
     "text": "Как я вообще попала в BI- аналитику? (через продуктовую)\n\nАналитика: начало\nМой карьерный путь в аналитике начался с олдскульного БигТеха, там были максимально простые задачи по выгрузке табличек для менеджеров через sql-запросы, которые мы периодически оставляли на ночь - вот настолько они были медленные. Довольно быстро я поняла, что там ничему интересному не научишься, но узнаешь, как манипулировать данными и «рисовать отчеты»👩‍🎨\n\nПродуктовая аналитика\nПоэтому когда передо мной открылся мир настоящей продуктовой аналитики - это было потрясающе&#33; Я попала в относительно зрелый стартап Qlean, в котором были очень крутые люди, со многими мы дружим до сих пор 💚&#33; Задачи были классные: аб-тесты, исследования, кастдевы, дашборды, рассылки - там аналитик был на все руки мастером 👩‍🔧\n\nПотом часть команды ушла в СитиМобил и я вместе с ними, там мне тоже повезло и с командой (ребята, и вам сердечки 💕) и с самим продуктом: мы делали приложение для вызова такси внутри ВК. И именно там я впервые увидела коллег, которые были BI-аналитиками и в целом заинтересовалась этой ролью и их задачами.\n\nАвито\nНаконец, в начале 2022 года я пришла в Авито и тоже пока еще на роль аналитика продукта, но снова с самым большим интересом и энтузиазмом я работала над задачами, связанными с BI-системой: тогда мы переходили с Табло на мой любимый Редаш.\n\nДекрет👧 и обучение\nИ вот, перед моим уходом в декретный отпуск в конце 23 года, мы с моим руководителем обсуждали дальнейшие планы, и он рассказал, что в Авито хотят выделять роль BI-аналитика, что, конечно, меня очень замотивировало прокачаться в этой области во время декретного отпуска.\n\nЯ подписалась на очень-очень много каналов о BI и датавизе, прочитала несколько книг по этой теме, пообщалась с экспертами, заполнила матрицу компетенций от Ромы Бунина и увидела направление, которое мне хорошо бы развить: визуализация данных.\n\nПотом был первый проект с бабмл кофе, отправка работы на челлендж по переверстке графика про Оскар и прохождение курса от автора этого челленджа - замечательной Анастасии Кузнецовой. Это, конечно, была самая полезная инвестиция и времени, и денег: у меня появилось портфолио, знания разложились по полочкам, и в целом я стала чувствовать себя достаточно уверенно, чтобы возвратиться  на работу после декрета в двух новых ролях: мамы и BI-аналитика:)\n\nКак сейчас идут дела\nСейчас начался пятый месяц моей работы, я кайфую от того, что я теперь делаю только те задачи аналитика, которые мне всегда нравились больше всего: это дашборды, продумывание логики витрин данных и автоматизация ручного труда.  А еще я недавно рассказывала, что стала жюри в проекте Прожарка (кстати недавно ребята прожаривали мой дашборд, об этом увлекательном аттракционе планирую скоро рассказать)\n\nПлюсы и минусы BI-роли на базе роли аналитика продукта\nСкажу честно, я скучаю по исследованиям и, особенно, по аб-тестам, но радуюсь, что во время синков, на которых присутствуют и продуктовые аналитики - остается возможность порассуждать про аб-тест и поучаствовать в его анализе без необходимости самостоятельно, что-то считать 😁 \nК тому же мой продуктовый опыт помогает мне понимать, что именно хотят видеть заказчики на своих дашбордах и даже предвосхищать их  пожелания.\n\nКак итог хочу подчеркнуть, что мой выбор стал скорее из разряда Усиливай сильное, и на данном этапе я более чем довольна:)\n\n✍️Расскажите, а как вы пришли на ту или иную роль и были ли у вас крутые или не очень повороты на вашем пути?)\n\n@loving_bi",
     "images": [
-      "https://cdn4.telesco.pe/file/oSKM0PqBTnCsnIxWc2G5F1crB33z80FQdjIzQBrwGtuADx_ViRbvnJEoS6_r4znoyLCc4ixJtK-n6w1-7UdGrumc7pEy6X7QdFxwpdz9Pn95tmDdDVaRlgO4EC03BrtY-yQ15eq2GaNj7nuVD-4YXvObpQFKJmu2FmNY2pHZ0w4nyo90R8cq1dDKfqsH16CZHHIVFyxP8FE6ATNaEwA5k4V2zkBI94Lf7n39BU8qsq9Tz9uLWNmEhzS0uSej1sg-1rccDh2je-1dgSLbiFrulzk9Gdao7jUlCMGktDd4gBB6XL8F4NFer4Eg9jYfmbl4qD2WWV2auIg3RzkS1Gp1_Q.jpg",
+      "https://cdn4.telesco.pe/file/PDv7AiGRj2pC81v2tuL_jf3SElp3ALAoG8M3TXEvme0SpiRfxF0V0LoYmQMCbV4NsbNDCHOakl8piG5OsdjQAVeK5XwPDjW2gQz4jhS03gDgC1IQBG-2QRZNgg1jaKSXrCehL30c6aQc_SoWJxSy-XVFerVBz_HFRw4u-Rcb9dXVj1mTsGhiR_Sk8CXKOK4jyXfM93iOfC6s8oh7eAMcT--FCfZU1BceIyvhyvJT7hz4XWazA5L__iPMxaLMPr1w4sfkdsS9xusSbyBivsSLDblJUJL_qN0WxXA7tgAbcsrqaS89Tyy6BHHdyRT2LUcTtsTrSvS_Fnepzqgai3EQIA.jpg",
       "https://cdn4.telesco.pe/file/vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-FG5LTKEB6pQNbpnal6Op6EnJ57A4FahQ4uTWNpv_nCabS82ZNszHl3tF33a_6OQeQ64c7q9U6kjW1Wt9SXai0qoFJRHqcMKkF7SqJpVxlXSVpysOEmfM2TrgfV1oyrupF03C1Iigiz5VP157c2CEppCtWHGKDVUQeSerhjXr4p9s1sg8IXvjEQlOJhtzCVYS7ca4MgjHcm3NmSA3Xyhc1MR6y-YrW4sPHGrFvuvl_J31G-DAdEP6lR3E1dY1MvA0gxbSrqIounbPjyk2C3C75j7sNgGErj1FK2YxAh8D5Pqqagg.jpg"
     ],
     "views": "1.7K",
@@ -790,7 +790,7 @@
     "forwardedFrom": null,
     "tgUrl": "https://t.me/loving_bi/109",
     "localImages": [
-      "/tg-images/109_oSKM0PqBTnCsnIxWc2G5F1crB33z80FQdjIzQBrw.jpg",
+      "/tg-images/109_PDv7AiGRj2pC81v2tuL_jf3SElp3ALAoG8M3TXEv.jpg",
       "/tg-images/109_vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-F.jpg"
     ]
   },
@@ -1034,7 +1034,7 @@
       "https://cdn4.telesco.pe/file/caqfD0S5V-t6u8HJ20eaSSiRAOheRtvAdW2M9O-o7pY5p9oUUfIZgV3DSc_pxUcCx78a4ue1wFmX_AUvoKHHU9DFpEddZwhBcKdNGz5gt67O_PjlpvFoWETY70gsfM4UXQQFGB8wTALXCdmdDKHxdTlfTAIj6tn-MeQ2BGrt7aGGUW1vwFWv150b_Siynne5cjKfBCHDbXPHPpcqxiL7W2BG0BOkJQPqRO9tcduPlp8XmMMyPzD0Z9OsZ636SwAgAj6M95GkTmcn5ZsQ0j_HAv4SLZPrRXsiHg1JZ6v-svsM1kVXLrBUo8CfIJ1AofYkx0t9il3ZOmgwKPA0Fj4-WA.jpg",
       "https://cdn4.telesco.pe/file/vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-FG5LTKEB6pQNbpnal6Op6EnJ57A4FahQ4uTWNpv_nCabS82ZNszHl3tF33a_6OQeQ64c7q9U6kjW1Wt9SXai0qoFJRHqcMKkF7SqJpVxlXSVpysOEmfM2TrgfV1oyrupF03C1Iigiz5VP157c2CEppCtWHGKDVUQeSerhjXr4p9s1sg8IXvjEQlOJhtzCVYS7ca4MgjHcm3NmSA3Xyhc1MR6y-YrW4sPHGrFvuvl_J31G-DAdEP6lR3E1dY1MvA0gxbSrqIounbPjyk2C3C75j7sNgGErj1FK2YxAh8D5Pqqagg.jpg"
     ],
-    "views": "1.05K",
+    "views": "1.06K",
     "reactions": [
       {
         "emoji": "❤",
@@ -1068,7 +1068,7 @@
       "https://cdn4.telesco.pe/file/k5jTz_7UY35nd3J4WuYeootjQk76c5has-bUz5rAw1QfUQQ78aLT-QYrAOioL5cHYxbXcXPL9BSTzQMRfEkRjKD1HeQ3XYPqig-iZDEhaJebYU8cLnkryjoEpLRGoEeDjGEGflBZjfGQFR_Euj3XQyRmr5chFN0y4HL_4IcqQsYjcbr8T-f6Q4HQx94qyi8cmShrGBtJ8V60lGvvq1hyWCigG7pOy_8HOcDv-gCFCT3jBhOQ4k1PDbG1ioUknAbd25zQyKL-hgTrRyWTsWMi13wZApj6WJEL9lEkshaBEnC2aM9LUuVzVwdGZJT7JMiLkHySZqjoLzlWKrZNKlebEw.jpg",
       "https://cdn4.telesco.pe/file/vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-FG5LTKEB6pQNbpnal6Op6EnJ57A4FahQ4uTWNpv_nCabS82ZNszHl3tF33a_6OQeQ64c7q9U6kjW1Wt9SXai0qoFJRHqcMKkF7SqJpVxlXSVpysOEmfM2TrgfV1oyrupF03C1Iigiz5VP157c2CEppCtWHGKDVUQeSerhjXr4p9s1sg8IXvjEQlOJhtzCVYS7ca4MgjHcm3NmSA3Xyhc1MR6y-YrW4sPHGrFvuvl_J31G-DAdEP6lR3E1dY1MvA0gxbSrqIounbPjyk2C3C75j7sNgGErj1FK2YxAh8D5Pqqagg.jpg"
     ],
-    "views": "876",
+    "views": "877",
     "reactions": [
       {
         "emoji": "❤",
@@ -1104,7 +1104,7 @@
     "images": [
       "https://cdn4.telesco.pe/file/vSGPsXI0SXJFyBnKkrU9VWzRdPGB2pvWElQ7IU-FG5LTKEB6pQNbpnal6Op6EnJ57A4FahQ4uTWNpv_nCabS82ZNszHl3tF33a_6OQeQ64c7q9U6kjW1Wt9SXai0qoFJRHqcMKkF7SqJpVxlXSVpysOEmfM2TrgfV1oyrupF03C1Iigiz5VP157c2CEppCtWHGKDVUQeSerhjXr4p9s1sg8IXvjEQlOJhtzCVYS7ca4MgjHcm3NmSA3Xyhc1MR6y-YrW4sPHGrFvuvl_J31G-DAdEP6lR3E1dY1MvA0gxbSrqIounbPjyk2C3C75j7sNgGErj1FK2YxAh8D5Pqqagg.jpg"
     ],
-    "views": "528",
+    "views": "529",
     "reactions": [
       {
         "emoji": "😁",
