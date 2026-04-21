@@ -60,6 +60,11 @@ function downloadImage(url, destPath) {
   });
 }
 
+function extractChannelAvatar(html) {
+  const m = html.match(/tgme_page_photo_image[^>]*src="([^"]+)"/);
+  return m ? m[1] : null;
+}
+
 function parseHtml(html) {
   const posts = [];
   // Split by message wrapper
@@ -70,6 +75,12 @@ function parseHtml(html) {
     const idMatch = block.match(/data-post="loving_bi\/(\d+)"/);
     if (!idMatch) continue;
     const postId = idMatch[1];
+
+    // Skip polls and quizzes — they don't render meaningfully on the site
+    if (block.includes('tgme_widget_message_poll') || block.includes('tgme_widget_message_quiz')) {
+      console.log(`  Skipping poll/quiz post #${postId}`);
+      continue;
+    }
 
     // Date
     const dateMatch = block.match(/datetime="([^"]+)"/);
@@ -196,6 +207,24 @@ async function scrapeAll() {
   const deduped = [...map.values()].sort((a, b) => parseInt(a.id) - parseInt(b.id));
 
   console.log(`\nTotal posts: ${deduped.length}`);
+
+  // Download channel avatar (for text-only post cards)
+  const avatarPath = path.join(OUT_IMGS, 'channel-avatar.jpg');
+  if (!fs.existsSync(avatarPath)) {
+    console.log('\nDownloading channel avatar...');
+    try {
+      const firstPage = await get(`https://t.me/s/${CHANNEL}`);
+      const avatarUrl = extractChannelAvatar(firstPage.body.toString('utf8'));
+      if (avatarUrl) {
+        await downloadImage(avatarUrl, avatarPath);
+        console.log('Channel avatar saved.');
+      } else {
+        console.log('Channel avatar URL not found in page.');
+      }
+    } catch (e) {
+      console.warn('Failed to download channel avatar:', e.message);
+    }
+  }
 
   // Download images
   console.log('\nDownloading images...');
