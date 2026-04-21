@@ -19,8 +19,7 @@ export const metadata: Metadata = {
   },
 }
 
-// Replace YANDEX_METRIKA_ID with your real counter ID from metrika.yandex.ru
-const YANDEX_METRIKA_ID = process.env.NEXT_PUBLIC_YANDEX_METRIKA_ID || ''
+const YANDEX_METRIKA_ID = '10808342'
 
 export default function RootLayout({
   children,
