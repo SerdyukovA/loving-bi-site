@@ -3,9 +3,9 @@
 import { useEffect, useRef } from 'react'
 
 const EXPERIENCE = [
-  { company: 'Авито', role: 'Senior BI-аналитик', period: '2022 — сейчас', color: 'var(--teal)' },
-  { company: 'Ситимобил', role: 'Аналитик данных', period: '2020 — 2021', color: 'var(--purple)' },
-  { company: 'qlean.ru', role: 'Продуктовый аналитик', period: '2018 — 2019', color: 'var(--orange)' },
+  { company: 'Авито', role: 'Senior BI-аналитик', period: '2022 — сейчас', color: 'var(--purple)' },
+  { company: 'Ситимобил', role: 'Аналитик данных', period: '2020 — 2021', color: 'var(--orange)' },
+  { company: 'qlean.ru', role: 'Продуктовый аналитик', period: '2018 — 2019', color: 'var(--teal)' },
 ]
 
 const SKILLS = [
@@ -76,9 +76,27 @@ export default function About() {
                 «Любовь, BI и графики»
               </a>
               , где рассказываю про реальные рабочие кейсы, объясняю принципы хорошего
-              датавиза и разбираю типичные ошибки. Написала статью для{' '}
-              <span className="font-semibold text-gray-700">Тинькофф Журнала</span> —
-              инфографика разошлась по тематическим каналам.
+              датавиза и разбираю типичные ошибки. Публикации на Хабре:{' '}
+              <a
+                href="https://habr.com/ru/articles/984620/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold hover:underline"
+                style={{ color: 'var(--teal-dark)' }}
+              >
+                введение в создание дашбордов
+              </a>
+              {' '}и{' '}
+              <a
+                href="https://habr.com/ru/articles/1004298/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold hover:underline"
+                style={{ color: 'var(--teal-dark)' }}
+              >
+                стартер-пак BI-аналитика
+              </a>
+              .
             </p>
             <p className="text-base text-gray-500 leading-relaxed">
               Член жюри «Прожарки дашбордов» в Авито — внутреннего проекта, который
