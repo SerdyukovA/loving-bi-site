@@ -137,26 +137,32 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Floating decorative cards */}
-        <div className="hidden lg:block absolute right-8 top-1/2 -translate-y-1/2 w-64 space-y-3">
+        {/* Author photo blended into the background */}
+        <div className="hidden lg:block absolute right-0 top-1/2 -translate-y-1/2 w-[30rem] h-[30rem] pointer-events-none">
+          {/* Soft multicolor glow that melts into the page background */}
           <div
-            className="bg-white rounded-2xl p-4 shadow-xl border border-gray-50 animate-bounce"
-            style={{ animationDuration: '4s', animationTimingFunction: 'ease-in-out' }}
-          >
-            <div className="text-xs text-gray-400 font-medium mb-2 uppercase tracking-wider">Последний пост</div>
-            <div className="text-sm font-semibold text-gray-800 leading-snug">
-              🍝 Спагетти на графиках и как с ними бороться
-            </div>
-            <div className="text-xs text-gray-400 mt-2">4 апреля 2026</div>
-          </div>
+            className="absolute inset-0 rounded-full blur-3xl opacity-70"
+            style={{
+              background:
+                'radial-gradient(circle at 50% 45%, rgba(27,188,179,0.40) 0%, rgba(244,161,53,0.30) 45%, rgba(139,92,246,0.28) 70%, transparent 78%)',
+            }}
+          />
+          {/* Portrait in a soft circle with a gentle float */}
           <div
-            className="bg-white rounded-2xl p-4 shadow-xl border border-gray-50 ml-6 animate-bounce"
-            style={{ animationDuration: '6s', animationDelay: '1s', animationTimingFunction: 'ease-in-out' }}
+            className="absolute inset-10 rounded-full overflow-hidden shadow-2xl ring-1 ring-white/60"
+            style={{ animation: 'floaty 7s ease-in-out infinite' }}
           >
-            <div className="text-xs text-gray-400 font-medium mb-2">📈 Авито</div>
-            <div className="text-xs text-gray-600 leading-relaxed">
-              Senior BI-аналитик, спикер на внутренних митапах
-            </div>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/lera.jpg"
+              alt="Валерия Смирнова"
+              className="w-full h-full object-cover"
+            />
+            {/* Subtle vignette to feather edges into the glow */}
+            <div
+              className="absolute inset-0 rounded-full"
+              style={{ boxShadow: 'inset 0 0 50px 14px rgba(255,248,238,0.40)' }}
+            />
           </div>
         </div>
       </div>

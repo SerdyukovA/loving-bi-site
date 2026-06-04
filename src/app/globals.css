@@ -40,6 +40,11 @@ body {
 
 ::selection { background: var(--teal-light); color: var(--teal-dark); }
 
+@keyframes floaty {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-14px); }
+}
+
 .post-images-grid {
   display: grid;
   gap: 4px;
