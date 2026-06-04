@@ -1,5 +1,25 @@
 // Shared utilities — no Node.js imports, safe for client and server
 
+export type ArticleBlock =
+  | { type: 'h2'; text: string }
+  | { type: 'p'; text: string }
+  | { type: 'ul'; items: string[] }
+
+export type PostAI = {
+  seoTitle: string
+  metaDescription: string
+  summary: string
+  articleBody: ArticleBlock[]
+  faq: { q: string; a: string }[]
+  keywords: string[]
+  /** LinkedIn drafts (semi-auto posting) — generated alongside SEO */
+  linkedinRu?: string
+  linkedinEn?: string
+  /** generator metadata */
+  model?: string
+  generatedAt?: string
+}
+
 export type TgPost = {
   id: string
   date: string | null
@@ -10,6 +30,7 @@ export type TgPost = {
   reactions: { emoji: string; count: number }[]
   tgUrl: string
   forwardedFrom: string | null
+  ai?: PostAI
 }
 
 export function getTag(text: string): string {

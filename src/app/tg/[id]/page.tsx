@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { getAllTgPosts, getTag, formatDate } from '@/lib/tg-posts'
+import type { ArticleBlock, PostAI } from '@/lib/tg-utils'
 
 export async function generateStaticParams() {
   return getAllTgPosts().map(p => ({ id: p.id }))
@@ -11,10 +12,20 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   const { id } = await params
   const post = getAllTgPosts().find(p => p.id === id)
   if (!post) return {}
-  const title = post.text.split('\n').find(l => l.trim()) || `Пост #${id}`
+  const title = post.ai?.seoTitle || post.text.split('\n').find(l => l.trim()) || `Пост #${id}`
+  const description = post.ai?.metaDescription || post.text.slice(0, 160)
   return {
     title: `${title} — Любовь, BI и графики`,
-    description: post.text.slice(0, 160),
+    description,
+    keywords: post.ai?.keywords,
+    alternates: { canonical: `/tg/${id}` },
+    openGraph: {
+      title,
+      description,
+      url: `/tg/${id}`,
+      type: 'article',
+      images: post.localImages?.[0] || post.images?.[0] ? [post.localImages?.[0] || post.images[0]] : undefined,
+    },
   }
 }
 
@@ -50,6 +61,89 @@ function ImageGallery({ images }: { images: string[] }) {
   )
 }
 
+function ArticleBlocks({ blocks }: { blocks: ArticleBlock[] }) {
+  return (
+    <>
+      {blocks.map((b, i) => {
+        if (b.type === 'h2') {
+          return (
+            <h2 key={i} className="text-xl md:text-2xl font-bold text-gray-900 mt-8 mb-3">
+              {b.text}
+            </h2>
+          )
+        }
+        if (b.type === 'ul') {
+          return (
+            <ul key={i} className="list-disc pl-5 mb-5 space-y-1.5 text-gray-700 text-base md:text-[17px] leading-relaxed">
+              {(b.items ?? []).map((it, j) => (
+                <li key={j}>{it}</li>
+              ))}
+            </ul>
+          )
+        }
+        return (
+          <p key={i} className="text-gray-700 leading-relaxed text-base md:text-[17px] mb-5">
+            {b.text}
+          </p>
+        )
+      })}
+    </>
+  )
+}
+
+function FaqSection({ faq }: { faq: PostAI['faq'] }) {
+  if (!faq?.length) return null
+  return (
+    <section className="mb-10">
+      <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">Частые вопросы</h2>
+      <div className="space-y-3">
+        {faq.map((f, i) => (
+          <details key={i} className="group bg-white rounded-xl border border-gray-100 p-4">
+            <summary className="font-semibold text-gray-800 text-sm cursor-pointer list-none flex items-center justify-between">
+              {f.q}
+              <span className="text-gray-300 group-open:rotate-45 transition-transform text-lg leading-none">+</span>
+            </summary>
+            <p className="text-sm text-gray-600 leading-relaxed mt-3">{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+function JsonLd({ ai, post, url }: { ai: PostAI; post: { date: string | null }; url: string }) {
+  const graph: Record<string, unknown>[] = [
+    {
+      '@type': 'BlogPosting',
+      headline: ai.seoTitle,
+      description: ai.metaDescription,
+      datePublished: post.date || undefined,
+      keywords: ai.keywords?.join(', '),
+      inLanguage: 'ru-RU',
+      mainEntityOfPage: url,
+      author: { '@type': 'Person', name: 'Валерия Смирнова', jobTitle: 'Senior BI-аналитик' },
+      publisher: { '@type': 'Organization', name: 'Любовь, BI и графики' },
+    },
+  ]
+  if (ai.faq?.length) {
+    graph.push({
+      '@type': 'FAQPage',
+      mainEntity: ai.faq.map(f => ({
+        '@type': 'Question',
+        name: f.q,
+        acceptedAnswer: { '@type': 'Answer', text: f.a },
+      })),
+    })
+  }
+  const json = { '@context': 'https://schema.org', '@graph': graph }
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(json) }}
+    />
+  )
+}
+
 function renderText(text: string) {
   // Split into paragraphs, preserve line breaks
   return text
@@ -77,9 +171,11 @@ export default async function TgPostPage({ params }: { params: Promise<{ id: str
 
   const imgs = post.localImages?.length ? post.localImages : post.images
   const lines = post.text.split('\n').filter(l => l.trim())
-  const title = lines[0] || `Пост #${post.id}`
+  const ai = post.ai
+  const title = ai?.seoTitle || lines[0] || `Пост #${post.id}`
   const bodyText = lines.slice(1).join('\n').trim()
   const tag = getTag(post.text)
+  const url = `https://lovingbi.ru/tg/${post.id}`
 
   // Find prev/next posts
   const sorted = [...posts].sort((a, b) => parseInt(b.id) - parseInt(a.id))
@@ -137,19 +233,43 @@ export default async function TgPostPage({ params }: { params: Promise<{ id: str
         </div>
 
         {/* Title */}
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-900 leading-snug mb-8">
+        <h1 className="text-2xl md:text-3xl font-bold text-gray-900 leading-snug mb-6">
           {title}
         </h1>
+
+        {/* TL;DR */}
+        {ai?.summary && (
+          <div
+            className="rounded-2xl p-5 mb-8 border"
+            style={{ background: 'var(--teal-light)', borderColor: '#1BBCB330' }}
+          >
+            <div
+              className="text-[11px] font-bold tracking-widest uppercase mb-1.5"
+              style={{ color: 'var(--teal-dark)' }}
+            >
+              Коротко
+            </div>
+            <p className="text-gray-700 text-[15px] leading-relaxed">{ai.summary}</p>
+          </div>
+        )}
 
         {/* Images */}
         <ImageGallery images={imgs} />
 
         {/* Body */}
-        {bodyText && (
-          <article className="mb-10">
-            {renderText(bodyText)}
-          </article>
-        )}
+        <article className="mb-10">
+          {ai?.articleBody?.length ? (
+            <ArticleBlocks blocks={ai.articleBody} />
+          ) : (
+            bodyText && renderText(bodyText)
+          )}
+        </article>
+
+        {/* FAQ */}
+        {ai?.faq?.length ? <FaqSection faq={ai.faq} /> : null}
+
+        {/* Structured data for search engines & AI */}
+        {ai && <JsonLd ai={ai} post={post} url={url} />}
 
         {/* Reactions */}
         {post.reactions.length > 0 && (
@@ -212,7 +332,7 @@ export default async function TgPostPage({ params }: { params: Promise<{ id: str
             >
               <div className="text-xs text-gray-400 mb-1.5">← Предыдущий</div>
               <div className="text-sm font-medium text-gray-700 line-clamp-2 group-hover:text-[var(--teal-dark)] transition-colors">
-                {prev.text.split('\n').find(l => l.trim()) || `Пост #${prev.id}`}
+                {prev.ai?.seoTitle || prev.text.split('\n').find(l => l.trim()) || `Пост #${prev.id}`}
               </div>
             </Link>
           ) : <div />}
@@ -224,7 +344,7 @@ export default async function TgPostPage({ params }: { params: Promise<{ id: str
             >
               <div className="text-xs text-gray-400 mb-1.5">Следующий →</div>
               <div className="text-sm font-medium text-gray-700 line-clamp-2 group-hover:text-[var(--teal-dark)] transition-colors">
-                {next.text.split('\n').find(l => l.trim()) || `Пост #${next.id}`}
+                {next.ai?.seoTitle || next.text.split('\n').find(l => l.trim()) || `Пост #${next.id}`}
               </div>
             </Link>
           ) : <div />}

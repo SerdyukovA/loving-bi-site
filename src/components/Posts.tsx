@@ -38,8 +38,8 @@ function PostCard({ post }: { post: TgPost }) {
   const hasImages = imgs.length > 0
   const tag = getTag(post.text)
   const lines = post.text.split('\n').filter(l => l.trim())
-  const title = lines[0] || `Пост #${post.id}`
-  const body = lines.slice(1).join('\n').trim()
+  const title = post.ai?.seoTitle || lines[0] || `Пост #${post.id}`
+  const body = post.ai?.summary || lines.slice(1).join('\n').trim()
   const cover = imgs[0]
 
   return (

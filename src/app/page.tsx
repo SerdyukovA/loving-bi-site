@@ -14,7 +14,7 @@ export default function Home() {
   const latestPost = latest
     ? {
         id: latest.id,
-        title: latest.text.split('\n').map(l => l.trim()).filter(Boolean)[0] || `Пост #${latest.id}`,
+        title: latest.ai?.seoTitle || latest.text.split('\n').map(l => l.trim()).filter(Boolean)[0] || `Пост #${latest.id}`,
         date: formatDate(latest.date),
       }
     : null
