@@ -19,7 +19,7 @@ export default function Hero({ postCount }: { postCount: number }) {
 
   const STATS = [
     { num: String(postCount), label: postsLabel(postCount) },
-    { num: '1K+', label: 'подписчиков' },
+    { num: '1.4К', label: 'подписчиков' },
     { num: '8+', label: 'лет в аналитике' },
   ]
 
