@@ -2,17 +2,26 @@
 
 import { useEffect, useRef } from 'react'
 
-const STATS = [
-  { num: '31', label: 'поста в канале' },
-  { num: '1K+', label: 'подписчиков' },
-  { num: '5+', label: 'лет в аналитике' },
-]
+// Correct Russian plural for "пост"
+function postsLabel(n: number): string {
+  const mod10 = n % 10
+  const mod100 = n % 100
+  if (mod10 === 1 && mod100 !== 11) return 'пост в канале'
+  if (mod10 >= 2 && mod10 <= 4 && (mod100 < 10 || mod100 >= 20)) return 'поста в канале'
+  return 'постов в канале'
+}
 
 // Subtle math symbols for background decoration
 const MATH = ['∑', '∫', 'π', 'Δ', 'μ', 'σ', 'R²', '≥', '%', 'α', 'β', 'H₀']
 
-export default function Hero() {
+export default function Hero({ postCount }: { postCount: number }) {
   const mathRef = useRef<HTMLDivElement>(null)
+
+  const STATS = [
+    { num: String(postCount), label: postsLabel(postCount) },
+    { num: '1K+', label: 'подписчиков' },
+    { num: '8+', label: 'лет в аналитике' },
+  ]
 
   useEffect(() => {
     const el = mathRef.current

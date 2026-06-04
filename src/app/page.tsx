@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <Nav />
       <main>
-        <Hero />
+        <Hero postCount={posts.length} />
         <About />
         <Posts posts={posts} />
         <Collab />
