@@ -26,6 +26,7 @@ const has = f => args.includes(f)
 const val = f => { const i = args.indexOf(f); return i >= 0 ? args[i + 1] : undefined }
 const FORCE = has('--force')
 const DRY = has('--dry')
+const LINKEDIN_ONLY = has('--linkedin-only')
 const LIMIT = val('--limit') ? parseInt(val('--limit'), 10) : Infinity
 const ONLY_ID = val('--id')
 
@@ -50,9 +51,10 @@ const SYSTEM = `Ты — редактор и SEO/GEO-специалист для
 - keywords: 5–8 русских ключевых фраз.
 
 LinkedIn-черновики (linkedinRu / linkedinEn) по правилам:
-- Структура: hook (1–2 строки) → контекст/проблема → 3–5 практических тезисов → мини-кейс/пример → CTA (вопрос или приглашение в Telegram @loving_bi / на сайт).
+- Структура: hook (1–2 строки) → контекст/проблема → 3–5 практических тезисов → мини-кейс/пример → финальная смысловая строка (вывод или вопрос аудитории).
 - linkedinEn — НЕ дословный перевод, а адаптация под тон LinkedIn.
 - Меньше эмодзи, больше конкретики. Каждый вариант ~500–900 символов.
+- ВАЖНО: НЕ добавляй в текст ссылки, URL, @упоминания канала и призыв «подписывайтесь» — блок со ссылками на сайт и Telegram-канал добавляется автоматически отдельно. Заканчивай содержательной строкой, без рекламного хвоста.
 
 Верни результат ТОЛЬКО через инструмент save_enrichment.`
 
@@ -92,6 +94,54 @@ const TOOL = {
     },
     required: ['seoTitle', 'metaDescription', 'summary', 'articleBody', 'faq', 'keywords', 'linkedinRu', 'linkedinEn'],
   },
+}
+
+const LINKEDIN_TOOL = {
+  name: 'save_linkedin',
+  description: 'Сохранить только LinkedIn-черновики (RU + EN), без ссылок и рекламного хвоста.',
+  input_schema: {
+    type: 'object',
+    properties: {
+      linkedinRu: { type: 'string' },
+      linkedinEn: { type: 'string' },
+    },
+    required: ['linkedinRu', 'linkedinEn'],
+  },
+}
+
+async function callClaude(body) {
+  const res = await fetch('https://api.anthropic.com/v1/messages', {
+    method: 'POST',
+    headers: {
+      'x-api-key': API_KEY,
+      'anthropic-version': '2023-06-01',
+      'content-type': 'application/json',
+    },
+    body: JSON.stringify(body),
+  })
+  if (!res.ok) throw new Error(`HTTP ${res.status}: ${(await res.text()).slice(0, 400)}`)
+  const data = await res.json()
+  const toolUse = (data.content || []).find(c => c.type === 'tool_use')
+  if (!toolUse) throw new Error('No tool_use in response: ' + JSON.stringify(data).slice(0, 300))
+  return toolUse.input
+}
+
+async function generateLinkedinOnly(post) {
+  const userMsg = `Сделай только LinkedIn-черновики (RU + EN) по правилам для поста.
+Рубрика/тема: ${post.ai?.seoTitle || 'дата-визуализация'}
+
+Сырой текст поста из Telegram:
+"""
+${post.text}
+"""`
+  return callClaude({
+    model: MODEL,
+    max_tokens: 2000,
+    system: SYSTEM,
+    tools: [LINKEDIN_TOOL],
+    tool_choice: { type: 'tool', name: 'save_linkedin' },
+    messages: [{ role: 'user', content: userMsg }],
+  })
 }
 
 async function enrichPost(post) {
@@ -136,34 +186,47 @@ async function main() {
 
   let candidates = posts.filter(p => (p.text || '').trim().length >= 20)
   if (ONLY_ID) candidates = candidates.filter(p => p.id === ONLY_ID)
-  if (!FORCE) candidates = candidates.filter(p => !p.ai)
+  if (LINKEDIN_ONLY) {
+    // regenerate LinkedIn drafts only, on already-enriched posts
+    candidates = candidates.filter(p => p.ai)
+  } else if (!FORCE) {
+    candidates = candidates.filter(p => !p.ai)
+  }
   candidates = candidates.slice(0, LIMIT)
 
-  console.log(`Model: ${MODEL}`)
-  console.log(`Posts total: ${posts.length} | to enrich: ${candidates.length}${DRY ? ' (dry run)' : ''}`)
+  console.log(`Model: ${MODEL}${LINKEDIN_ONLY ? ' | mode: linkedin-only' : ''}`)
+  console.log(`Posts total: ${posts.length} | to process: ${candidates.length}${DRY ? ' (dry run)' : ''}`)
 
   let done = 0, failed = 0
   for (const post of candidates) {
     const titlePreview = (post.text.split('\n').find(l => l.trim()) || '').slice(0, 50)
     process.stdout.write(`  [${post.id}] ${titlePreview} … `)
     if (DRY) { console.log('skip (dry)'); continue }
+    const idx = posts.findIndex(p => p.id === post.id)
     try {
-      const ai = await enrichPost(post)
-      ai.model = MODEL
-      ai.generatedAt = new Date().toISOString()
-      // mutate the original array element
-      const idx = posts.findIndex(p => p.id === post.id)
-      posts[idx].ai = ai
-      writeFileSync(DATA_URL, JSON.stringify(posts, null, 2) + '\n', 'utf8')
-      done++
-      console.log(`ok (${ai.seoTitle.length}c title, ${ai.articleBody.length} blocks)`)
+      if (LINKEDIN_ONLY) {
+        const li = await generateLinkedinOnly(post)
+        posts[idx].ai.linkedinRu = li.linkedinRu
+        posts[idx].ai.linkedinEn = li.linkedinEn
+        writeFileSync(DATA_URL, JSON.stringify(posts, null, 2) + '\n', 'utf8')
+        done++
+        console.log(`ok (linkedin refreshed)`)
+      } else {
+        const ai = await enrichPost(post)
+        ai.model = MODEL
+        ai.generatedAt = new Date().toISOString()
+        posts[idx].ai = ai
+        writeFileSync(DATA_URL, JSON.stringify(posts, null, 2) + '\n', 'utf8')
+        done++
+        console.log(`ok (${ai.seoTitle.length}c title, ${ai.articleBody.length} blocks)`)
+      }
     } catch (e) {
       failed++
       console.log(`FAILED: ${e.message}`)
     }
   }
 
-  console.log(`\nDone: ${done} enriched, ${failed} failed.`)
+  console.log(`\nDone: ${done} processed, ${failed} failed.`)
 }
 
 main().catch(e => { console.error(e); process.exit(1) })

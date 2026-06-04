@@ -18,6 +18,7 @@
  */
 
 import { readFileSync, writeFileSync } from 'node:fs'
+import { withFooter } from './lib-linkedin.mjs'
 
 const DATA_URL = new URL('../src/data/telegram-posts.json', import.meta.url)
 const BASE = 'https://lovingbi.ru'
@@ -49,10 +50,10 @@ async function send(text, markdown = false) {
 
 async function sendDraft(post) {
   const ai = post.ai
-  await send(`📝 Новый пост → LinkedIn-черновик\n\n«${ai.seoTitle}»\n\nНиже RU и EN — копируй нужный блок и постируй.`)
-  await send('🇷🇺 RU\n```\n' + ai.linkedinRu.trim() + '\n```', true)
-  await send('🇬🇧 EN\n```\n' + ai.linkedinEn.trim() + '\n```', true)
-  await send(`🔗 Пост на сайте: ${BASE}/tg/${post.id}`)
+  await send(`📝 Новый пост → LinkedIn-черновик\n\n«${ai.seoTitle}»\n\nНиже RU и EN — копируй нужный блок (ссылки на сайт и канал уже внутри) и постируй.`)
+  await send('🇷🇺 RU\n```\n' + withFooter(ai.linkedinRu, post.id, 'ru') + '\n```', true)
+  await send('🇬🇧 EN\n```\n' + withFooter(ai.linkedinEn, post.id, 'en') + '\n```', true)
+  await send(`🔗 Превью поста: ${BASE}/tg/${post.id}`)
 }
 
 async function main() {

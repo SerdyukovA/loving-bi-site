@@ -10,6 +10,7 @@
  */
 
 import { readFileSync, writeFileSync } from 'node:fs'
+import { withFooter } from './lib-linkedin.mjs'
 
 const DATA_URL = new URL('../src/data/telegram-posts.json', import.meta.url)
 const OUT_URL = new URL('../../LINKEDIN_DRAFTS.md', import.meta.url)
@@ -52,13 +53,13 @@ posts.forEach((p, i) => {
   lines.push('### 🇷🇺 RU')
   lines.push('')
   lines.push('```')
-  lines.push(ai.linkedinRu.trim())
+  lines.push(withFooter(ai.linkedinRu, p.id, 'ru'))
   lines.push('```')
   lines.push('')
   lines.push('### 🇬🇧 EN')
   lines.push('')
   lines.push('```')
-  lines.push(ai.linkedinEn.trim())
+  lines.push(withFooter(ai.linkedinEn, p.id, 'en'))
   lines.push('```')
   lines.push('')
   lines.push('---')
