@@ -167,20 +167,41 @@ export default function About() {
               >
                 Публикации
               </div>
-              <div
-                className="p-4 rounded-xl border"
-                style={{ background: 'var(--orange-light)', borderColor: '#F4A13540' }}
-              >
-                <div className="flex items-start gap-3">
-                  <span className="text-2xl">📰</span>
-                  <div>
-                    <div className="font-semibold text-gray-800 text-sm">Тинькофф Журнал</div>
-                    <div className="text-xs text-gray-500 mt-1 leading-relaxed">
-                      Статья о топ-актёрах российского кино с авторской инфографикой.
-                      Разошлась по каналам об инфографике.
+              <div className="space-y-3">
+                <a
+                  href="https://habr.com/ru/articles/984620/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block p-4 rounded-xl border hover:-translate-y-0.5 hover:shadow-md transition-all"
+                  style={{ background: 'var(--teal-light)', borderColor: '#1BBCB340' }}
+                >
+                  <div className="flex items-start gap-3">
+                    <span className="text-2xl">📊</span>
+                    <div>
+                      <div className="font-semibold text-gray-800 text-sm">Хабр · Введение в создание дашбордов</div>
+                      <div className="text-xs text-gray-500 mt-1 leading-relaxed">
+                        С чего начать и как спроектировать первый дашборд, который реально используют.
+                      </div>
                     </div>
                   </div>
-                </div>
+                </a>
+                <a
+                  href="https://habr.com/ru/articles/1004298/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block p-4 rounded-xl border hover:-translate-y-0.5 hover:shadow-md transition-all"
+                  style={{ background: 'var(--purple-light)', borderColor: '#8B5CF640' }}
+                >
+                  <div className="flex items-start gap-3">
+                    <span className="text-2xl">🚀</span>
+                    <div>
+                      <div className="font-semibold text-gray-800 text-sm">Хабр · Стартер-пак BI-аналитика</div>
+                      <div className="text-xs text-gray-500 mt-1 leading-relaxed">
+                        Инструменты, навыки и ресурсы для старта в BI-аналитике.
+                      </div>
+                    </div>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
