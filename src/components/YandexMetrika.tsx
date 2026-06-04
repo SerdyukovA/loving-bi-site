@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react'
 
-const ID = 10808342
+const ID = 108696342
 
 export default function YandexMetrika() {
   useEffect(() => {
