@@ -1,6 +1,9 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
+import Link from 'next/link'
+
+type LatestPost = { id: string; title: string; date: string }
 
 // Correct Russian plural for "пост"
 function postsLabel(n: number): string {
@@ -14,7 +17,7 @@ function postsLabel(n: number): string {
 // Subtle math symbols for background decoration
 const MATH = ['∑', '∫', 'π', 'Δ', 'μ', 'σ', 'R²', '≥', '%', 'α', 'β', 'H₀']
 
-export default function Hero({ postCount }: { postCount: number }) {
+export default function Hero({ postCount, latestPost }: { postCount: number; latestPost: LatestPost | null }) {
   const mathRef = useRef<HTMLDivElement>(null)
 
   const STATS = [
@@ -22,6 +25,21 @@ export default function Hero({ postCount }: { postCount: number }) {
     { num: '1.4К', label: 'подписчиков' },
     { num: '8+', label: 'лет в аналитике' },
   ]
+
+  const latestCardInner = latestPost && (
+    <>
+      <div
+        className="text-[10px] font-bold tracking-widest uppercase mb-1.5"
+        style={{ color: 'var(--teal-dark)' }}
+      >
+        Последний пост
+      </div>
+      <div className="text-sm font-semibold text-gray-800 leading-snug line-clamp-2">
+        {latestPost.title}
+      </div>
+      {latestPost.date && <div className="text-xs text-gray-400 mt-2">{latestPost.date}</div>}
+    </>
+  )
 
   useEffect(() => {
     const el = mathRef.current
@@ -144,6 +162,16 @@ export default function Hero({ postCount }: { postCount: number }) {
               </div>
             ))}
           </div>
+
+          {/* Latest post — mobile (in normal flow, photo is hidden here) */}
+          {latestPost && (
+            <Link
+              href={`/tg/${latestPost.id}`}
+              className="lg:hidden mt-8 block rounded-2xl p-4 border border-gray-100 bg-white/70 backdrop-blur-md shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
+            >
+              {latestCardInner}
+            </Link>
+          )}
         </div>
 
         {/* Author photo blended into the background */}
@@ -174,6 +202,17 @@ export default function Hero({ postCount }: { postCount: number }) {
             />
           </div>
         </div>
+
+        {/* Latest post — desktop glass card near the photo */}
+        {latestPost && (
+          <Link
+            href={`/tg/${latestPost.id}`}
+            className="hidden lg:block absolute right-2 bottom-12 z-20 w-72 rounded-2xl p-4 border border-white/60 shadow-xl backdrop-blur-md transition-all hover:-translate-y-1 hover:shadow-2xl"
+            style={{ background: 'rgba(255,255,255,0.72)' }}
+          >
+            {latestCardInner}
+          </Link>
+        )}
       </div>
 
       {/* Scroll indicator */}
