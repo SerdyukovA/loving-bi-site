@@ -151,17 +151,6 @@ export default function Hero() {
           </div>
           <div
             className="bg-white rounded-2xl p-4 shadow-xl border border-gray-50 ml-6 animate-bounce"
-            style={{ animationDuration: '5s', animationDelay: '0.5s', animationTimingFunction: 'ease-in-out' }}
-          >
-            <div className="text-xs font-medium mb-1" style={{ color: 'var(--teal-dark)' }}>
-              🏆 Тинькофф Журнал
-            </div>
-            <div className="text-xs text-gray-500 leading-relaxed">
-              Опубликовала статью о топ-актёрах российского кино
-            </div>
-          </div>
-          <div
-            className="bg-white rounded-2xl p-4 shadow-xl border border-gray-50 animate-bounce"
             style={{ animationDuration: '6s', animationDelay: '1s', animationTimingFunction: 'ease-in-out' }}
           >
             <div className="text-xs text-gray-400 font-medium mb-2">📈 Авито</div>

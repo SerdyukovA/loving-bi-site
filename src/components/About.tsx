@@ -3,9 +3,9 @@
 import { useEffect, useRef } from 'react'
 
 const EXPERIENCE = [
-  { company: 'Авито', role: 'Senior BI-аналитик', period: '2023 — сейчас', color: 'var(--teal)' },
-  { company: 'Flo Health', role: 'BI-аналитик', period: '2021 — 2023', color: 'var(--purple)' },
-  { company: 'Citymobil', role: 'Аналитик данных', period: '2020 — 2021', color: 'var(--orange)' },
+  { company: 'Авито', role: 'Senior BI-аналитик', period: '2022 — сейчас', color: 'var(--teal)' },
+  { company: 'Ситимобил', role: 'Аналитик данных', period: '2020 — 2021', color: 'var(--purple)' },
+  { company: 'qlean.ru', role: 'Продуктовый аналитик', period: '2018 — 2019', color: 'var(--orange)' },
 ]
 
 const SKILLS = [
@@ -61,7 +61,7 @@ export default function About() {
 
             <p className="text-lg text-gray-600 leading-relaxed">
               Senior BI-аналитик в Авито, влюблённая в дата-визуализацию. Работаю с данными
-              с 2019 года — прошла путь от продуктовой аналитики до специализации на BI
+              с 2018 года — прошла путь от продуктовой аналитики до специализации на BI
               и визуализации.
             </p>
             <p className="text-base text-gray-500 leading-relaxed">
@@ -81,7 +81,7 @@ export default function About() {
               инфографика разошлась по тематическим каналам.
             </p>
             <p className="text-base text-gray-500 leading-relaxed">
-              Член жюри «Прожарки дашбордов» в Авито — внутреннего конкурса, который
+              Член жюри «Прожарки дашбордов» в Авито — внутреннего проекта, который
               повышает культуру визуализации данных в компании.
             </p>
 

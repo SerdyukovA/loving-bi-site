@@ -22,7 +22,7 @@ const SERVICES = [
   {
     icon: '🎓',
     title: 'Лекции и воркшопы',
-    desc: 'Провожу обучение для команд: принципы хорошего датавиза, работа с A/B-тестами, построение BI-культуры в компании. Форматы — онлайн и офлайн.',
+    desc: 'Провожу обучение для команд: принципы хорошего датавиза, построение дашбордов и системы отчетности.',
     tags: ['Обучение', 'A/B-тесты', 'BI-культура'],
     color: 'var(--orange)',
     bg: 'var(--orange-light)',
@@ -48,7 +48,7 @@ const FAQ = [
   },
   {
     q: 'Как выглядит процесс работы?',
-    a: 'Созвон-бриф → предложение подхода → итерации с фидбеком → финальный результат. Всё прозрачно.',
+    a: 'Созвон-бриф → предложение подхода → итерации с фидбеком → финальный результат.',
   },
 ]
 
@@ -173,7 +173,6 @@ export default function Collab() {
             <h3 className="text-xl font-bold mb-3">Обсудим вашу задачу?</h3>
             <p className="text-white/75 text-sm leading-relaxed mb-6">
               Напишите в Телеграм — расскажите, что нужно сделать.
-              Отвечаю быстро и без воды.
             </p>
             <a
               href="https://t.me/mozzalerra"
@@ -184,17 +183,6 @@ export default function Collab() {
             >
               ✈️ Написать @mozzalerra
             </a>
-            <div className="mt-4 text-xs text-white/50">
-              Или напрямую через канал{' '}
-              <a
-                href="https://t.me/loving_bi"
-                className="underline hover:text-white/80 transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                @loving_bi
-              </a>
-            </div>
           </div>
         </div>
       </div>
