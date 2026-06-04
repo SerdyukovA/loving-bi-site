@@ -1,6 +1,5 @@
 'use client'
 
-import { useEffect, useRef } from 'react'
 import Link from 'next/link'
 
 type LatestPost = { id: string; title: string; date: string }
@@ -14,12 +13,7 @@ function postsLabel(n: number): string {
   return 'постов в канале'
 }
 
-// Subtle math symbols for background decoration
-const MATH = ['∑', '∫', 'π', 'Δ', 'μ', 'σ', 'R²', '≥', '%', 'α', 'β', 'H₀']
-
 export default function Hero({ postCount, latestPost }: { postCount: number; latestPost: LatestPost | null }) {
-  const mathRef = useRef<HTMLDivElement>(null)
-
   const STATS = [
     { num: String(postCount), label: postsLabel(postCount) },
     { num: '1.4К', label: 'подписчиков' },
@@ -41,16 +35,6 @@ export default function Hero({ postCount, latestPost }: { postCount: number; lat
     </>
   )
 
-  useEffect(() => {
-    const el = mathRef.current
-    if (!el) return
-    // Animate each symbol with a slight delay
-    const symbols = el.querySelectorAll<HTMLSpanElement>('.math-sym')
-    symbols.forEach((sym, i) => {
-      sym.style.animationDelay = `${i * 0.3}s`
-    })
-  }, [])
-
   return (
     <section
       id="hero"
@@ -60,24 +44,6 @@ export default function Hero({ postCount, latestPost }: { postCount: number; lat
         paddingTop: '64px',
       }}
     >
-      {/* Math background */}
-      <div ref={mathRef} className="absolute inset-0 pointer-events-none select-none overflow-hidden">
-        {MATH.map((sym, i) => (
-          <span
-            key={i}
-            className="math-sym absolute text-3xl font-light opacity-[0.06] animate-pulse"
-            style={{
-              left: `${(i * 37 + 5) % 95}%`,
-              top: `${(i * 53 + 10) % 85}%`,
-              color: i % 3 === 0 ? 'var(--teal)' : i % 3 === 1 ? 'var(--orange)' : 'var(--purple)',
-              animationDuration: `${3 + (i % 4)}s`,
-            }}
-          >
-            {sym}
-          </span>
-        ))}
-      </div>
-
       <div className="relative max-w-6xl mx-auto px-6 py-20 w-full">
         <div className="max-w-2xl">
           {/* Badge */}
