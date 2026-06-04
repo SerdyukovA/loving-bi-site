@@ -21,6 +21,19 @@ jobs:
       - name: Run scraper
         run: node scripts/scrape-telegram.mjs
 
+      - name: Enrich new posts (AI-SEO)
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/enrich-seo.mjs
+
+      - name: Send LinkedIn drafts to Telegram
+        continue-on-error: true
+        env:
+          LOVINGBI_TG_BOT_TOKEN: ${{ secrets.LOVINGBI_TG_BOT_TOKEN }}
+          LOVINGBI_TG_CHAT_ID: ${{ secrets.LOVINGBI_TG_CHAT_ID }}
+        run: node scripts/notify-linkedin.mjs
+
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
