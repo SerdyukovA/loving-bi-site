@@ -232,14 +232,19 @@ async function scrapeAll() {
   console.log('\nDownloading images...');
   let downloaded = 0, skipped = 0, failed = 0;
 
+  // Stable filenames: <postId>_<index>.<ext>. The Telegram CDN URL hash changes on
+  // every scrape, so naming files by it produced a fresh copy of every image each
+  // day (22k files / 1.3 GB by 07.09.2026 while only ~130 were referenced) and
+  // blew through Vercel's deployment-storage quota. Files no longer referenced
+  // are purged below.
+  const keep = new Set(['channel-avatar.jpg']);
   for (const post of deduped) {
     const localImages = [];
-    for (const imgUrl of post.images) {
-      // Create a filename from the URL hash
-      const urlHash = imgUrl.split('/').pop().split('?')[0].substring(0, 40).replace(/[^a-zA-Z0-9_-]/g, '');
+    for (const [idx, imgUrl] of post.images.entries()) {
       const ext = imgUrl.match(/\.(jpg|jpeg|png|webp)/i)?.[1] || 'jpg';
-      const filename = `${post.id}_${urlHash}.${ext}`;
+      const filename = `${post.id}_${idx}.${ext}`;
       const destPath = path.join(OUT_IMGS, filename);
+      keep.add(filename);
 
       try {
         const wasNew = !fs.existsSync(destPath);
@@ -259,6 +264,13 @@ async function scrapeAll() {
   }
 
   console.log(`Images: ${downloaded} downloaded, ${skipped} already existed, ${failed} failed`);
+
+  // Purge files that no post references any more (old hash-named copies, deleted posts)
+  let purged = 0;
+  for (const f of fs.readdirSync(OUT_IMGS)) {
+    if (!keep.has(f)) { fs.unlinkSync(path.join(OUT_IMGS, f)); purged++; }
+  }
+  console.log(`Purged ${purged} unreferenced image files`);
 
   // Preserve AI-SEO enrichment (seoTitle, articleBody, faq, LinkedIn drafts, …)
   // across re-scrapes — the scraper rewrites the whole file, so without this the
