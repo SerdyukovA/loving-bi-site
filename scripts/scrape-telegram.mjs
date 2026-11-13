@@ -300,7 +300,9 @@ async function scrapeAll() {
   // (31/31 in Oct–Nov 2026) with no new posts. Views/reactions now refresh together with
   // the next real content change.
   const contentKey = (list) => JSON.stringify(list.map(p => [p.id, p.date, p.text, p.forwardedFrom, p.localImages]));
-  if (prev && contentKey(prev) === contentKey(deduped)) {
+  // SCRAPE_FORCE=1 (weekly, see scrape.yml) rewrites anyway to refresh views/reactions.
+  const force = process.env.SCRAPE_FORCE === '1';
+  if (!force && prev && contentKey(prev) === contentKey(deduped)) {
     console.log(`\nNo content changes in ${deduped.length} posts — ${OUT_JSON} left untouched (views/reactions/CDN URLs not refreshed).`);
     return;
   }

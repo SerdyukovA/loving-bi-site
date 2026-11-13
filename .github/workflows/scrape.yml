@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '0 9 * * *'
   workflow_dispatch:
+    inputs:
+      force:
+        description: 'Переписать JSON, даже если постов нет (обновить просмотры/реакции)'
+        type: boolean
+        default: false
 
 jobs:
   scrape:
@@ -19,7 +24,11 @@ jobs:
           node-version: '20'
 
       - name: Run scraper
-        run: node scripts/scrape-telegram.mjs
+        # По понедельникам (и по кнопке с force) JSON переписывается целиком — так раз в неделю
+        # обновляются просмотры/реакции; в остальные дни коммит только при новых/изменённых постах.
+        run: |
+          if [ "$(date -u +%u)" = "1" ] || [ "${{ inputs.force }}" = "true" ]; then export SCRAPE_FORCE=1; echo "weekly refresh: SCRAPE_FORCE=1"; fi
+          node scripts/scrape-telegram.mjs
 
       - name: Enrich new posts (AI-SEO)
         continue-on-error: true
