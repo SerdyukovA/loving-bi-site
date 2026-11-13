@@ -138,8 +138,13 @@ function parseHtml(html) {
     reactionMatches.forEach(m => reactions.push({ emoji: m[1], count: parseInt(m[2]) }));
 
     // Forwarded from
-    const fwdMatch = block.match(/tgme_widget_message_forwarded_from_name[^>]*>[\s\S]*?<span[^>]*>([^<]+)<\/span>/);
-    const forwardedFrom = fwdMatch ? fwdMatch[1].trim() : null;
+    // Bounded to the forwarded_from <div>: the old lazy `[\s\S]*?<span>` ran past the name when
+    // it had no inner <span> and grabbed the views counter ("2.44K" for posts 95, 154).
+    const fwdMatch = block.match(/class="tgme_widget_message_forwarded_from\b[^"]*"[^>]*>([\s\S]*?)<\/div>/);
+    const forwardedFrom = fwdMatch
+      ? fwdMatch[1].replace(/<[^>]+>/g, '').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'")
+          .replace(/^\s*Forwarded from\s*/i, '').trim() || null
+      : null;
 
     posts.push({
       id: postId,
@@ -281,6 +286,10 @@ async function scrapeAll() {
     const aiById = new Map(prev.filter(p => p.ai).map(p => [p.id, p.ai]));
     deduped.forEach(p => { const ai = aiById.get(p.id); if (ai) p.ai = ai; });
     console.log(`Preserved AI enrichment for ${aiById.size} posts`);
+    // t.me/s serves the same post sometimes with the source name and sometimes with an empty
+    // "Forwarded from" block — keep the last known name instead of flipping it every run.
+    const fwdById = new Map(prev.filter(p => p.forwardedFrom && !/^[\d.]+[KkMm]?$/.test(p.forwardedFrom)).map(p => [p.id, p.forwardedFrom]));
+    deduped.forEach(p => { if (!p.forwardedFrom && fwdById.has(p.id)) p.forwardedFrom = fwdById.get(p.id); });
   } catch {
     // no existing file yet — nothing to preserve
   }
