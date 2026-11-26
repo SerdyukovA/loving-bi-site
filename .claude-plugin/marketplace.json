@@ -1,0 +1,11 @@
+{
+  "name": "loving-bi",
+  "owner": { "name": "Valeriia Smirnova" },
+  "plugins": [
+    {
+      "name": "dataviz-dashboards",
+      "source": "./skill",
+      "description": "Проектирование дашбордов и датавиза по методу канала «Любовь, BI и графики»"
+    }
+  ]
+}

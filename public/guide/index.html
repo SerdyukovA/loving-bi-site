@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Пульт Леры</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Unbounded:wght@500;700&display=swap">
+<style>
+:root{
+  --bg:#f5f8f7; --surface:#ffffff; --fg:#1b2624; --muted:#5d6b68; --line:#d5e0dd;
+  --accent:#0a6663; --accent-soft:#dff0ee; --new:#b5541c; --new-soft:#fbeadf;
+  --display:"Unbounded","Golos Text",system-ui,sans-serif; --body:"Golos Text",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#0f1716; --surface:#16211f; --fg:#e3ecea; --muted:#9aaba7; --line:#2a3a37;
+  --accent:#4fc2bb; --accent-soft:#16302d; --new:#f0a070; --new-soft:#3a2518; color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 var(--body)}
+.wrap{max-width:780px;margin:0 auto;padding:40px 16px 72px;display:flex;flex-direction:column;gap:44px}
+nav{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:14px}
+nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent-soft)}
+h1{font:700 clamp(26px,5vw,38px)/1.15 var(--display);margin:0;text-wrap:balance}
+h2{font:500 21px/1.25 var(--display);margin:0 0 14px;text-wrap:balance;scroll-margin-top:16px}
+h3{font:600 16px/1.3 var(--body);margin:0}
+p{margin:0}
+a{color:var(--accent)}
+.lead{color:var(--muted);max-width:62ch;margin-top:12px}
+.muted{color:var(--muted);font-size:14px}
+.tag{display:inline-block;font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.tag.ok{background:var(--accent-soft);color:var(--accent)}
+.tag.new{background:var(--new-soft);color:var(--new)}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+.box.lera{border:2px solid var(--accent)}
+.who{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.flow{display:flex;flex-direction:column}
+.arrow{align-self:center;width:2px;height:28px;background:var(--line);position:relative;margin:6px 0}
+.arrow::after{content:"";position:absolute;left:-5px;bottom:-2px;border:6px solid transparent;border-top-color:var(--line)}
+.robot{border:1px dashed var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:10px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+@media (max-width:640px){.grid3,.grid2{grid-template-columns:1fr}}
+.lane{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.lane ul{margin:0;padding-left:18px;font-size:14px;color:var(--muted);display:flex;flex-direction:column;gap:4px}
+.lane .out{margin-top:auto;font-size:13px;border-top:1px solid var(--line);padding-top:8px}
+/* checklist */
+.todo{display:flex;flex-direction:column;gap:8px;margin:0;padding:0;list-style:none}
+.todo li{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;grid-template-columns:22px minmax(0,1fr);gap:10px;align-items:start}
+.todo input{width:18px;height:18px;margin-top:3px;accent-color:var(--accent)}
+.todo li.done{opacity:.55}
+.todo li.done .t{text-decoration:line-through}
+.todo .t{font-weight:600}
+.todo .d{font-size:14px;color:var(--muted);margin-top:4px}
+.todo .d code,.code{word-break:break-word}
+.group{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:18px 0 8px}
+code{font:13px/1.4 ui-monospace,Menlo,monospace;background:var(--accent-soft);padding:1px 5px;border-radius:4px}
+pre{margin:8px 0 0;background:var(--accent-soft);border-radius:8px;padding:10px 12px;overflow-x:auto;font:13px/1.5 ui-monospace,Menlo,monospace;white-space:pre-wrap}
+.copy{display:flex;flex-direction:column;gap:6px}
+.copy pre{margin:0}
+button.cp{align-self:flex-start;font:600 13px var(--body);color:var(--accent);background:none;border:1px solid var(--accent);border-radius:6px;padding:4px 10px;cursor:pointer}
+button.cp:focus-visible,.todo input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:520px}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:600;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+tr:last-child td{border-bottom:0}
+td:first-child{font-weight:600}
+.steps{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Пульт Леры: канал, сайт, LinkedIn и скилл</h1>
+    <p class="lead">Здесь всё, что нужно, чтобы вести связку самой: как она устроена, что сделать сейчас, где лежит твой скилл и как его править, куда какие ссылки вставить. Ты пишешь пост в Telegram, остальное делает робот.</p>
+    <nav style="margin-top:16px">
+      <a href="#scheme">Схема</a><a href="#todo">Что сделать</a><a href="#skill">Скилл</a><a href="#linkedin">LinkedIn</a><a href="#links">Ссылки</a><a href="#help">Если сломалось</a>
+    </nav>
+  </header>
+
+  <section id="scheme">
+    <h2>Схема</h2>
+    <div class="flow">
+      <div class="who">Ты</div>
+      <div class="box lera"><b>Пишешь пост в @loving_bi</b>: текст и карточки, как обычно. Ничего отмечать не нужно.</div>
+      <div class="arrow" aria-hidden="true"></div>
+      <div class="robot">
+        <div class="who" style="margin:0">Робот, раз в сутки (GitHub Actions)</div>
+        <div class="grid3">
+          <div class="lane"><span class="tag ok" style="align-self:flex-start">работает</span><h3>Сайт lovingbi.ru</h3>
+            <ul><li>Claude делает из поста статью: заголовок, TL;DR, FAQ</li><li>картинки сохраняются на сайте</li></ul>
+            <p class="out">Страница <code>lovingbi.ru/tg/&lt;номер&gt;</code></p></div>
+          <div class="lane"><span class="tag ok" style="align-self:flex-start">работает</span><h3>Черновик для LinkedIn</h3>
+            <ul><li>текст на русском и на английском</li><li>ссылки на сайт и канал уже внутри</li><li><span class="tag new">скоро</span> карточки на английском из Figma</li></ul>
+            <p class="out">Приходит в бот @linkedin_loving_bi_bot</p></div>
+          <div class="lane"><span class="tag new" style="align-self:flex-start">скоро</span><h3>Скилл «Дашборды»</h3>
+            <ul><li>Claude сравнивает пост со скиллом</li><li>нового нет — молчит</li><li>есть новое правило — готовит правку</li></ul>
+            <p class="out">Ссылка на правку — в бот</p></div>
+        </div>
+      </div>
+      <div class="arrow" aria-hidden="true"></div>
+      <div class="who">Ты, когда удобно</div>
+      <div class="grid2">
+        <div class="box lera"><b>Публикуешь в LinkedIn</b>: копируешь текст из бота, прикладываешь картинки. Около 3 минут.</div>
+        <div class="box lera"><b>Принимаешь правку скилла</b> в приложении GitHub: Merge — принять, Close — отклонить, комментарий — попросить поправить.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="todo">
+    <h2>Что сделать</h2>
+    <p class="muted" style="margin-bottom:8px">Галочки запоминаются в этом браузере.</p>
+
+    <div class="group">Сегодня, 15 минут</div>
+    <ul class="todo">
+      <li><input type="checkbox" id="t1"><label for="t1"><div class="t">Принять приглашение в репозиторий</div>
+        <div class="d">Письмо от GitHub на почту аккаунта valerismi22-dot или прямо здесь: <a href="https://github.com/SerdyukovA/loving-bi-site/invitations">github.com/SerdyukovA/loving-bi-site/invitations</a>. После этого ты можешь править сайт и скилл, изменения выкатываются сами.</div></label></li>
+      <li><input type="checkbox" id="t2"><label for="t2"><div class="t">Поставить мобильное приложение GitHub и включить уведомления</div>
+        <div class="d">Через него будешь принимать правки скилла одной кнопкой.</div></label></li>
+      <li><input type="checkbox" id="t3"><label for="t3"><div class="t">Подключить скилл в Claude Code</div>
+        <div class="d">В Claude Code набери по очереди:<pre>/plugin marketplace add SerdyukovA/loving-bi-site
+/plugin install dataviz-dashboards@loving-bi</pre>Проверка: скажи Claude «спроектируй дашборд по заказам» — он должен начать с вопросов, а не с графиков.</div></label></li>
+      <li><input type="checkbox" id="t4"><label for="t4"><div class="t">Прописать ссылки в Telegram и LinkedIn</div>
+        <div class="d">Готовые тексты — в разделе <a href="#links">«Ссылки»</a>.</div></label></li>
+    </ul>
+
+    <div class="group">На этой неделе</div>
+    <ul class="todo">
+      <li><input type="checkbox" id="t5"><label for="t5"><div class="t">Склонировать репозиторий себе</div>
+        <div class="d">В терминале: <code>gh repo clone SerdyukovA/loving-bi-site</code>, потом открой папку в Claude Code. Или просто попроси Claude: «склонируй SerdyukovA/loving-bi-site и прочитай CLAUDE.md».</div></label></li>
+      <li><input type="checkbox" id="t6"><label for="t6"><div class="t">2–3 вечера довести скилл до ума</div>
+        <div class="d">Сценарий — в разделе <a href="#skill">«Скилл»</a>.</div></label></li>
+      <li><input type="checkbox" id="t7"><label for="t7"><div class="t">Дать Алексею доступ к Figma-файлу с карточками</div>
+        <div class="d">Share → его почта → can view. Это нужно, чтобы робот делал английские версии карточек для LinkedIn.</div></label></li>
+    </ul>
+  </section>
+
+  <section id="skill">
+    <h2>Скилл «Дашборды и датавиз»</h2>
+    <div class="flow" style="gap:12px">
+      <p>Это инструкция для Claude, собранная из твоих постов: 59 текстов и 78 карточек. Когда просишь Claude спроектировать дашборд, выбрать график или прожарить чужой дашборд, он работает по твоим правилам. Сначала выясняет, кто и зачем будет смотреть, и может честно сказать, что дашборд не нужен.</p>
+      <div class="tbl"><table>
+        <thead><tr><th>Что</th><th>Где</th></tr></thead>
+        <tbody>
+          <tr><td>Весь скилл</td><td><a href="https://github.com/SerdyukovA/loving-bi-site/tree/main/skill/skills/dataviz-dashboards">skill/skills/dataviz-dashboards</a></td></tr>
+          <tr><td>Главный файл</td><td><code>SKILL.md</code>: порядок работы и формат ответа</td></tr>
+          <tr><td>Подробности</td><td><code>references/</code>: вопросы заказчику, макеты, выбор графика, цвет, гештальт, честность, UX, A/B, карты, чек-лист прожарки</td></tr>
+          <tr><td>Откуда правило</td><td><code>sources.md</code>: номер поста → куда вошло</td></tr>
+          <tr><td>Версии</td><td><code>CHANGELOG.md</code>, сейчас 0.1.0</td></tr>
+        </tbody>
+      </table></div>
+
+      <h3 style="margin-top:12px">Как довести до ума</h3>
+      <ol class="steps">
+        <li>Открой Claude Code в папке репозитория и скажи: «прочитай скилл dataviz-dashboards и задай мне 10 вопросов, где правило звучит не так, как сказала бы я».</li>
+        <li>Дай реальную задачу без данных: «нужен дашборд по возвратам для категорийных менеджеров». Правильные ли вопросы он задаёт?</li>
+        <li>Всё, что не так, говори прямо: «здесь неверно, я делаю так-то». Он сам поправит файлы.</li>
+        <li>Сохранить: «подними версию, допиши CHANGELOG, закоммить и запушь». Через минуту новая версия в GitHub, а у тебя в Claude скилл обновится при следующем запуске.</li>
+      </ol>
+
+      <h3 style="margin-top:12px">Как он будет обновляться сам <span class="tag new">скоро</span></h3>
+      <ol class="steps">
+        <li>Выходит новый пост → робот раз в сутки сравнивает его со скиллом.</li>
+        <li>Если в посте новое правило или оно противоречит старому — робот готовит правку (pull request) и присылает ссылку в бот.</li>
+        <li>Ты открываешь правку в GitHub: видно, что именно меняется и из какого поста. <b>Merge</b> — принять, <b>Close</b> — отклонить, комментарий — попросить переделать.</li>
+        <li>Принятая правка = новая версия скилла.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="linkedin">
+    <h2>LinkedIn</h2>
+    <div class="grid2">
+      <div class="box"><h3>Текст</h3><p class="muted" style="margin-top:6px">Бот присылает две версии: русскую и английскую. Пост в LinkedIn делаем на двух языках: сначала RU, потом EN. Ссылки на сайт и канал уже стоят в конце черновика.</p></div>
+      <div class="box"><h3>Картинки</h3><p class="muted" style="margin-top:6px">Пока прикладывай те же карточки, что в Telegram. Несколько карточек лучше загружать одним PDF: LinkedIn покажет его листаемой каруселью, формат 1080×1350. Английские версии карточек робот начнёт делать, когда будет доступ к Figma.</p></div>
+    </div>
+  </section>
+
+  <section id="links">
+    <h2>Ссылки: где что прописать</h2>
+    <div class="flow" style="gap:14px">
+      <div class="box copy">
+        <h3>Telegram → описание канала</h3>
+        <pre id="c1">Датавиз, дашборды и BI без боли. Senior BI-аналитик в Авито.
+Сайт: lovingbi.ru
+LinkedIn: linkedin.com/in/valeriia-smirnova-13319a22b</pre>
+        <button class="cp" data-target="c1">Скопировать</button>
+      </div>
+      <div class="box copy">
+        <h3>Telegram → закреп (пост-визитка «Я Валерия Смирнова…»)</h3>
+        <p class="muted">Отредактируй пост: рядом с «Сайт с дублированием постов» добавь строку:</p>
+        <pre id="c2">LinkedIn (посты на английском): linkedin.com/in/valeriia-smirnova-13319a22b</pre>
+        <button class="cp" data-target="c2">Скопировать</button>
+      </div>
+      <div class="box copy">
+        <h3>LinkedIn → профиль</h3>
+        <p class="muted">Edit intro → Website: <code>https://lovingbi.ru</code>. В Featured добавь три ссылки: сайт, канал t.me/loving_bi и статью на Хабре. В About — строку:</p>
+        <pre id="c3">I write about dashboards and data visualization in my Telegram channel «Любовь, BI и графики» (t.me/loving_bi), with English versions here. Full posts: lovingbi.ru</pre>
+        <button class="cp" data-target="c3">Скопировать</button>
+      </div>
+      <div class="tbl"><table>
+        <thead><tr><th>Где</th><th>Что</th><th>Кто</th></tr></thead>
+        <tbody>
+          <tr><td>Сайт: меню и подвал</td><td>Иконка LinkedIn рядом с Telegram</td><td>робот, скоро</td></tr>
+          <tr><td>Сайт: страница поста</td><td>«Обсудить в Telegram» и «LinkedIn»</td><td>робот, скоро</td></tr>
+          <tr><td>Сайт: разметка для поиска</td><td>Связка «один автор»: Telegram, LinkedIn, Хабр</td><td>робот, скоро</td></tr>
+          <tr><td>Пост в LinkedIn</td><td>Ссылки на сайт и канал</td><td>уже в черновике</td></tr>
+          <tr><td>Пост в Telegram</td><td>Ничего: ссылки в каждом посте — шум. Изредка «посты дублируются на сайте», как ты уже пишешь</td><td>—</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+  </section>
+
+  <section id="help">
+    <h2>Если что-то сломалось</h2>
+    <ul class="steps" style="list-style:disc">
+      <li>Пост не появился на сайте через сутки — загляни в <a href="https://github.com/SerdyukovA/loving-bi-site/actions">Actions</a>. Красный прогон → открой Claude Code в репозитории и скажи «посмотри последний упавший прогон scrape.yml и почини».</li>
+      <li>Нужно прямо сейчас, не ждать суток: Actions → Scrape Telegram → Run workflow.</li>
+      <li>Сайт открывается, но что-то сломано после твоей правки — в GitHub откати последний коммит или попроси Claude «откати мой последний коммит».</li>
+      <li>Не разобралась — пиши Лёше.</li>
+    </ul>
+  </section>
+</div>
+<script>
+(function(){
+  var KEY='lera-guide-todo';
+  var state={};
+  try{state=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){}
+  document.querySelectorAll('.todo input[type=checkbox]').forEach(function(cb){
+    var li=cb.closest('li');
+    cb.checked=!!state[cb.id]; li.classList.toggle('done',cb.checked);
+    cb.addEventListener('change',function(){
+      state[cb.id]=cb.checked; li.classList.toggle('done',cb.checked);
+      try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){}
+    });
+  });
+  document.querySelectorAll('button.cp').forEach(function(b){
+    b.addEventListener('click',function(){
+      var el=document.getElementById(b.dataset.target), txt=el.textContent;
+      var done=function(){b.textContent='Скопировано';setTimeout(function(){b.textContent='Скопировать'},1500)};
+      var sel=function(){var r=document.createRange();r.selectNodeContents(el);var s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Выделено — нажми ⌘C'};
+      if(navigator.clipboard){navigator.clipboard.writeText(txt).then(done,sel)}else{sel()}
+    });
+  });
+})();
+</script>
+</body>
+</html>
