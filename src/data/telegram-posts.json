@@ -146,7 +146,9 @@
       "linkedinEn": "The best data viz techniques often come from the most unexpected projects.\n\nMine started with a fun internal dataset about Bumble Coffee — something lighthearted that turned into a genuine practice ground for techniques I now use in real dashboards.\n\nFour things I applied that are worth keeping in your toolkit:\n\n1. Icon-based sample size indicators — small cup icons at the end of each bar give an instant visual sense of group size, no tiny numbers needed.\n2. Semantic icons — a star on a rating scale is understood immediately. No legend required.\n3. Custom scatter plot markers — replacing default dots with thematic icons (oranges, in this case) reinforces the subject matter and keeps the audience engaged.\n4. Colour accents for attention control — highlighting only the key zones guides the viewer's eye before they consciously start reading.\n\nThese are all pre-attentive design principles in practice: shape, colour, and icons are processed faster than text. The less cognitive effort required to decode a chart, the stronger the insight lands.\n\nPlayful projects are just as valid a training ground as production dashboards.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-09-02T13:25:02.071Z",
-      "linkedinSentAt": "2026-09-02T13:38:56.297Z"
+      "linkedinSentAt": "2026-09-02T13:38:56.297Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.769Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -281,7 +283,9 @@
       "linkedinEn": "Text looks lighter than it actually is — and that's a design problem worth solving.\n\nWhen text and a filled shape share the same hex color, the text always appears washed out. The culprit: letter spacing. The fix: deliberately increase text color saturation beyond the fill.\n\nThis is one of five techniques I applied while redesigning an infographic about the most-nominated Oscar actors:\n\n— Text saturation set slightly higher than fill saturation — so it holds visual weight\n— Annotations guide the reader through the chart, rather than restating axis labels\n— The legend is embedded in the first bar (Meryl Streep's) instead of floating in a corner\n— A grey border on actor photos encodes \"never won\" without introducing a new color\n— One culturally loaded subject (DiCaprio) anchors the narrative in something the audience already knows\n\nEach decision either reduces cognitive load or strengthens the story. Good data visualization isn't decoration — it's applied perception design.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-09-02T13:25:47.404Z",
-      "linkedinSentAt": "2026-09-02T13:38:58.715Z"
+      "linkedinSentAt": "2026-09-02T13:38:58.715Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -403,7 +407,9 @@
       "linkedinEn": "A cold email to an editor — and a published piece in a major outlet. It works.\n\nDuring maternity leave, I decided to seriously level up my data visualization skills. I reached out to the editor of Tinkoff Journal (one of Russia's largest personal finance media) — no connections, no referrals, just a note asking about collaboration. They offered me a freelance spot in their Statistics section.\n\nA few things I took away from the experience:\n\n1. Ground your story in measurable data. I used box office figures for Russian films to track which actor dominated each era — clear, verifiable, compelling.\n2. Your first draft is never the final visual. My initial mockup went through several rounds of feedback; the signature \"circles with actor portraits\" idea came from the editor, refined by the design team.\n3. Editorial feedback from a strong publication is a skill accelerator you rarely get from solo projects.\n4. Good work spreads. The illustration was picked up organically by data viz communities — no extra promotion needed.\n\nThe fee was 10,000 RUB. But the real value was going through a full editorial cycle with real stakes.\n\nIf you're an analyst who thinks media bylines aren't for you — try sending that first email.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-09-02T13:26:33.773Z",
-      "linkedinSentAt": "2026-09-02T13:39:01.110Z"
+      "linkedinSentAt": "2026-09-02T13:39:01.110Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -541,7 +547,9 @@
       "linkedinEn": "Data lands differently when it's personal.\n\nFor New Year, I created a data portrait for 26 analysts at Avito: each person received their own personalised ornament on a shared Christmas tree, built from their individual data.\n\nA few design decisions that made it work:\n\n— Group-level stats double as the legend. Define the unit once — after that, repetition is just noise.\n— Decorative motifs (bows, wings, horns) appear both on the ornaments and inside the data layer. The decoration becomes part of the visual language.\n— A small schematic of the tree explains the logic of placement and sizing — no separate text needed.\n\nThe core takeaway: personalisation drives engagement in a way aggregated dashboards rarely do. People look for themselves, study the details, and share the result. Meanwhile, the group story stays fully visible — the tree tells both the individual and collective story at once.\n\nData portraits aren't just a holiday format. They're a strong engagement tool whenever you need people to actually care about the data.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-09-02T13:27:18.668Z",
-      "linkedinSentAt": "2026-09-02T13:39:03.460Z"
+      "linkedinSentAt": "2026-09-02T13:39:03.460Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -675,7 +683,9 @@
       "linkedinEn": "Coming back to work after a long break gave me fresh eyes — and I immediately spotted UX issues in dashboards I used to walk right past.\n\nAn extra scroll here, a misplaced filter there — seems trivial. But these seconds repeat dozens of times a day across your entire user base.\n\nFive dashboard UX mistakes worth fixing now:\n\n1. Key filters scattered across the page. Group them by meaning and put the most-used ones first — date and primary dimensions up front.\n\n2. Export table buried at the bottom. Move it to a separate tab. One click, not a scroll marathon.\n\n3. Users doing mental math the dashboard should handle. I switched a category breakdown into an optional parameter — totals by default, drill-down on demand.\n\n4. Chart annotations separated from the charts. Notes only work when they're next to the visual they explain.\n\n5. Animation and exotic chart types. Animation = waiting time. Unusual charts = learning time. Both work against the core value of a dashboard: fast, clear information.\n\nMost of these fixes take an hour or two. The return is fewer user questions and stronger trust in your data.\n\nWhat UX issues do you run into most often in the dashboards you work with?",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-09-02T13:28:14.911Z",
-      "linkedinSentAt": "2026-09-02T13:39:05.823Z"
+      "linkedinSentAt": "2026-09-02T13:39:05.823Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -811,7 +821,9 @@
       "linkedinEn": "A line chart connecting unordered categories is one of the most common dashboard mistakes — and it's easy to miss.\n\nI reviewed a real case: a dashboard showing the complaint rate per order across product categories. The intent was right, but the execution created unnecessary friction.\n\nThree issues with the original chart:\n— Categories connected by a line → creates a false sense of trend where there is none\n— Sorted by order volume, not by the complaint rate the dashboard was built around\n— Dual axes forced users to constantly switch between two scales\n\nThe fix: three separate horizontal bar charts instead of one overloaded visual. First — complaint rate, with highlights for categories missing target. Second — absolute complaint volume (to show the scale of the problem, not just the share). Third — order count as supporting context.\n\nEach chart carries one message. Users build the full picture themselves: rate → scale → context. No cognitive overhead.\n\nTool used: Redash — not the most flexible BI platform. But choosing the right chart type matters more than the tool's feature set.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-09-02T13:29:02.701Z",
-      "linkedinSentAt": "2026-09-02T13:39:08.204Z"
+      "linkedinSentAt": "2026-09-02T13:39:08.204Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -960,7 +972,9 @@
       "linkedinEn": "A bar chart isn't always the right answer. Sometimes a table is.\n\nI spent part of the holiday break exploring IMDb ratings data for TV series — and ran into a classic visualization dilemma: how do you show scores across two dimensions at once (seasons and episodes)?\n\nBar charts collapse one of those dimensions. A conditionally formatted table — yes, the \"good old Excel\" approach — turned out to be cleaner and more honest for this kind of data.\n\nA few decisions that shaped the final output:\n— Color gradients by rating value make patterns readable in seconds\n— Annotations with arrows (my usual preference) would have cluttered the layout here — replaced with short written takeaways below the chart\n— Flourish handled the styling efficiently; the defaults are polished enough that minimal tweaking was needed\n\nSide note: open datasets like IMDb are underrated for skill-building. No deadline, no stakeholder — just the data and the question.\n\nWhat's your go-to chart type for multi-dimensional tabular data?",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-09-02T13:29:54.095Z",
-      "linkedinSentAt": "2026-09-02T13:39:10.662Z"
+      "linkedinSentAt": "2026-09-02T13:39:10.662Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -1097,7 +1111,9 @@
       "linkedinEn": "A/B test results can look compelling — and still be completely misleading. No bad intent required.\n\nA few patterns I keep seeing in reports and dashboards:\n\n— Control and test groups in the same color. The reader has to hunt for the legend just to understand what's being compared.\n— No start-date annotation on time series charts. It's impossible to separate the background trend from the actual treatment effect.\n— Truncated Y-axis. The difference between groups looks dramatic when it's actually negligible. A classic manipulation technique — found even in pseudoscientific papers.\n— Every metric crammed onto one screen. Primary KPIs get buried under guardrail metrics and segment breakdowns.\n\nWhat actually works: neutral color for control, accent color for test; a vertical annotation marking the test start on every time series; bar charts always from zero; conditional formatting in summary tables; secondary metrics moved to a separate section or tab.\n\nClear A/B visualization isn't about aesthetics. It's about making sure decisions are driven by real data — not by a chart that happened to look convincing.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-09-02T13:30:44.398Z",
-      "linkedinSentAt": "2026-09-02T13:39:13.087Z"
+      "linkedinSentAt": "2026-09-02T13:39:13.087Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -1233,7 +1249,9 @@
       "linkedinEn": "Most dashboards are built for analysts — not for the people who actually use them.\n\nThe person opening your report once a week doesn't remember what \"LTV cohort D30\" means. They just want to know: is everything fine, or do I need to act?\n\nA few principles that make dashboards truly readable:\n\n— One dashboard, one question. Focus beats completeness every time.\n— Headlines should state conclusions, not just label charts. \"North region is 18% below target\" beats \"Sales by Region.\"\n— Numbers without context are just numbers. Add a benchmark, a prior period, or a target.\n— Color should mean something — not just look nice.\n— If a metric isn't obvious, explain it directly on the screen.\n\nA simple test before you ship: show the dashboard to someone outside your team and ask them three questions in 30 seconds — what's happening, is it good or bad, and what should we do? If they get it right, you're done.\n\nClarity isn't about dumbing data down. It's about respecting your audience.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-09-02T13:31:36.118Z",
-      "linkedinSentAt": "2026-09-02T13:39:15.430Z"
+      "linkedinSentAt": "2026-09-02T13:39:15.430Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -1342,7 +1360,9 @@
       "linkedinEn": "The fastest way to describe a BI analyst's chronic pain? A meme.\n\nThe Denzel Washington meme hit early 2026 and immediately resonated with everyone who works with data — because it fits almost every situation we live through.\n\nA few that come to mind:\n— Dashboard revised five times over button color\n— Source data changed retroactively, yesterday's report is now wrong\n— Two departments look at the same metric, get different numbers\n— \"Just make it like Excel\" — when you have a full BI stack\n— A \"five-minute task\" that takes three days\n\nBehind every joke like this is a real process or communication failure. And sometimes humor gets through to stakeholders when a formal report simply doesn't.\n\nWhat caption would you add?",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-09-02T13:32:09.799Z",
-      "linkedinSentAt": "2026-09-02T13:39:17.853Z"
+      "linkedinSentAt": "2026-09-02T13:39:17.853Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -1474,7 +1494,9 @@
       "linkedinEn": "Your SQL query returns fewer rows than expected — and there's no error message. Sound familiar?\n\nOne of the most common silent bugs in SQL involves NOT IN and NULL values. The root cause is a fundamental language design: NULL in SQL doesn't mean \"empty\" — it means \"unknown.\"\n\nSQL uses three-valued logic, not binary:\n— 'London' NOT IN ('London') → FALSE\n— 'Paris' NOT IN ('London') → TRUE\n— NULL NOT IN ('London') → UNKNOWN\n\nOnly rows evaluating to TRUE pass the WHERE filter. UNKNOWN rows — those with NULL in the column — are silently excluded.\n\nIn practice: if your table has rows where city IS NULL, they won't appear in the result of a NOT IN query, even if that's not what you intended.\n\nThe fix is straightforward but easy to overlook: explicitly add OR city IS NULL to your WHERE clause. Or switch to NOT EXISTS — it handles NULLs correctly without workarounds.\n\nUnderstanding three-valued logic is one of those things that separates queries that \"happen to work\" from queries that work by design.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-09-02T13:32:48.656Z",
-      "linkedinSentAt": "2026-09-02T13:39:20.243Z"
+      "linkedinSentAt": "2026-09-02T13:39:20.243Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -1621,7 +1643,9 @@
       "linkedinEn": "Maps make data come alive — but only when built with intention.\n\nSpatial visualizations are powerful precisely because patterns emerge naturally from geography. That's also why design mistakes here are so easy to miss and so hard to unsee once spotted.\n\nFive principles I rely on when working with geo data:\n\n1. Sequential gradients for positive-only metrics, diverging gradients when there's a meaningful zero or midpoint.\n2. Equal-weight, associative colors for categorical data — no single category should visually dominate.\n3. Proportional bubbles over choropleth fills when showing counts. Area-based fills silently inflate large regions regardless of their actual values.\n4. Labels only where they add context or emphasis. Everything else is visual noise.\n5. Pair the map with a supporting chart. Maps answer \"where\" — bar charts and line graphs answer \"how much\" and \"how it changed.\"\n\nThe difference between a misleading map and an honest one often comes down to a single choice: encoding type or color scale.\n\nWhat's the most common map visualization mistake you see in BI dashboards?",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-09-02T13:33:43.533Z",
-      "linkedinSentAt": "2026-09-02T13:39:22.613Z"
+      "linkedinSentAt": "2026-09-02T13:39:22.613Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -1801,7 +1825,9 @@
       "linkedinEn": "If you ever get confused by your own dashboard — that's your signal to improve it.\n\nYour users will struggle even more than you do. Every moment of hesitation is a UX problem worth fixing.\n\nHere are five common dashboard UX mistakes that are easy to correct:\n\n1. Emojis for decoration create visual noise. Keep only those that carry meaning — metric type indicators, language flags, status markers.\n\n2. Horizontal scroll in tables and charts breaks the user experience. Reduce columns, scale down visuals, or replace wide trend tables with sparklines.\n\n3. Long text descriptions go unread. If your dashboard needs extensive explanation, that's a sign the dashboard itself is too complex.\n\n4. No feedback channel means users get stuck and lose trust in the data. A single link to a chat or support channel solves this.\n\n5. Full-width charts are hard to read. Trends get lost, and the most recent data — often the most important — ends up at the far right edge of the screen.\n\nGood dashboard UX isn't about aesthetics. It's about reducing friction between a user's question and the answer in the data.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-09-02T13:34:41.010Z",
-      "linkedinSentAt": "2026-09-02T13:39:24.975Z"
+      "linkedinSentAt": "2026-09-02T13:39:24.975Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -1937,7 +1963,9 @@
       "linkedinEn": "The fastest way to learn good data visualization? Study the bad examples.\n\nI recently redesigned an 18-year-old infographic from a major Russian news agency — a survey on what women value in a husband vs. a man. It looked polished. But the data was nearly impossible to read.\n\nWhat was wrong with the original:\n— Values were scattered across the image with inconsistent scales — direct comparison was impossible.\n— Grouping data via \"body part pointers\" seemed clever but created visual chaos.\n— A written conclusion about health appeared with zero data to support it.\n— A decorative illustration competed with the actual numbers for attention.\n\nWhat I changed in the redesign:\n— Unified scale and sorted bars — comparisons became instant.\n— The gap between \"husband\" and \"man\" ratings was made explicit.\n— The conclusion was derived from the data, not added as an afterthought.\n— A clean, neutral background kept the focus on the chart.\n\nBad examples stick. When you see a specific mistake actively preventing you from reading a chart, the underlying principle stops being abstract — it becomes obvious.\n\nDecoration is only justified when it doesn't get in the way. Otherwise, form works against content.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-09-02T13:35:26.105Z",
-      "linkedinSentAt": "2026-09-02T13:39:27.340Z"
+      "linkedinSentAt": "2026-09-02T13:39:27.340Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -2063,7 +2091,9 @@
       "linkedinEn": "Perfect data for a pie chart — and I still had to drop it.\n\n4 categories, clearly different values. By the book, this was a textbook pie chart case. Then reality stepped in.\n\nThree things that killed it:\n— Long category names. At small component size, the legend became unreadable.\n— The chart was a supporting element next to a Total KPI card — limited space, no room for a proper legend.\n— Redash offers limited legend customization for pie charts. The tool made the decision for me.\n\nThe result: a bar chart. Less visually \"exciting,\" but category labels sit on the axis and stay readable at any size. And research consistently shows people compare bar lengths more accurately than pie angles.\n\nThe takeaway: data fitting the criteria is not a green light for pie chart. Always check label length, component size, and tool constraints before the layout is finalized.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-09-02T13:36:13.283Z",
-      "linkedinSentAt": "2026-09-02T13:39:29.720Z"
+      "linkedinSentAt": "2026-09-02T13:39:29.720Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -2207,7 +2237,9 @@
       "linkedinEn": "Random colors on a chart aren't a neutral choice. They're a mistake.\n\nWhen colors are picked without a system, viewers spend extra cognitive effort figuring out what to look at — and that erodes trust in your analysis.\n\nA few principles that actually hold up in practice:\n\n— Each color should be unique on its kind. Not three shades of green — one green.\n— Let your data type guide your palette: qualitative for categories, sequential for ordered values, divergent for deviations from a midpoint.\n— Check your palette in grayscale. If everything merges, add shape or texture as a secondary encoding.\n— Design for color blindness from the start: red-green as the only differentiator fails for ~8% of men.\n\nOne more that matters specifically for presentations: choose colors with unambiguous names. If you want to say \"look at the green line,\" make sure there's only one green line on that chart. Otherwise the phrase breaks down, and so does your audience's attention.\n\nColor in data visualization is a system, not a style preference.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-09-02T13:37:06.064Z",
-      "linkedinSentAt": "2026-09-02T13:39:32.148Z"
+      "linkedinSentAt": "2026-09-02T13:39:32.148Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -2269,7 +2301,9 @@
       "linkedinEn": "Friday reminder: data visualization is 20% insight and 80% \"can we change the color again?\"\n\nEvery BI analyst knows the feeling:\n— Explaining why swapping axes actually changes the story\n— Pixel-perfecting a layout no one will notice\n— Redoing the color palette for the third time this week\n\nIt's frustrating — and somehow still worth it.\n\nHappy Friday. May your dashboards load fast and your stakeholders ask zero last-minute questions.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-09-02T13:37:24.558Z",
-      "linkedinSentAt": "2026-09-02T13:39:34.562Z"
+      "linkedinSentAt": "2026-09-02T13:39:34.562Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -2398,7 +2432,9 @@
       "linkedinEn": "A JOIN on zero values won't throw an error — but it can silently corrupt millions of rows.\n\nWhile reviewing a dashboard, a colleague noticed an unexpected drop in a metric every weekend. That one observation led us to a subtle but serious SQL bug.\n\nTwo tables were joined on a request ID column. The left table had 5 million rows where ID = 0 — valid by business logic. The right table had exactly one row with ID = 0 that should have been filtered out beforehand. It wasn't.\n\nThe result: all 5 million rows inherited data from that single record. The query ran without errors. The chart looked plausible. There was no spike — just a quiet, uniform distortion across every date.\n\nA few things this case reinforced:\n\n— Zero (0) is not NULL, but it often signals \"unknown\" or \"not applicable.\" Filter it out before the JOIN, not after.\n— Evenly distributed bad data is the hardest kind to spot — it doesn't create outliers, it blends in.\n— Segments with predictable patterns (weekdays vs. weekends, working hours, seasonality) are useful sanity checks for catching data anomalies.\n— Checking key columns for nulls and zeros should be standard practice in any SQL code review before production.\n\nData can look completely reasonable and still be completely wrong. That's what makes this class of bugs so dangerous.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-09-02T13:38:16.439Z",
-      "linkedinSentAt": "2026-09-02T13:39:37.222Z"
+      "linkedinSentAt": "2026-09-02T13:39:37.222Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -2507,7 +2543,9 @@
       "linkedinEn": "A good chart isn't about aesthetics. It's about decisions.\n\nI'm Valeria Smirnova, Senior BI Analyst at Avito (prev. Flo, Citymobil, Qlean). I've been writing about data visualisation and dashboard design for years — and the same mistakes keep showing up:\n\n— Color used for decoration, not meaning\n— Pie charts where bar charts belong\n— A/B test results visualised in ways that mislead rather than inform\n— Dashboards so cluttered that users don't know where to look\n\nIn my blog I work through real cases: taking actual charts and rebuilding them step by step. Topics include dashboard UX, colour theory in dataviz, map visualisations, and how data can be manipulated through visual choices.\n\nThe core insight after years in BI: visualisation isn't the last mile of analysis — it's part of the communication. If your chart needs a verbal explanation to make sense, it's not doing its job.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-09-02T13:38:53.362Z",
-      "linkedinSentAt": "2026-09-02T13:39:39.654Z"
+      "linkedinSentAt": "2026-09-02T13:39:39.654Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -2643,7 +2681,9 @@
       "linkedinEn": "What if your BI team treated dashboards the way engineers treat code — with structured peer review?\n\nThat's exactly what the Avito BI team does with a practice called \"Dashboard Roast\": authors present their reports, and a panel of colleagues gives concrete, expert feedback on what works, what doesn't, and why.\n\nWhy this beats documentation and guidelines:\n— Feedback is tied to real dashboards, not hypothetical examples\n— It builds a shared language around visualization quality\n— Recurring issues get turned into internal standards\n— Authors start raising the bar before the session even happens\n— Cross-functional perspectives (product, analytics, data design) make the feedback richer\n\nData culture isn't built through top-down rules. It grows through regular practice and honest professional conversation.\n\nDoes your team have a dedicated format for reviewing analytics output?",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-15T11:08:30.124Z",
-      "linkedinSentAt": "2026-07-15T11:27:40.935Z"
+      "linkedinSentAt": "2026-07-15T11:27:40.935Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -2757,7 +2797,9 @@
       "linkedinEn": "What does a BI analyst actually need to know — and where to learn it?\n\nI put together a curated resource list on Habr: books, courses, articles, and tools that have genuinely helped me grow. Not a generic \"junior must-have\" list — but what I use at work every day.\n\nFive skill areas covered:\n— Data visualization: principles, chart selection, perception\n— SQL: from basics to window functions\n— Business acumen: metrics, processes, product thinking\n— Stakeholder communication: gathering requirements, defending decisions\n— BI tools: Tableau, Power BI, Superset, and more\n\nOne honest caveat: DWH engineering is barely covered — it's outside my current experience. But the comment section filled that gap with solid book recommendations from the community.\n\nA good resource list isn't something you check off once. It's a navigator you come back to as you grow.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-15T11:09:06.182Z",
-      "linkedinSentAt": "2026-07-15T11:27:43.105Z"
+      "linkedinSentAt": "2026-07-15T11:27:43.105Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -2904,7 +2946,9 @@
       "linkedinEn": "From product analyst to BI analyst — and why it felt like the most natural move.\n\nFor years I worked as a product analyst: A/B tests, user research, dashboards, metrics. The work was varied, but I kept noticing where my energy actually went — always to dashboards and BI infrastructure, rarely to research.\n\nWhat made the transition intentional rather than accidental:\n— A competency matrix helped me honestly identify the gaps in my BI skill set\n— Participating in open dataviz challenges gave me real portfolio pieces\n— A structured data visualization course helped me connect the dots across scattered knowledge\n— My product background turned out to be an asset, not baggage: I understand what stakeholders actually need from a dashboard before they can articulate it themselves\n\nNow five months into the BI analyst role. I work on dashboards, data mart logic, and process automation — exactly the parts of analytics I always enjoyed most.\n\nSometimes the best career move isn't a pivot. It's doubling down on what already works.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-15T11:10:01.340Z",
-      "linkedinSentAt": "2026-07-15T11:27:45.304Z"
+      "linkedinSentAt": "2026-07-15T11:27:45.304Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -3084,7 +3128,9 @@
       "linkedinEn": "Honest data, misleading chart. It happens more often than we'd like to admit.\n\nData manipulation in visualisation isn't always intentional. More often, it's a series of small \"convenient\" choices: starting the Y-axis off zero, picking a time window where the trend looks good, highlighting the \"right\" bar with colour.\n\nEight techniques that distort how data is perceived:\n\n— Truncated Y-axis: a minor change looks like a dramatic shift\n— Cherry-picked time range: context hidden, conclusion pre-set\n— Disproportionate bubble areas: visual size doesn't match the numbers\n— Mixing absolute and relative values: \"50% growth\" from a base of two\n— Colour emphasis without a semantic reason: attention is managed, not informed\n— Correlation framed as causation: two parallel trends are not an argument\n— Dropping inconvenient segments or outliers: \"clean\" data with a convenient result\n— Aggregation that hides variance: the average conceals everything interesting\n\nI've seen most of these in real working situations — including a request to \"make it look better\" at my very first analyst job.\n\nKnowing these patterns matters twice over: to avoid using them yourself, and to read other people's dashboards with a critical eye.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-15T11:10:57.645Z",
-      "linkedinSentAt": "2026-07-15T11:27:47.499Z"
+      "linkedinSentAt": "2026-07-15T11:27:47.499Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -3210,7 +3256,9 @@
       "linkedinEn": "One question I now ask myself before designing any dashboard: is this a dinner for two or a 300-person wedding reception?\n\nDashboard overload is one of the most common BI mistakes. When everything is highlighted, nothing is.\n\nSigns you've crossed the line:\n— 10+ visual elements competing for attention on one screen\n— a color palette that looks like a traffic light at a carnival\n— filters nested inside filters\n— load time over 5 seconds\n— widgets that \"someone requested\" but no one actually uses\n\nThe opposite extreme is just as problematic: a single KPI with no trend or drill-down isn't a dashboard — it's a sticky note.\n\nA quick gut-check: show the dashboard to someone from your target audience and ask them to name the key insight in 10 seconds. Their answer will tell you more than any design review.\n\nAim for the \"50-person dinner party\" — enough context to make decisions, structured enough that nothing gets lost.\n\nWhere do your dashboards land on that scale?",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-15T11:11:40.568Z",
-      "linkedinSentAt": "2026-07-15T11:27:49.693Z"
+      "linkedinSentAt": "2026-07-15T11:27:49.693Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -3339,7 +3387,9 @@
       "linkedinEn": "I had my own dashboard roasted by colleagues — and it was more valuable than being the reviewer.\n\nThree takeaways from the session:\n\n— User habits beat \"correct\" terminology. If a team has used the same metric names for years, renaming them creates friction, not clarity.\n— Peer review without understanding real use cases is guesswork. Ask the author how the dashboard is actually used before giving feedback.\n— Offer multiple redesign options, not one \"right\" answer. The author knows the context better than any reviewer.\n\nBut the biggest insight was about dual-axis charts. I'd always avoided them. During the review, someone showed me a case where they're the perfect tool: a conversion rate line combined with an area chart of absolute order counts on the second axis. Instantly clear why the metric drops — paid orders are flat, created orders are growing. No explanation needed.\n\nSometimes one outside perspective breaks an assumption you've held for years.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-15T11:12:30.203Z",
-      "linkedinSentAt": "2026-07-15T11:27:51.980Z"
+      "linkedinSentAt": "2026-07-15T11:27:51.980Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -3433,7 +3483,9 @@
       "linkedinEn": "1,000 followers in 3 months — while returning to work after a career break and raising a child.\n\nI run a blog on data visualization, BI dashboards, and A/B testing. Some weeks that meant losing sleep to keep it going. The motivation never left.\n\nA few things I've learned along the way:\n\n— Memes aren't frivolous. They're the lowest-friction entry point for a new audience.\n— Real work examples outperform generic advice every time.\n— Consistency beats perfection. A published post always wins over an ideal one stuck in drafts.\n— The Russian-speaking BI community is larger and more engaged than it appears from the outside.\n\nIf you're building a professional audience while managing a full life — how do you keep the balance between quality and regularity?",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-15T11:12:59.874Z",
-      "linkedinSentAt": "2026-07-15T11:27:54.712Z"
+      "linkedinSentAt": "2026-07-15T11:27:54.712Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -3578,7 +3630,9 @@
       "linkedinEn": "A beautiful dashboard isn't always a useful one.\n\nDuring a recent dashboard review, we looked at a visually stunning design — and that was exactly the problem. The chart displayed only 1 out of 3 key metrics, offered no way to compare team leads against each other, and missed the overall funnel picture entirely.\n\nThree principles that help maintain the right balance:\n\n1. Ask first: are all critical metrics visible? Aesthetics come second.\n2. If one complex chart shows less than three simple ones — go with simple.\n3. Basic visual hygiene (consistent palette, labeled axes, clear titles) already makes a dashboard appealing — and research suggests it increases trust in the numbers.\n\nIn this case, replacing the elaborate chart with three horizontal bar charts solved the problem immediately: team leads became comparable across all three metrics at a glance.\n\nComplex, creative visualizations are a great format — just not for operational dashboards. There's no time to admire. Save that for competitions, personal projects, and data storytelling pieces.\n\nInformativeness and aesthetics aren't opposites. They just have a clear hierarchy.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-15T11:13:47.995Z",
-      "linkedinSentAt": "2026-07-15T11:27:56.879Z"
+      "linkedinSentAt": "2026-07-15T11:27:56.879Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -3713,7 +3767,9 @@
       "linkedinEn": "A chart with 15 lines isn't informative — it's noise.\n\nSpaghetti charts are one of the most common issues in BI dashboards. The problem isn't the number of lines per se — it's the lack of a strategy for managing them.\n\nHere's a simple framework:\n\n— Interactive dashboard with filters → spaghetti is acceptable if users can select the lines they need.\n— Static report or presentation → never use spaghetti. Grey out secondary lines, use color only for what matters.\n— Need to surface anomalies automatically? Use SQL window functions.\n\nOn a support operations dashboard I built, there were dozens of request categories — a classic spaghetti situation. Managers didn't need all of them. They needed to spot sudden spikes.\n\nThe fix: a \"show peaks\" toggle powered by a SQL LAG function that compares today's volume to the previous day. When activated, the chart collapses from a tangle of lines to 2–3 that actually require attention.\n\nThe best dashboards don't show everything. They show what's actionable right now.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-15T11:14:33.544Z",
-      "linkedinSentAt": "2026-07-15T11:27:59.112Z"
+      "linkedinSentAt": "2026-07-15T11:27:59.112Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -3847,7 +3903,9 @@
       "linkedinEn": "Your users aren't the problem. Your dashboard design might be.\n\nFor a long time, I assumed that if someone couldn't read a chart or fill out a form correctly, they just weren't paying attention. Donald Norman's \"The Design of Everyday Things\" completely reframed that for me.\n\nThe core idea: people want to accomplish tasks quickly, without thinking. When an interface gets in the way — that's a design failure, not a user failure.\n\nIn BI and data visualization, this shows up constantly:\n— No axis labels? Users are left guessing the unit of measure.\n— Non-standard controls? Cognitive load goes up, insight goes down.\n— Color with no legend? Everyone interprets it differently.\n\nA real example: a team once ran an A/B test comparing a custom-designed tariff selector against standard radio buttons. The familiar pattern drove roughly 20% higher conversion — simply because users didn't have to figure out how it worked.\n\nThe best dashboards aren't the most creative ones. They're the ones people can use without a manual.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-15T11:15:21.587Z",
-      "linkedinSentAt": "2026-07-15T11:28:01.285Z"
+      "linkedinSentAt": "2026-07-15T11:28:01.285Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -3966,7 +4024,9 @@
       "linkedinEn": "Choosing the right chart type is harder than it looks.\n\nThe same dataset can be displayed as a bar chart, a line graph, a heatmap — all technically correct. But only one will actually work for your audience and purpose.\n\nA few criteria that genuinely help:\n\n— Start with one sentence: \"This chart should show that…\" The right chart type follows from the answer.\n— Match the data type: time series, categories, distributions, and part-to-whole relationships each have proven formats.\n— Test with a fresh pair of eyes: if a colleague with no context reads the takeaway correctly, you're on the right track.\n— Avoid 3D effects and pie charts with more than four segments — they look polished but slow comprehension.\n— Put two or three alternatives side by side before committing.\n\nThere's no universally \"best\" chart. There's only the right one — for your specific question, data, and audience.\n\nWhat's the first thing you consider when choosing a visualization type?",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-15T11:16:01.049Z",
-      "linkedinSentAt": "2026-07-15T11:28:03.596Z"
+      "linkedinSentAt": "2026-07-15T11:28:03.596Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -4039,7 +4099,9 @@
       "linkedinEn": "When the task list is longer than the day — memes become a survival tool.\n\nEvery data analyst knows the feeling: dashboards won't reconcile, stakeholders are waiting, and you've lost track of when you last worked on something non-urgent.\n\nIn those moments, a bit of self-deprecating humor isn't weakness — it's professional hygiene.\n\nFriday meme roundups aren't procrastination. They're a short reset that helps you come back to the data without wanting to close the laptop forever.\n\nTake care of your focus — especially at the end of the week.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-15T11:16:21.496Z",
-      "linkedinSentAt": "2026-07-15T11:28:05.876Z"
+      "linkedinSentAt": "2026-07-15T11:28:05.876Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -4179,7 +4241,9 @@
       "linkedinEn": "A 40-year-old principle that still makes dashboards better.\n\nEdward Tufte introduced the data-ink ratio in the 1980s: the proportion of a chart's ink that actually encodes data versus everything else. The higher, the better. Useful ink — bars, lines, labels. Non-data ink — backgrounds, 3D effects, heavy gridlines, decorative legends.\n\nThree things I check in every dashboard before it goes live:\n— Background fill with no function? Gone.\n— Color used as decoration rather than emphasis? Neutralized.\n— Can I remove half the gridlines without losing meaning? Done.\n\nA simple audit: pick any chart and ask of each element — \"does this encode data, or does it just take up space?\" In my experience, 30–40% of visual elements can be removed with zero loss of information.\n\nThis isn't minimalism for its own sake. It's about respecting the user's cognitive bandwidth — the less noise, the faster and more accurately they read the data.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-15T11:17:07.014Z",
-      "linkedinSentAt": "2026-07-15T11:28:08.172Z"
+      "linkedinSentAt": "2026-07-15T11:28:08.172Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -4304,7 +4368,9 @@
       "linkedinEn": "A chart as a murder weapon — that's the premise of a scene in \"The Perfect Couple\" (Netflix) that every data person should see.\n\nA suspect presents smartwatch data to prove he was asleep at the time of the murder. Solid alibi. Except the watch was tracking more than just him — it also recorded his wife's breathing and snoring. The chart showed a clear gap: no respiratory activity from her during the exact window of the crime.\n\nOne person's alibi became evidence against another. One chart changed everything.\n\nHere's what this tells us about working with data:\n— Context variables often matter more than the primary metric.\n— Visualization makes anomalies impossible to ignore — a blank stretch on a time series is immediately visible.\n— Absence of data is data. Silence on a chart is a signal, not just a missing value.\n— A good analyst doesn't just answer the question asked — they look at the full dataset.\n\nThe detective did exactly what a good analyst should do: questioned the data at face value and looked beyond the original scope.\n\nWhen did a \"secondary\" variable last change your entire conclusion?",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-15T11:17:57.215Z",
-      "linkedinSentAt": "2026-07-15T11:28:10.333Z"
+      "linkedinSentAt": "2026-07-15T11:28:10.333Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -4416,7 +4482,9 @@
       "linkedinEn": "The experts on Russia's most iconic quiz show — \"What? Where? When?\" — gave zero answers. Not a single version. That almost never happens.\n\nThe task: a table of colored squares, with the last one transparent. What is encoded in it?\n\nIt's a deceptively hard visual puzzle — and it reveals something important about how we read data:\n\n— Our brains look for scales and legends, not symbolic color mappings.\n— \"No color\" feels like missing data, even when it's a meaningful part of the code.\n— Without familiar context — axes, labels, a legend — even strong visual thinkers get stuck.\n\nFor data analysts and BI practitioners, this kind of puzzle is great training. Visual literacy isn't just knowing chart types. It's the ability to detect a system in a set of seemingly arbitrary elements.\n\nColor is a powerful encoding channel — but only when the viewer has the key. Without it, even experts go silent.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-15T11:18:43.188Z",
-      "linkedinSentAt": "2026-07-15T11:28:12.539Z"
+      "linkedinSentAt": "2026-07-15T11:28:12.539Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -4568,7 +4636,9 @@
       "linkedinEn": "The most valuable BI skill isn't SQL or Python.\n\nYou can learn any tool. Stacks change. But understanding what a stakeholder actually needs — that's what separates a strong analyst from a technically proficient one.\n\nValeria Smirnova, Senior BI Analyst at Avito, puts it simply: stakeholder needs come first. SQL, data marts, chart types, and filters come after. The technical side is solvable — reading people's minds is not.\n\nKey takeaways from her career path:\n\n— A background in product analytics is a hidden advantage in BI: you already think in metrics and have been a dashboard user yourself.\n— Data visualization is a skill worth developing deliberately — it doesn't come automatically with SQL fluency.\n— AI tools (Claude, Codex) don't replace analysts. They absorb operational grunt work and make previously impractical solutions suddenly viable.\n— Before entering BI, figure out which part excites you most: data viz, infrastructure, or the analytical layer. Focus your learning there.\n\nThe way business sees a great BI analyst: someone you bring a problem to and get a solution back — not a list of clarifying questions.\n\nWhat part of your analytics work do you find most engaging?",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-15T11:19:47.684Z",
-      "linkedinSentAt": "2026-07-15T11:28:14.748Z"
+      "linkedinSentAt": "2026-07-15T11:28:14.748Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -4692,7 +4762,9 @@
       "linkedinEn": "Users never say \"the proximity principle is violated here.\" They just say \"this dashboard is confusing.\"\n\nProximity is one of the Gestalt principles — foundational rules of visual perception. The idea: elements placed close together are perceived as related. Simple in theory, but breaking it is one of the most common sources of confusion in dashboard design.\n\nThree places where it matters most:\n\n1. Tooltips and metrics. A color indicator, a value, and a label need to sit together. When they do, users parse the meaning instantly — no effort required.\n\n2. Filters. A filter that controls a specific chart should live next to that chart, or inside it. A shared filter panel far from the visuals creates constant \"wait, which chart does this affect?\" moments.\n\n3. Chart families. A section header should sit close to the charts it belongs to. If it floats in the middle of the screen, users lose the sense of what's grouped together.\n\nSpacing is not an aesthetic choice — it's a navigation tool. Large gaps separate groups; small gaps bind elements together. One principle, applied consistently, makes a dashboard dramatically easier to read.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-15T11:20:32.851Z",
-      "linkedinSentAt": "2026-07-15T11:28:16.923Z"
+      "linkedinSentAt": "2026-07-15T11:28:16.923Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -4832,7 +4904,9 @@
       "linkedinEn": "Dozens of filters, KPI cards, small multiples — all on one screen. How do you keep a dashboard from feeling like visual noise?\n\nOne underused tool: the Gestalt principle of common region. Elements placed inside a shared visual boundary — a box, background, or container — are automatically perceived as belonging together, even when there's space between them.\n\nThree practical applications in BI dashboards:\n\n1. KPI cards. A card typically holds a metric name, value, and trend. Without a distinct background, they blur together. A simple container makes it immediately clear: everything inside belongs to one metric.\n\n2. Filters. Operational dashboards can have dozens of filters. A flat list doesn't scale. Grouping by theme — product attributes in one container, user request parameters in another — cuts search time significantly.\n\n3. Small multiples. Splitting a funnel into per-platform subcharts works because all subcharts share a common visual area. Users read them as a single analytical unit, not as disconnected charts.\n\nOne caveat: if everything is highlighted, nothing is. Common region only works when the grouping carries real meaning.\n\nThe principle doesn't remove data from your dashboard — it helps users navigate it faster.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-15T11:21:25.321Z",
-      "linkedinSentAt": "2026-07-15T11:28:19.127Z"
+      "linkedinSentAt": "2026-07-15T11:28:19.127Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -4988,7 +5062,9 @@
       "linkedinEn": "The funnel chart is one of the most recognized visuals in BI — and one of the most misused.\n\nIn a recent dashboard review session, a team visualized user bonus activity — accruals, write-offs, expirations, and remaining balance — as a funnel. It looked familiar. But it hid the data instead of revealing it.\n\nHere's why the funnel failed:\n— Funnels work when each step is a subset of the previous one, with values monotonically decreasing\n— Bonus transactions aren't a filtering process — they're balance changes: positive and negative movements toward a final result\n— The visual metaphor contradicted the actual logic of the data\n\nThe right tool: a waterfall chart. It shows how individual operations — gains and losses — contribute to the final outcome. That's exactly what's needed for financial flows.\n\nA quick mental check before choosing a chart type: is this sequential filtering, or is this balance movement? That one question usually points to the right answer.\n\nThe best visualization doesn't dress up data. It makes the story impossible to miss.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-15T11:22:11.786Z",
-      "linkedinSentAt": "2026-07-15T11:28:21.336Z"
+      "linkedinSentAt": "2026-07-15T11:28:21.336Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -5124,7 +5200,9 @@
       "linkedinEn": "Users don't read dashboards — they scan them. And the brain's first instinct is to group things that look alike.\n\nThat's the Gestalt principle of similarity: elements sharing visual characteristics are perceived as related, even when they're far apart on the screen.\n\nIn dashboard design, this translates into three practical decisions:\n\n— One color = one category. If \"revenue\" is orange in the first chart, it should be orange everywhere. Users learn the code once and apply it across the whole screen.\n— A consistent KPI card template. Large value, WoW change, sparkline — always in the same order. Repeating structure turns a collection of numbers into a readable system.\n— Same color for the total and the trend of the same metric. If orders are shown as a blue bar chart, the orders area chart should be blue too. Users connect them instantly, no legend needed.\n\nWhen visual language is consistent, people spend less cognitive effort decoding the interface — and more energy acting on the data.\n\nHow consistent is the visual language across your dashboards?",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-15T11:22:50.350Z",
-      "linkedinSentAt": "2026-07-15T11:28:23.500Z"
+      "linkedinSentAt": "2026-07-15T11:28:23.500Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -5261,7 +5339,9 @@
       "linkedinEn": "A 10x difference in values on a single chart is one of the most common data visualization traps.\n\nSmaller series get flattened against the axis. Their trends become invisible — not because there's no story, but because the scale erases it.\n\nI ran into this with an \"Orders by City\" line chart: top 5 cities averaged 1,000+ orders per day, the remaining 4 cities hovered around 100. On a shared axis, the small cities simply didn't exist visually.\n\nThe fix: split into side-by-side panels.\n— Left panel: major cities, scaled to their range\n— Right panel: smaller cities, their own Y-axis, trends finally readable\n— Shared X-axis keeps the time context intact\n\nCritical caveat: when Y-axes differ, you cannot compare absolute values across panels by line height. Always label this explicitly — or readers will draw wrong conclusions.\n\nAlternatives worth considering: logarithmic scale, or normalizing to an index (% of baseline period) — both work, but require the audience to be comfortable with the format.\n\nGood visualization isn't about aesthetics. It's about not misleading people.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-15T11:23:42.051Z",
-      "linkedinSentAt": "2026-07-15T11:28:25.761Z"
+      "linkedinSentAt": "2026-07-15T11:28:25.761Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -5414,7 +5494,9 @@
       "linkedinEn": "Same dataset. Six charts. Six different stories.\n\nI took monthly order data and visualized it six ways — bar chart, line chart, truncated axis, area chart, sorted horizontal bars, formatted table. The numbers didn't change. The narrative did.\n\nA few things this exercise made clear:\n\n— Bar charts are great for comparison, but they hide trends.\n— A truncated Y-axis amplifies change — useful, but easy to mislead unintentionally.\n— Area charts convey \"weight\" and volume better than lines alone.\n— A sorted horizontal bar chart kills chronology but makes rankings instantly readable.\n— A formatted table is underrated when your audience needs exact numbers, not just patterns.\n\nThe real takeaway: choosing a chart type is an analytical decision, not an aesthetic one. Before you open any BI tool, write down — in one sentence — the question your chart needs to answer. That sentence tells you everything about the format you need.\n\nWhat chart type causes the most debate on your team?",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-15T11:24:31.541Z",
-      "linkedinSentAt": "2026-07-15T11:28:27.927Z"
+      "linkedinSentAt": "2026-07-15T11:28:27.927Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -5587,7 +5669,9 @@
       "linkedinEn": "A good dashboard doesn't make users think about the tool — only about the data.\n\nThere's a simple principle worth following: anything the machine can do, the machine should do. Obvious in theory, rarely applied in practice.\n\nThree places where this matters most:\n\n1. Tooltips. Most show just a metric value. They could show plan deviation, WoW change, and day of week — all in one hover. That's context delivered instantly, no extra clicks.\n\n2. Date filters. A fixed range goes stale in days. Relative intervals — Last 30 days, Last month — keep the dashboard current automatically. No one has to touch it.\n\n3. Default filter values. If most users immediately switch \"region\" from \"All\" to a specific value, make that value the default. Check your usage logs, or just ask the team — it takes one conversation.\n\nEach of these takes an hour to implement. Together, they turn a dashboard people open out of obligation into one they actually rely on.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-15T11:25:25.245Z",
-      "linkedinSentAt": "2026-07-15T11:28:30.103Z"
+      "linkedinSentAt": "2026-07-15T11:28:30.103Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -5716,7 +5800,9 @@
       "linkedinEn": "The dashboard is done. But no one looks at it.\n\nThe \"Yes, But\" comic format — two panels, one contradiction — turns out to be a surprisingly accurate mirror for data analytics work.\n\nA few painfully familiar scenarios:\n— Data is finally centralized — but every team defines the metrics differently.\n— The A/B test is running — but the sample size was never large enough.\n— The report is automated — but the format changed and everything broke.\n— The chart is cleaner — but the stakeholder still wants a pie chart.\n\nHumor is underrated as a diagnostic tool. When your team recognizes themselves in a scenario, it opens a conversation about process without blame.\n\nWhat's your personal \"Yes, But\" moment in BI or data work?",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-15T11:25:59.222Z",
-      "linkedinSentAt": "2026-07-15T11:28:32.257Z"
+      "linkedinSentAt": "2026-07-15T11:28:32.257Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -5874,7 +5960,9 @@
       "linkedinEn": "Product analyst or BI analyst — what's the real difference?\n\nThis is one of the most common questions from people just starting out in data. Having worked both sides, here's what I've learned:\n\nThe simplest framing:\n— Product analysts work on the external product: A/B tests, user metrics, growth levers for millions of customers.\n— BI analysts build the internal analytical infrastructure: dashboards, reports, and data tools for the company's own teams.\n\nA few things worth knowing before choosing:\n— Product analytics demands a solid foundation in statistics and math — it's a mindset, not just a course to complete.\n— In BI, you're essentially the product manager of your own product. You build tools you also use — which can be a strong motivator.\n— AI is already handling most of the coding routine (SQL, Python) in both fields. That shifts the real work toward logic, design, and architecture — which is where the interesting problems live.\n\nMy advice to anyone choosing a path: skip the job descriptions and talk to practitioners from both sides. One real conversation is worth more than ten articles.\n\nWhich path did you take — and what made you choose it?",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-15T11:26:56.276Z",
-      "linkedinSentAt": "2026-07-15T11:28:34.429Z"
+      "linkedinSentAt": "2026-07-15T11:28:34.429Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -5999,7 +6087,9 @@
       "linkedinEn": "Your most recent data is almost always understated — and that's a feature, not a bug.\n\nSome metrics take time to \"mature\": reviews, retention rates, long-cycle conversions. A flower delivery service tracking the share of orders that receive reviews will always see lower numbers for yesterday's orders than for last month's — users simply haven't had time to respond yet.\n\nShow these numbers without context and your team will draw wrong conclusions from artificially low figures.\n\nFour ways to visualize immature data honestly:\n— Dashed line or lighter color for the incomplete portion of a time series\n— A vertical cutoff line with a clear label\n— Faded cells in retention cohort tables\n— Confidence intervals when a forecast model is available\n\nThe core principle: don't hide immature data, and don't present it as final. Explicit marking isn't a weakness in your analysis — it's a sign of a trustworthy dashboard.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-07-17T10:50:28.453Z",
-      "linkedinSentAt": "2026-07-17T10:50:31.376Z"
+      "linkedinSentAt": "2026-07-17T10:50:31.376Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -6110,7 +6200,9 @@
       "linkedinEn": "Sometimes a meme says more than a status update ever could.\n\nThe Cillian Murphy \"looking at something\" meme has become an unofficial mascot for data analysts everywhere — that perfectly still face when a stakeholder request lands in your inbox.\n\nA few things that reliably trigger the look:\n— \"Make it like before, but different\"\n— \"Can we just add one more metric?\" (no context provided)\n— A dashboard request with no defined business question\n\nAnalysts rarely say everything they're thinking. Memes, however, do the job beautifully.\n\nIf you want to understand your BI team better — ask them about Cillian Murphy. Chances are, they have opinions.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-08-04T11:26:57.286Z",
-      "linkedinSentAt": "2026-08-04T11:27:00.465Z"
+      "linkedinSentAt": "2026-08-04T11:27:00.465Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -6247,7 +6339,9 @@
       "linkedinEn": "One chart instead of ten — that's the power of split by.\n\nWhen a metric drops unexpectedly, the first question is always \"why?\" Without a split, you end up building a separate chart for every category, channel, or region. With split by, users slice the data themselves — right on the dashboard.\n\nA few principles that hold up in practice:\n\n1. Single metric on a chart — split by works cleanly and stays readable.\n2. Multiple metrics — spaghetti risk is real. Hide the secondary metric when a split is active.\n3. Both metrics are critical — use small multiples: each metric gets its own panel, no crossed lines.\n4. On the technical side: a dashboard parameter + a CASE statement in SQL. One query, no code duplication per dimension.\n5. Check your parameter usage logs. The most-used split deserves a dedicated widget — don't make users select it manually every single time.\n\nA good dashboard answers \"why,\" not just \"what.\" Split by is one of the tools that makes that possible — without multiplying chart count indefinitely.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-08-07T10:04:26.297Z",
-      "linkedinSentAt": "2026-08-07T10:04:29.305Z"
+      "linkedinSentAt": "2026-08-07T10:04:29.305Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -6374,7 +6468,9 @@
       "linkedinEn": "Do you know data visualization theory — but how sharp is your eye?\n\nTheory is easy to memorize. But dataviz is also a perceptual skill: spotting a truncated axis, choosing the right chart type when two options look similar, or reading a value off a scale without labels.\n\nThe most effective way to train this? Tests where the difference between right and wrong is subtle — and you actually have to think.\n\nKey areas worth testing yourself on:\n— Chart type selection for specific analytical goals\n— Design principles: hierarchy, contrast, information density\n— Chart hygiene: removing noise so data speaks honestly\n— Visual acuity: how precisely you read numerical scales\n— Color perception in a visual context\n\nI regularly run these kinds of tests with colleagues before dashboard reviews — disagreements in answers lead to better discussions than any style guide.\n\nDataviz fluency is a trainable skill. The key is honest feedback, not just making more charts.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-08-13T10:11:22.802Z",
-      "linkedinSentAt": "2026-08-13T10:11:25.956Z"
+      "linkedinSentAt": "2026-08-13T10:11:25.956Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -6502,7 +6598,9 @@
       "linkedinEn": "First Performance Review in a new role — and it hit all at once.\n\nSwitching from product analytics to BI changes more than your task list. It changes how you feel about the work itself — and that shows up clearly when review season comes around.\n\nMy first BI review meant catching up on everything at once:\n— Confirming 2 hard skills\n— Presenting a major BI project (a reporting bot built for senior leadership)\n— Completing the competency matrix\n— Collecting stakeholder feedback on day-to-day projects\n\nThe outcome: top rating, 1.5× bonus, salary increase.\n\nThree things made the difference: no burnout after a real break, returning to work I genuinely care about, and the contrast effect after two years of parental leave — where every professional task feels like energy, not drain.\n\nPerformance reviews are calibration tools. They tell you not just how well you performed, but whether the role actually fits. When it does, the results tend to speak for themselves.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-09-16T14:06:33.475Z",
-      "linkedinSentAt": "2026-09-16T14:06:39.829Z"
+      "linkedinSentAt": "2026-09-16T14:06:39.829Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -6661,7 +6759,9 @@
       "linkedinEn": "Before you open any BI tool, answer one question: who is actually going to use this dashboard?\n\nThat single answer determines everything — layout, number of filters, whether tooltips even matter.\n\nThree dashboard types that cover most real-world use cases:\n\n1. Executive dashboard — built for leadership. Rule: from summary to detail. KPI cards at the top, trends below, key breakdowns as needed. Keep it clean and scannable.\n\n2. Operational dashboard — built for self-service analysis. Filters, multiple metric dimensions, and drill-down options are all fair game. Move the Excel export table to a separate tab so the main view stays uncluttered.\n\n3. Research / exploratory dashboard — typically one to three charts meant to be screenshotted into a report or shared as A/B test results. No one will hover over tooltips. Every label, value, and takeaway must be visible at a glance.\n\nThe most common mistake: building an operational dashboard when stakeholders needed an executive one, or vice versa. The result is a dashboard that nobody opens twice.\n\nDashboard type is a product decision, not a technical one. Nail it before you touch the data — and you'll avoid most of the rework.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-09-21T15:45:36.160Z",
-      "linkedinSentAt": "2026-09-21T15:45:39.121Z"
+      "linkedinSentAt": "2026-09-21T15:45:39.121Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -6778,7 +6878,9 @@
       "linkedinEn": "A dashboard screenshot on a slide is not a visualization. It's a problem waiting to happen.\n\nAt Avito, the team was manually screenshotting Redash charts every week and pasting them into a presentation — dozens of slides, dozens of charts. When I started automating this with Python, a deeper issue became obvious.\n\nA line chart with ten category lines works fine in an interactive dashboard. Hover over it, get the tooltip. But at a weekly sync, nobody hovers. The slide sits on the screen for two minutes, tooltips don't exist — and you're left with a spaghetti chart nobody can read.\n\nWhat a weekly sync actually needs:\n— week-over-week change, not absolute values\n— instant readability with zero interaction\n— emphasis on what moved, not completeness of data\n\nApproaches worth trying:\n— top-N categories, everything else grouped as \"other\"\n— static annotations instead of tooltips\n— small multiples instead of one overloaded chart\n— delta bar chart instead of absolute trend lines\n\nAutomation only pays off if you also rethink the format for the context. Otherwise you're just doing the wrong thing faster.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-10-12T18:45:30.927Z",
-      "linkedinSentAt": "2026-10-12T18:45:34.158Z"
+      "linkedinSentAt": "2026-10-12T18:45:34.158Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -6914,7 +7016,9 @@
       "linkedinEn": "Choosing between a chart and a table is often a false dilemma.\n\nI was automating a weekly presentation that the team used to build by hand — hundreds of dashboard screenshots, hours of work every week. One slide stood out: a multi-line chart with tooltips. It revealed a real audience problem.\n\nSome people instantly read trends from a line chart. Others need a table with precise numbers. Both types sit in the same meeting room.\n\nHere's how I solved it:\n\n— Kept the line chart, but removed the legend. Each line is labeled at its end: category name, latest value, WoW change. Everything that used to hide in a tooltip is now visible at a glance.\n— Added a table on the right covering three weeks, sorted by WoW. Outliers surface immediately — sportswear at +66.7% jumps to the bottom of the list, while on the chart you'd have to hunt for its line.\n— Consistent color coding ties both formats together: red means bad, green means good.\n\nThe whole slide is generated by a Python script. It pulls data from Redash, calculates metrics, sorts rows, applies colors, and writes the finished slide into the presentation — no manual screenshots involved.\n\nBefore picking any chart type, I always ask the stakeholder one question: \"What exactly do you want to highlight?\" Not \"what kind of visualization do you need\" — but what message should this slide deliver. That question changes everything.\n\nChart person or table person — which one are you?",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-10-23T14:08:15.244Z",
-      "linkedinSentAt": "2026-10-23T14:08:18.330Z"
+      "linkedinSentAt": "2026-10-23T14:08:18.330Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -7063,7 +7167,9 @@
       "linkedinEn": "I automated our weekly presentation build — and immediately created a new problem.\n\nThe bot assembled 100+ slides and delivered them by 9 AM. The meeting was at 2 PM. In between: hours of revision requests from 20+ managers, all routed through me manually.\n\nSo I automated the edits too — via an AI agent integrated into our corporate messenger.\n\nThe workflow:\n— Manager tags the bot and describes the change in plain text\n— Gets a revised slide back in a few minutes\n— Reviews it and adds it to the deck if it looks right\n— At end of day, I pull only the confirmed changes into a proper PR\n\nI deliberately ruled out full automation. If the bot inserts slides automatically, parallel edits create version conflicts. If it commits to the repo on every iteration, you end up with a noisy history full of changes that were later discarded.\n\nThe middle ground held up best in practice: AI handles the repetitive work fast, a human owns the final decision.\n\nAutomation isn't about removing people from the process. It's about making sure people spend their time on judgment calls — not on moving files around.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-10-28T15:48:44.179Z",
-      "linkedinSentAt": "2026-10-28T15:48:47.162Z"
+      "linkedinSentAt": "2026-10-28T15:48:47.162Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -7176,7 +7282,9 @@
       "linkedinEn": "Reaching mid-level analyst in 12 months is possible — if you pick the right starting point.\n\nAvito launched the Analyst Bootcamp: a one-year structured program designed to take participants from entry level to mid-level analyst. Not a course, not a sandbox — real product data, real business impact, millions of users.\n\nWhy this format outperforms most alternatives:\n— 12 months, not 2–3: enough time to build durable skills, not just tool familiarity\n— Real data from day one: decisions you work on actually affect the product\n— Clear career track: a defined target level and a path to get there\n— Mentorship from senior practitioners inside a strong analytics team\n\nPrograms like this are rare. Most internships give you a resume line. Few give you a career trajectory.\n\nIf you're early in your data career, this is exactly the kind of opportunity worth prioritising over self-paced learning alone.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-11-04T16:56:58.512Z",
-      "linkedinSentAt": "2026-11-04T16:57:01.535Z"
+      "linkedinSentAt": "2026-11-04T16:57:01.535Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -7288,7 +7396,9 @@
       "linkedinEn": "A truncated Y-axis. Eight slices in a pie chart. A KPI with zero context.\n\nEvery analyst has shipped a dashboard that looked convincing — but quietly misled. Not out of bad intent. Out of deadlines, assumptions, and \"the client asked for it.\"\n\nThe most common data visualization mistakes I still see regularly:\n\n— Y-axis doesn't start at zero: a 2% shift looks like a crisis\n— Pie charts with too many segments: the human eye can't accurately compare angles\n— Metrics without a baseline: is this number good or bad? No one knows\n— Color palettes that don't account for color blindness\n— 20 KPIs on one screen, zero clear takeaways\n\nA quick gut-check before you ship: show the dashboard to someone outside the project. Ask what they understand in 5 seconds. If their answer doesn't match your intent — go back and edit.\n\nData visualization is communication. And like any communication skill, it improves through honest feedback — not through assuming everyone sees what you see.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-11-06T16:39:22.989Z",
-      "linkedinSentAt": "2026-11-06T16:39:25.995Z"
+      "linkedinSentAt": "2026-11-06T16:39:25.995Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -7418,7 +7528,9 @@
       "linkedinEn": "Executives don't open dashboards. They read messages.\n\nThat's the core insight behind a project my colleague Aigul and I built — a corporate messenger bot that pushes reports and AI-generated metric summaries directly to leadership's inboxes.\n\nWhat we ended up shipping:\n— Scheduled report delivery via direct messages\n— AI layer that produces plain-language summaries: trends, anomalies, deviations\n— A dedicated database for user subscriptions and delivery preferences\n— An admin panel so non-engineers can manage everything independently\n— A growing subscriber base — because the format actually fits how people work\n\nIt started as a quick prototype. It became a proper internal product.\n\nThe broader lesson: BI value isn't locked inside dashboards. Sometimes the highest-impact move is meeting decision-makers where they already are.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-11-11T16:58:29.170Z",
-      "linkedinSentAt": "2026-11-11T16:58:32.399Z"
+      "linkedinSentAt": "2026-11-11T16:58:32.399Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   },
   {
@@ -7548,7 +7660,9 @@
       "linkedinEn": "A/B test results can be misread before anyone even gets to the conclusions — simply because the charts are poorly designed.\n\nAfter working on BI dashboards for product and growth teams, I keep seeing the same visualization mistakes. Here are five principles that fix most of them:\n\n— Control group in neutral color, test group in accent color. The reader should instantly know what the baseline is.\n— Mark the test start date on the chart. Without it, separating \"before\" from \"after\" is guesswork.\n— Bar chart Y-axis starts at zero. Truncating it is the easiest way to make a small effect look dramatic.\n— Consistent color logic for metric changes: positive and negative movements should be readable at a glance, no legend required.\n— Primary metrics front and center, secondary metrics in a separate section. A cluttered chart slows down decisions.\n\nA well-designed A/B test visualization isn't about aesthetics. It's about reducing ambiguity for everyone who has to act on the results.",
       "model": "claude-sonnet-4-6",
       "generatedAt": "2026-11-24T20:01:44.457Z",
-      "linkedinSentAt": "2026-11-24T20:01:47.149Z"
+      "linkedinSentAt": "2026-11-24T20:01:47.149Z",
+      "skillCheckedAt": "2026-11-26T22:25:25.775Z",
+      "skillVerdict": "baseline"
     }
   }
 ]

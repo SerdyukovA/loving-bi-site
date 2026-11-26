@@ -9,12 +9,21 @@ on:
         description: 'Переписать JSON, даже если постов нет (обновить просмотры/реакции)'
         type: boolean
         default: false
+      skill_post:
+        description: 'Перепроверить пост на новое для скилла (id), игнорируя отметку skillCheckedAt'
+        type: string
+        default: ''
+      skill_notify:
+        description: 'Слать Лере ссылку на PR скилла (выключить для тестовых прогонов)'
+        type: boolean
+        default: true
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
 
     steps:
       - uses: actions/checkout@v4
@@ -35,6 +44,19 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/enrich-seo.mjs
+
+      - name: Propose skill updates (PR per post)
+        # Новый пост → Claude сверяет его со скиллом → есть новое — ветка skill/post-<id> + PR + ссылка Лере.
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LOVINGBI_TG_BOT_TOKEN: ${{ inputs.skill_notify != false && secrets.LOVINGBI_TG_BOT_TOKEN || '' }}
+          LOVINGBI_TG_CHAT_ID: ${{ secrets.LOVINGBI_TG_CHAT_ID }}
+          SKILL_POST: ${{ inputs.skill_post }}
+        run: |
+          if [ -n "$SKILL_POST" ]; then node scripts/propose-skill-update.mjs --id "$SKILL_POST" --force
+          else node scripts/propose-skill-update.mjs; fi
 
       - name: Send LinkedIn drafts to Telegram
         continue-on-error: true
