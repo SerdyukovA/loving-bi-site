@@ -168,11 +168,12 @@ function applyEdits(dir, edits) {
 
 function bumpPatch(dir) {
   const p = join(dir, PLUGIN_JSON)
-  const j = JSON.parse(readFileSync(p, 'utf8'))
-  const [a, b, c] = j.version.split('.').map(Number)
-  j.version = `${a}.${b}.${c + 1}`
-  writeFileSync(p, JSON.stringify(j, null, 2) + '\n', 'utf8')
-  return j.version
+  const raw = readFileSync(p, 'utf8')
+  const [a, b, c] = JSON.parse(raw).version.split('.').map(Number)
+  const version = `${a}.${b}.${c + 1}`
+  // replace in place — keep the file's own formatting (diff = one line)
+  writeFileSync(p, raw.replace(/("version"\s*:\s*")[^"]+(")/, `$1${version}$2`), 'utf8')
+  return version
 }
 
 function addSourcesRow(dir, post, r) {
