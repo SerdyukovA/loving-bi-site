@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import { LINKEDIN_URL } from '@/lib/social'
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false)
@@ -34,6 +35,14 @@ export default function Nav() {
             Сотрудничество
           </a>
           <a
+            href={LINKEDIN_URL}
+            target="_blank"
+            rel="noopener noreferrer me"
+            className="text-sm text-gray-500 hover:text-gray-900 transition-colors font-medium"
+          >
+            LinkedIn
+          </a>
+          <a
             href="https://t.me/loving_bi"
             target="_blank"
             rel="noopener noreferrer"
@@ -44,15 +53,25 @@ export default function Nav() {
           </a>
         </div>
         {/* Mobile CTA */}
-        <a
-          href="https://t.me/loving_bi"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="md:hidden text-sm font-semibold text-white px-3 py-1.5 rounded-lg"
-          style={{ background: 'var(--teal)' }}
-        >
-          ✈️ Канал
-        </a>
+        <div className="md:hidden flex items-center gap-3">
+          <a
+            href={LINKEDIN_URL}
+            target="_blank"
+            rel="noopener noreferrer me"
+            className="text-sm font-medium text-gray-500"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="https://t.me/loving_bi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="md:hidden text-sm font-semibold text-white px-3 py-1.5 rounded-lg"
+            style={{ background: 'var(--teal)' }}
+          >
+            ✈️ Канал
+          </a>
+        </div>
       </div>
     </nav>
   )

@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { LINKEDIN_URL } from '@/lib/social'
 
 type LatestPost = { id: string; title: string; date: string }
 
@@ -108,6 +109,14 @@ export default function Hero({ postCount, latestPost }: { postCount: number; lat
               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-gray-700 text-sm bg-white border border-gray-200 transition-all hover:-translate-y-0.5 hover:border-gray-300 hover:shadow-sm"
             >
               📊 Смотреть посты
+            </a>
+            <a
+              href={LINKEDIN_URL}
+              target="_blank"
+              rel="noopener noreferrer me"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-gray-700 text-sm bg-white border border-gray-200 transition-all hover:-translate-y-0.5 hover:border-gray-300 hover:shadow-sm"
+            >
+              LinkedIn
             </a>
           </div>
 

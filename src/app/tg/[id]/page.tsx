@@ -3,6 +3,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { getAllTgPosts, getTag, formatDate } from '@/lib/tg-posts'
 import type { ArticleBlock, PostAI } from '@/lib/tg-utils'
+import { AUTHOR_SAME_AS, LINKEDIN_URL } from '@/lib/social'
 
 export async function generateStaticParams() {
   return getAllTgPosts().map(p => ({ id: p.id }))
@@ -121,7 +122,7 @@ function JsonLd({ ai, post, url }: { ai: PostAI; post: { date: string | null }; 
       keywords: ai.keywords?.join(', '),
       inLanguage: 'ru-RU',
       mainEntityOfPage: url,
-      author: { '@type': 'Person', name: 'Валерия Смирнова', jobTitle: 'Senior BI-аналитик' },
+      author: { '@type': 'Person', name: 'Валерия Смирнова', jobTitle: 'Senior BI-аналитик', sameAs: AUTHOR_SAME_AS },
       publisher: { '@type': 'Organization', name: 'Любовь, BI и графики' },
     },
   ]
@@ -197,15 +198,25 @@ export default async function TgPostPage({ params }: { params: Promise<{ id: str
             </svg>
             Все посты
           </Link>
-          <a
-            href="https://t.me/loving_bi"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-xs font-bold text-white px-3 py-1.5 rounded-lg"
-            style={{ background: 'var(--teal)' }}
-          >
-            ✈️ @loving_bi
-          </a>
+          <div className="flex items-center gap-3">
+            <a
+              href={LINKEDIN_URL}
+              target="_blank"
+              rel="noopener noreferrer me"
+              className="text-xs font-semibold text-gray-500 hover:text-gray-900 transition-colors"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://t.me/loving_bi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs font-bold text-white px-3 py-1.5 rounded-lg"
+              style={{ background: 'var(--teal)' }}
+            >
+              ✈️ @loving_bi
+            </a>
+          </div>
         </div>
       </header>
 
@@ -313,7 +324,7 @@ export default async function TgPostPage({ params }: { params: Promise<{ id: str
           </div>
           <div>
             <div className="font-semibold text-gray-900 text-sm">Валерия Смирнова</div>
-            <div className="text-xs text-gray-400 mt-0.5">Senior BI-аналитик в Авито · <a href="https://t.me/mozzalerra" target="_blank" className="hover:underline" style={{ color: 'var(--teal-dark)' }}>@mozzalerra</a></div>
+            <div className="text-xs text-gray-400 mt-0.5">Senior BI-аналитик в Авито · <a href="https://t.me/mozzalerra" target="_blank" className="hover:underline" style={{ color: 'var(--teal-dark)' }}>@mozzalerra</a> · <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer me" className="hover:underline" style={{ color: 'var(--teal-dark)' }}>LinkedIn</a></div>
           </div>
           <Link
             href="/#collab"

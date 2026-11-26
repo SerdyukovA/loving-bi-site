@@ -1,3 +1,5 @@
+import { LINKEDIN_URL } from '@/lib/social'
+
 export default function Footer() {
   return (
     <footer
@@ -20,6 +22,14 @@ export default function Footer() {
               className="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors"
             >
               ✈️ @loving_bi
+            </a>
+            <a
+              href={LINKEDIN_URL}
+              target="_blank"
+              rel="noopener noreferrer me"
+              className="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors"
+            >
+              LinkedIn
             </a>
             <a
               href="https://t.me/mozzalerra"

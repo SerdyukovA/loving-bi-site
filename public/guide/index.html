@@ -94,7 +94,7 @@ td:first-child{font-weight:600}
           <div class="lane"><span class="tag ok" style="align-self:flex-start">работает</span><h3>Черновик для LinkedIn</h3>
             <ul><li>текст на русском и на английском</li><li>ссылки на сайт и канал уже внутри</li><li><span class="tag new">скоро</span> карточки на английском из Figma</li></ul>
             <p class="out">Приходит в бот @linkedin_loving_bi_bot</p></div>
-          <div class="lane"><span class="tag new" style="align-self:flex-start">скоро</span><h3>Скилл «Дашборды»</h3>
+          <div class="lane"><span class="tag ok" style="align-self:flex-start">работает</span><h3>Скилл «Дашборды»</h3>
             <ul><li>Claude сравнивает пост со скиллом</li><li>нового нет — молчит</li><li>есть новое правило — готовит правку</li></ul>
             <p class="out">Ссылка на правку — в бот</p></div>
         </div>
@@ -159,12 +159,13 @@ td:first-child{font-weight:600}
         <li>Сохранить: «подними версию, допиши CHANGELOG, закоммить и запушь». Через минуту новая версия в GitHub, а у тебя в Claude скилл обновится при следующем запуске.</li>
       </ol>
 
-      <h3 style="margin-top:12px">Как он будет обновляться сам <span class="tag new">скоро</span></h3>
+      <h3 style="margin-top:12px">Как он обновляется сам <span class="tag ok">работает</span></h3>
       <ol class="steps">
         <li>Выходит новый пост → робот раз в сутки сравнивает его со скиллом.</li>
         <li>Если в посте новое правило или оно противоречит старому — робот готовит правку (pull request) и присылает ссылку в бот.</li>
         <li>Ты открываешь правку в GitHub: видно, что именно меняется и из какого поста. <b>Merge</b> — принять, <b>Close</b> — отклонить, комментарий — попросить переделать.</li>
-        <li>Принятая правка = новая версия скилла.</li>
+        <li>Принятая правка = новая версия скилла: номер версии, строка в <code>CHANGELOG.md</code> и в <code>sources.md</code> уже внутри правки.</li>
+        <li>Если висят две правки сразу, принимай по одной: вторая может споткнуться о номер версии. GitHub напишет «conflicts» — напиши Алексею.</li>
       </ol>
     </div>
   </section>
@@ -202,9 +203,9 @@ LinkedIn: linkedin.com/in/valeriia-smirnova-13319a22b</pre>
       <div class="tbl"><table>
         <thead><tr><th>Где</th><th>Что</th><th>Кто</th></tr></thead>
         <tbody>
-          <tr><td>Сайт: меню и подвал</td><td>Иконка LinkedIn рядом с Telegram</td><td>робот, скоро</td></tr>
-          <tr><td>Сайт: страница поста</td><td>«Обсудить в Telegram» и «LinkedIn»</td><td>робот, скоро</td></tr>
-          <tr><td>Сайт: разметка для поиска</td><td>Связка «один автор»: Telegram, LinkedIn, Хабр</td><td>робот, скоро</td></tr>
+          <tr><td>Сайт: меню и подвал</td><td>Ссылка LinkedIn рядом с Telegram: меню, подвал, главный экран</td><td>сделано</td></tr>
+          <tr><td>Сайт: страница поста</td><td>LinkedIn в шапке и в карточке автора рядом с «Открыть в Telegram»</td><td>сделано</td></tr>
+          <tr><td>Сайт: разметка для поиска</td><td>Связка «один автор» (<code>sameAs</code>): Telegram, LinkedIn, Хабр</td><td>сделано</td></tr>
           <tr><td>Пост в LinkedIn</td><td>Ссылки на сайт и канал</td><td>уже в черновике</td></tr>
           <tr><td>Пост в Telegram</td><td>Ничего: ссылки в каждом посте — шум. Изредка «посты дублируются на сайте», как ты уже пишешь</td><td>—</td></tr>
         </tbody>
